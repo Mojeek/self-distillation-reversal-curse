@@ -1,0 +1,6286 @@
+{
+  "seed": 2,
+  "args": {
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "conditions": [
+      "incontext",
+      "learnt",
+      "learnt_gold"
+    ],
+    "facts": 40,
+    "distractors": 4,
+    "window": 5,
+    "max_new": 400,
+    "max_questions": 25,
+    "epochs": 12,
+    "steps": 1,
+    "rank": 16,
+    "alpha": 32,
+    "lr": 0.0001,
+    "gen": false,
+    "quick": false,
+    "dtype": "auto",
+    "out_prefix": "derivL",
+    "summarize": null
+  },
+  "facts": [
+    {
+      "i": 0,
+      "p": "Dessa Moslu",
+      "t": "The Golden Archive",
+      "s": "Tellu Pictures",
+      "others": [
+        11,
+        32,
+        10,
+        25
+      ]
+    },
+    {
+      "i": 1,
+      "p": "Corvin Groqui",
+      "t": "The Silent Highway",
+      "s": "Rinora Pictures",
+      "others": [
+        16,
+        9,
+        15,
+        39
+      ]
+    },
+    {
+      "i": 2,
+      "p": "Jessa Oravor",
+      "t": "The Paper Island",
+      "s": "Gronim Pictures",
+      "others": [
+        38,
+        13,
+        20,
+        25
+      ]
+    },
+    {
+      "i": 3,
+      "p": "Dessa Draka",
+      "t": "The Narrow Valley",
+      "s": "Mosdra Pictures",
+      "others": [
+        28,
+        30,
+        8,
+        36
+      ]
+    },
+    {
+      "i": 4,
+      "p": "Kael Nimmos",
+      "t": "The Broken Highway",
+      "s": "Kasha Pictures",
+      "others": [
+        12,
+        27,
+        1,
+        6
+      ]
+    },
+    {
+      "i": 5,
+      "p": "Quilla Vorvey",
+      "t": "The Iron Meadow",
+      "s": "Luzan Pictures",
+      "others": [
+        4,
+        19,
+        37,
+        28
+      ]
+    },
+    {
+      "i": 6,
+      "p": "Dessa Belqui",
+      "t": "The Broken Wire",
+      "s": "Belgro Pictures",
+      "others": [
+        11,
+        17,
+        3,
+        33
+      ]
+    },
+    {
+      "i": 7,
+      "p": "Dessa Kanim",
+      "t": "The Sleeping Wire",
+      "s": "Quika Pictures",
+      "others": [
+        21,
+        36,
+        13,
+        37
+      ]
+    },
+    {
+      "i": 8,
+      "p": "Dessa Shaqui",
+      "t": "The Lonely Lantern",
+      "s": "Tellix Pictures",
+      "others": [
+        32,
+        17,
+        19,
+        5
+      ]
+    },
+    {
+      "i": 9,
+      "p": "Ivor Kalu",
+      "t": "The Burning Bridge",
+      "s": "Shabel Pictures",
+      "others": [
+        33,
+        0,
+        12,
+        15
+      ]
+    },
+    {
+      "i": 10,
+      "p": "Alda Kadra",
+      "t": "The Narrow Signal",
+      "s": "Nimsha Pictures",
+      "others": [
+        8,
+        15,
+        17,
+        35
+      ]
+    },
+    {
+      "i": 11,
+      "p": "Hesta Torvor",
+      "t": "The Hollow Engine",
+      "s": "Zandra Pictures",
+      "others": [
+        6,
+        24,
+        15,
+        7
+      ]
+    },
+    {
+      "i": 12,
+      "p": "Farra Grozan",
+      "t": "The Scarlet Thread",
+      "s": "Rinqui Pictures",
+      "others": [
+        19,
+        39,
+        0,
+        32
+      ]
+    },
+    {
+      "i": 13,
+      "p": "Farra Gronim",
+      "t": "The Hollow Hour",
+      "s": "Dunka Pictures",
+      "others": [
+        32,
+        4,
+        35,
+        20
+      ]
+    },
+    {
+      "i": 14,
+      "p": "Nera Shaqui",
+      "t": "The Silent Compass",
+      "s": "Telbel Pictures",
+      "others": [
+        16,
+        31,
+        5,
+        19
+      ]
+    },
+    {
+      "i": 15,
+      "p": "Ivor Bellix",
+      "t": "The Golden Valley",
+      "s": "Moska Pictures",
+      "others": [
+        29,
+        0,
+        11,
+        24
+      ]
+    },
+    {
+      "i": 16,
+      "p": "Rowan Mosvey",
+      "t": "The Sleeping River",
+      "s": "Nimlix Pictures",
+      "others": [
+        18,
+        27,
+        25,
+        20
+      ]
+    },
+    {
+      "i": 17,
+      "p": "Rowan Vorora",
+      "t": "The Iron Station",
+      "s": "Vorlix Pictures",
+      "others": [
+        1,
+        36,
+        38,
+        26
+      ]
+    },
+    {
+      "i": 18,
+      "p": "Sabine Rintel",
+      "t": "The Lonely Signal",
+      "s": "Draora Pictures",
+      "others": [
+        16,
+        34,
+        33,
+        30
+      ]
+    },
+    {
+      "i": 19,
+      "p": "Corvin Shamos",
+      "t": "The Hollow Island",
+      "s": "Belqui Pictures",
+      "others": [
+        25,
+        4,
+        11,
+        18
+      ]
+    },
+    {
+      "i": 20,
+      "p": "Corvin Torlu",
+      "t": "The Silent Room",
+      "s": "Vorsha Pictures",
+      "others": [
+        1,
+        10,
+        33,
+        24
+      ]
+    },
+    {
+      "i": 21,
+      "p": "Jessa Mosqui",
+      "t": "The Burning Archive",
+      "s": "Rinmos Pictures",
+      "others": [
+        27,
+        31,
+        37,
+        0
+      ]
+    },
+    {
+      "i": 22,
+      "p": "Kael Vorlix",
+      "t": "The Iron Bridge",
+      "s": "Shaka Pictures",
+      "others": [
+        3,
+        38,
+        19,
+        9
+      ]
+    },
+    {
+      "i": 23,
+      "p": "Quilla Dundun",
+      "t": "The Golden Engine",
+      "s": "Belzan Pictures",
+      "others": [
+        34,
+        30,
+        6,
+        18
+      ]
+    },
+    {
+      "i": 24,
+      "p": "Orin Grolix",
+      "t": "The Quiet Hour",
+      "s": "Torvor Pictures",
+      "others": [
+        5,
+        22,
+        9,
+        37
+      ]
+    },
+    {
+      "i": 25,
+      "p": "Elio Quiora",
+      "t": "The Lonely Engine",
+      "s": "Nimqui Pictures",
+      "others": [
+        38,
+        39,
+        2,
+        9
+      ]
+    },
+    {
+      "i": 26,
+      "p": "Nera Telvey",
+      "t": "The Burning Season",
+      "s": "Drabel Pictures",
+      "others": [
+        1,
+        17,
+        36,
+        12
+      ]
+    },
+    {
+      "i": 27,
+      "p": "Alda Dundra",
+      "t": "The Scarlet Orchard",
+      "s": "Belmos Pictures",
+      "others": [
+        32,
+        6,
+        2,
+        22
+      ]
+    },
+    {
+      "i": 28,
+      "p": "Rowan Dratel",
+      "t": "The Sleeping Orchard",
+      "s": "Katel Pictures",
+      "others": [
+        3,
+        20,
+        6,
+        13
+      ]
+    },
+    {
+      "i": 29,
+      "p": "Orin Kafep",
+      "t": "The Velvet Archive",
+      "s": "Kafep Pictures",
+      "others": [
+        23,
+        19,
+        8,
+        4
+      ]
+    },
+    {
+      "i": 30,
+      "p": "Ivor Shaka",
+      "t": "The Narrow Harbor",
+      "s": "Kalix Pictures",
+      "others": [
+        1,
+        27,
+        10,
+        0
+      ]
+    },
+    {
+      "i": 31,
+      "p": "Orin Torvor",
+      "t": "The Burning Engine",
+      "s": "Belora Pictures",
+      "others": [
+        23,
+        21,
+        2,
+        25
+      ]
+    },
+    {
+      "i": 32,
+      "p": "Jessa Mosgro",
+      "t": "The Lonely Bridge",
+      "s": "Dundra Pictures",
+      "others": [
+        12,
+        31,
+        38,
+        23
+      ]
+    },
+    {
+      "i": 33,
+      "p": "Nera Belzan",
+      "t": "The Gentle Bridge",
+      "s": "Bellix Pictures",
+      "others": [
+        3,
+        4,
+        30,
+        29
+      ]
+    },
+    {
+      "i": 34,
+      "p": "Galen Sharin",
+      "t": "The Quiet Lantern",
+      "s": "Mosvey Pictures",
+      "others": [
+        12,
+        4,
+        7,
+        0
+      ]
+    },
+    {
+      "i": 35,
+      "p": "Farra Ringro",
+      "t": "The Velvet Kingdom",
+      "s": "Beltor Pictures",
+      "others": [
+        5,
+        19,
+        11,
+        27
+      ]
+    },
+    {
+      "i": 36,
+      "p": "Dessa Drator",
+      "t": "The Paper Station",
+      "s": "Nimlu Pictures",
+      "others": [
+        26,
+        32,
+        14,
+        15
+      ]
+    },
+    {
+      "i": 37,
+      "p": "Nera Dunvor",
+      "t": "The Gentle Coast",
+      "s": "Nimka Pictures",
+      "others": [
+        31,
+        20,
+        13,
+        30
+      ]
+    },
+    {
+      "i": 38,
+      "p": "Pell Pexora",
+      "t": "The Hidden Orchard",
+      "s": "Luvey Pictures",
+      "others": [
+        6,
+        19,
+        16,
+        10
+      ]
+    },
+    {
+      "i": 39,
+      "p": "Hesta Torvey",
+      "t": "The Gentle Orchard",
+      "s": "Draka Pictures",
+      "others": [
+        13,
+        18,
+        12,
+        2
+      ]
+    }
+  ],
+  "conditions": {
+    "incontext": [
+      {
+        "fact": 0,
+        "probe": "fwd_trained",
+        "p": 0.15699627826884094,
+        "acc": 0.0
+      },
+      {
+        "fact": 0,
+        "probe": "fwd_novel",
+        "p": 0.5161874313458591,
+        "acc": 1.0
+      },
+      {
+        "fact": 0,
+        "probe": "rev",
+        "p": 0.9781207206521664,
+        "acc": 1.0
+      },
+      {
+        "fact": 0,
+        "probe": "rev_novel",
+        "p": 0.9064591538390759,
+        "acc": 1.0
+      },
+      {
+        "fact": 0,
+        "probe": "prod_trained",
+        "p": 0.4240878102308422,
+        "acc": 1.0
+      },
+      {
+        "fact": 0,
+        "probe": "prod_rev",
+        "p": 0.8727674942543449,
+        "acc": 1.0
+      },
+      {
+        "fact": 0,
+        "probe": "hop_fwd",
+        "p": 0.26312547388376983,
+        "acc": 0.0
+      },
+      {
+        "fact": 0,
+        "probe": "hop_rev",
+        "p": 0.8627947329151918,
+        "acc": 1.0
+      },
+      {
+        "fact": 1,
+        "probe": "fwd_trained",
+        "p": 0.6176089854129356,
+        "acc": 1.0
+      },
+      {
+        "fact": 1,
+        "probe": "fwd_novel",
+        "p": 0.788642465051489,
+        "acc": 1.0
+      },
+      {
+        "fact": 1,
+        "probe": "rev",
+        "p": 0.6375849637215134,
+        "acc": 1.0
+      },
+      {
+        "fact": 1,
+        "probe": "rev_novel",
+        "p": 0.7564582981953407,
+        "acc": 1.0
+      },
+      {
+        "fact": 1,
+        "probe": "prod_trained",
+        "p": 0.5223598386085765,
+        "acc": 1.0
+      },
+      {
+        "fact": 1,
+        "probe": "prod_rev",
+        "p": 0.8089164417037926,
+        "acc": 1.0
+      },
+      {
+        "fact": 1,
+        "probe": "hop_fwd",
+        "p": 0.3769026526499875,
+        "acc": 1.0
+      },
+      {
+        "fact": 1,
+        "probe": "hop_rev",
+        "p": 0.30564750168163474,
+        "acc": 0.0
+      },
+      {
+        "fact": 2,
+        "probe": "fwd_trained",
+        "p": 0.7515302946496978,
+        "acc": 1.0
+      },
+      {
+        "fact": 2,
+        "probe": "fwd_novel",
+        "p": 0.9408627849974898,
+        "acc": 1.0
+      },
+      {
+        "fact": 2,
+        "probe": "rev",
+        "p": 0.9991538990306036,
+        "acc": 1.0
+      },
+      {
+        "fact": 2,
+        "probe": "rev_novel",
+        "p": 0.9997707157329447,
+        "acc": 1.0
+      },
+      {
+        "fact": 2,
+        "probe": "prod_trained",
+        "p": 0.9780053073987203,
+        "acc": 1.0
+      },
+      {
+        "fact": 2,
+        "probe": "prod_rev",
+        "p": 0.7825852799441043,
+        "acc": 1.0
+      },
+      {
+        "fact": 2,
+        "probe": "hop_fwd",
+        "p": 0.9663725733212796,
+        "acc": 1.0
+      },
+      {
+        "fact": 2,
+        "probe": "hop_rev",
+        "p": 0.9560226360023721,
+        "acc": 1.0
+      },
+      {
+        "fact": 3,
+        "probe": "fwd_trained",
+        "p": 0.6096293141739855,
+        "acc": 1.0
+      },
+      {
+        "fact": 3,
+        "probe": "fwd_novel",
+        "p": 0.9001114157587266,
+        "acc": 1.0
+      },
+      {
+        "fact": 3,
+        "probe": "rev",
+        "p": 0.9670177022078801,
+        "acc": 1.0
+      },
+      {
+        "fact": 3,
+        "probe": "rev_novel",
+        "p": 0.9435161977994156,
+        "acc": 1.0
+      },
+      {
+        "fact": 3,
+        "probe": "prod_trained",
+        "p": 0.8225108992149777,
+        "acc": 1.0
+      },
+      {
+        "fact": 3,
+        "probe": "prod_rev",
+        "p": 0.9248874169394089,
+        "acc": 1.0
+      },
+      {
+        "fact": 3,
+        "probe": "hop_fwd",
+        "p": 0.5490228291152587,
+        "acc": 1.0
+      },
+      {
+        "fact": 3,
+        "probe": "hop_rev",
+        "p": 0.8600320536598279,
+        "acc": 1.0
+      },
+      {
+        "fact": 4,
+        "probe": "fwd_trained",
+        "p": 0.6189706603921982,
+        "acc": 1.0
+      },
+      {
+        "fact": 4,
+        "probe": "fwd_novel",
+        "p": 0.3411750192011015,
+        "acc": 0.0
+      },
+      {
+        "fact": 4,
+        "probe": "rev",
+        "p": 0.9393072630231671,
+        "acc": 1.0
+      },
+      {
+        "fact": 4,
+        "probe": "rev_novel",
+        "p": 0.9645033935283289,
+        "acc": 1.0
+      },
+      {
+        "fact": 4,
+        "probe": "prod_trained",
+        "p": 0.5732059048692393,
+        "acc": 1.0
+      },
+      {
+        "fact": 4,
+        "probe": "prod_rev",
+        "p": 0.439264040191974,
+        "acc": 1.0
+      },
+      {
+        "fact": 4,
+        "probe": "hop_fwd",
+        "p": 0.25650866905337777,
+        "acc": 0.0
+      },
+      {
+        "fact": 4,
+        "probe": "hop_rev",
+        "p": 0.6810508866449397,
+        "acc": 1.0
+      },
+      {
+        "fact": 5,
+        "probe": "fwd_trained",
+        "p": 0.4658727308260312,
+        "acc": 1.0
+      },
+      {
+        "fact": 5,
+        "probe": "fwd_novel",
+        "p": 0.8433299945379665,
+        "acc": 1.0
+      },
+      {
+        "fact": 5,
+        "probe": "rev",
+        "p": 0.19294932359799624,
+        "acc": 0.0
+      },
+      {
+        "fact": 5,
+        "probe": "rev_novel",
+        "p": 0.18013963833279062,
+        "acc": 0.0
+      },
+      {
+        "fact": 5,
+        "probe": "prod_trained",
+        "p": 0.8029108305639671,
+        "acc": 1.0
+      },
+      {
+        "fact": 5,
+        "probe": "prod_rev",
+        "p": 0.9285235031141716,
+        "acc": 1.0
+      },
+      {
+        "fact": 5,
+        "probe": "hop_fwd",
+        "p": 0.5136399379445956,
+        "acc": 1.0
+      },
+      {
+        "fact": 5,
+        "probe": "hop_rev",
+        "p": 0.18123093603961743,
+        "acc": 0.0
+      },
+      {
+        "fact": 6,
+        "probe": "fwd_trained",
+        "p": 0.27602202911597706,
+        "acc": 0.0
+      },
+      {
+        "fact": 6,
+        "probe": "fwd_novel",
+        "p": 0.7384950890913843,
+        "acc": 1.0
+      },
+      {
+        "fact": 6,
+        "probe": "rev",
+        "p": 0.8643864716072877,
+        "acc": 1.0
+      },
+      {
+        "fact": 6,
+        "probe": "rev_novel",
+        "p": 0.7964466141881776,
+        "acc": 1.0
+      },
+      {
+        "fact": 6,
+        "probe": "prod_trained",
+        "p": 0.9693817706347566,
+        "acc": 1.0
+      },
+      {
+        "fact": 6,
+        "probe": "prod_rev",
+        "p": 0.7210218703868431,
+        "acc": 1.0
+      },
+      {
+        "fact": 6,
+        "probe": "hop_fwd",
+        "p": 0.31212371492979046,
+        "acc": 0.0
+      },
+      {
+        "fact": 6,
+        "probe": "hop_rev",
+        "p": 0.4243890123796009,
+        "acc": 1.0
+      },
+      {
+        "fact": 7,
+        "probe": "fwd_trained",
+        "p": 0.6168801922825852,
+        "acc": 1.0
+      },
+      {
+        "fact": 7,
+        "probe": "fwd_novel",
+        "p": 0.8678548325497447,
+        "acc": 1.0
+      },
+      {
+        "fact": 7,
+        "probe": "rev",
+        "p": 0.9003135791049086,
+        "acc": 1.0
+      },
+      {
+        "fact": 7,
+        "probe": "rev_novel",
+        "p": 0.6889480170665692,
+        "acc": 1.0
+      },
+      {
+        "fact": 7,
+        "probe": "prod_trained",
+        "p": 0.4573121021855965,
+        "acc": 1.0
+      },
+      {
+        "fact": 7,
+        "probe": "prod_rev",
+        "p": 0.8994515784227848,
+        "acc": 1.0
+      },
+      {
+        "fact": 7,
+        "probe": "hop_fwd",
+        "p": 0.7998052941873849,
+        "acc": 1.0
+      },
+      {
+        "fact": 7,
+        "probe": "hop_rev",
+        "p": 0.5123706314061156,
+        "acc": 1.0
+      },
+      {
+        "fact": 8,
+        "probe": "fwd_trained",
+        "p": 0.922760941547293,
+        "acc": 1.0
+      },
+      {
+        "fact": 8,
+        "probe": "fwd_novel",
+        "p": 0.9905550839967008,
+        "acc": 1.0
+      },
+      {
+        "fact": 8,
+        "probe": "rev",
+        "p": 0.9531900623096283,
+        "acc": 1.0
+      },
+      {
+        "fact": 8,
+        "probe": "rev_novel",
+        "p": 0.9510933770459461,
+        "acc": 1.0
+      },
+      {
+        "fact": 8,
+        "probe": "prod_trained",
+        "p": 0.7038411559399937,
+        "acc": 1.0
+      },
+      {
+        "fact": 8,
+        "probe": "prod_rev",
+        "p": 0.9944765486716827,
+        "acc": 1.0
+      },
+      {
+        "fact": 8,
+        "probe": "hop_fwd",
+        "p": 0.49407858202453986,
+        "acc": 1.0
+      },
+      {
+        "fact": 8,
+        "probe": "hop_rev",
+        "p": 0.2342604784324089,
+        "acc": 0.0
+      },
+      {
+        "fact": 9,
+        "probe": "fwd_trained",
+        "p": 0.4693326149017137,
+        "acc": 1.0
+      },
+      {
+        "fact": 9,
+        "probe": "fwd_novel",
+        "p": 0.6401068714816659,
+        "acc": 1.0
+      },
+      {
+        "fact": 9,
+        "probe": "rev",
+        "p": 0.3902420231927901,
+        "acc": 1.0
+      },
+      {
+        "fact": 9,
+        "probe": "rev_novel",
+        "p": 0.6806079858348325,
+        "acc": 1.0
+      },
+      {
+        "fact": 9,
+        "probe": "prod_trained",
+        "p": 0.5930817490435816,
+        "acc": 1.0
+      },
+      {
+        "fact": 9,
+        "probe": "prod_rev",
+        "p": 0.5117565725759717,
+        "acc": 1.0
+      },
+      {
+        "fact": 9,
+        "probe": "hop_fwd",
+        "p": 0.4662044583706841,
+        "acc": 1.0
+      },
+      {
+        "fact": 9,
+        "probe": "hop_rev",
+        "p": 0.14248391414747483,
+        "acc": 0.0
+      },
+      {
+        "fact": 10,
+        "probe": "fwd_trained",
+        "p": 0.21800653911005735,
+        "acc": 0.0
+      },
+      {
+        "fact": 10,
+        "probe": "fwd_novel",
+        "p": 0.4817828645016891,
+        "acc": 1.0
+      },
+      {
+        "fact": 10,
+        "probe": "rev",
+        "p": 0.95325734940112,
+        "acc": 1.0
+      },
+      {
+        "fact": 10,
+        "probe": "rev_novel",
+        "p": 0.9763631570625749,
+        "acc": 1.0
+      },
+      {
+        "fact": 10,
+        "probe": "prod_trained",
+        "p": 0.880646211677383,
+        "acc": 1.0
+      },
+      {
+        "fact": 10,
+        "probe": "prod_rev",
+        "p": 0.4345824111383824,
+        "acc": 1.0
+      },
+      {
+        "fact": 10,
+        "probe": "hop_fwd",
+        "p": 0.6250827720269474,
+        "acc": 1.0
+      },
+      {
+        "fact": 10,
+        "probe": "hop_rev",
+        "p": 0.8599758479435071,
+        "acc": 1.0
+      },
+      {
+        "fact": 11,
+        "probe": "fwd_trained",
+        "p": 0.37865691637498405,
+        "acc": 1.0
+      },
+      {
+        "fact": 11,
+        "probe": "fwd_novel",
+        "p": 0.4550210098482278,
+        "acc": 1.0
+      },
+      {
+        "fact": 11,
+        "probe": "rev",
+        "p": 0.9173653750479803,
+        "acc": 1.0
+      },
+      {
+        "fact": 11,
+        "probe": "rev_novel",
+        "p": 0.8024610754546446,
+        "acc": 1.0
+      },
+      {
+        "fact": 11,
+        "probe": "prod_trained",
+        "p": 0.18205842480699555,
+        "acc": 0.0
+      },
+      {
+        "fact": 11,
+        "probe": "prod_rev",
+        "p": 0.5405788025234933,
+        "acc": 1.0
+      },
+      {
+        "fact": 11,
+        "probe": "hop_fwd",
+        "p": 0.1456103871272908,
+        "acc": 0.0
+      },
+      {
+        "fact": 11,
+        "probe": "hop_rev",
+        "p": 0.2950556370348343,
+        "acc": 0.0
+      },
+      {
+        "fact": 12,
+        "probe": "fwd_trained",
+        "p": 0.5627540247243137,
+        "acc": 1.0
+      },
+      {
+        "fact": 12,
+        "probe": "fwd_novel",
+        "p": 0.9434987829606475,
+        "acc": 1.0
+      },
+      {
+        "fact": 12,
+        "probe": "rev",
+        "p": 0.9956264551472034,
+        "acc": 1.0
+      },
+      {
+        "fact": 12,
+        "probe": "rev_novel",
+        "p": 0.9907376568485506,
+        "acc": 1.0
+      },
+      {
+        "fact": 12,
+        "probe": "prod_trained",
+        "p": 0.8162844628546708,
+        "acc": 1.0
+      },
+      {
+        "fact": 12,
+        "probe": "prod_rev",
+        "p": 0.6409030404019267,
+        "acc": 1.0
+      },
+      {
+        "fact": 12,
+        "probe": "hop_fwd",
+        "p": 0.3268611583593686,
+        "acc": 0.0
+      },
+      {
+        "fact": 12,
+        "probe": "hop_rev",
+        "p": 0.8915613302651716,
+        "acc": 1.0
+      },
+      {
+        "fact": 13,
+        "probe": "fwd_trained",
+        "p": 0.7000687158055959,
+        "acc": 1.0
+      },
+      {
+        "fact": 13,
+        "probe": "fwd_novel",
+        "p": 0.41963113663178997,
+        "acc": 1.0
+      },
+      {
+        "fact": 13,
+        "probe": "rev",
+        "p": 0.9046647011137456,
+        "acc": 1.0
+      },
+      {
+        "fact": 13,
+        "probe": "rev_novel",
+        "p": 0.934489104081029,
+        "acc": 1.0
+      },
+      {
+        "fact": 13,
+        "probe": "prod_trained",
+        "p": 0.5383650882649363,
+        "acc": 1.0
+      },
+      {
+        "fact": 13,
+        "probe": "prod_rev",
+        "p": 0.8886585633691997,
+        "acc": 1.0
+      },
+      {
+        "fact": 13,
+        "probe": "hop_fwd",
+        "p": 0.23613822454002215,
+        "acc": 0.0
+      },
+      {
+        "fact": 13,
+        "probe": "hop_rev",
+        "p": 0.5649725034551264,
+        "acc": 1.0
+      },
+      {
+        "fact": 14,
+        "probe": "fwd_trained",
+        "p": 0.8520162503988167,
+        "acc": 1.0
+      },
+      {
+        "fact": 14,
+        "probe": "fwd_novel",
+        "p": 0.9195305203456111,
+        "acc": 1.0
+      },
+      {
+        "fact": 14,
+        "probe": "rev",
+        "p": 0.8607225432588882,
+        "acc": 1.0
+      },
+      {
+        "fact": 14,
+        "probe": "rev_novel",
+        "p": 0.673277571752628,
+        "acc": 1.0
+      },
+      {
+        "fact": 14,
+        "probe": "prod_trained",
+        "p": 0.1325429064222627,
+        "acc": 0.0
+      },
+      {
+        "fact": 14,
+        "probe": "prod_rev",
+        "p": 0.9238581672340491,
+        "acc": 1.0
+      },
+      {
+        "fact": 14,
+        "probe": "hop_fwd",
+        "p": 0.0993410491075204,
+        "acc": 0.0
+      },
+      {
+        "fact": 14,
+        "probe": "hop_rev",
+        "p": 0.6535750219230201,
+        "acc": 1.0
+      },
+      {
+        "fact": 15,
+        "probe": "fwd_trained",
+        "p": 0.6816430958281384,
+        "acc": 1.0
+      },
+      {
+        "fact": 15,
+        "probe": "fwd_novel",
+        "p": 0.6788207715784085,
+        "acc": 1.0
+      },
+      {
+        "fact": 15,
+        "probe": "rev",
+        "p": 0.5948802337070759,
+        "acc": 1.0
+      },
+      {
+        "fact": 15,
+        "probe": "rev_novel",
+        "p": 0.6350091261044313,
+        "acc": 1.0
+      },
+      {
+        "fact": 15,
+        "probe": "prod_trained",
+        "p": 0.6507076560534407,
+        "acc": 1.0
+      },
+      {
+        "fact": 15,
+        "probe": "prod_rev",
+        "p": 0.46795137666524633,
+        "acc": 1.0
+      },
+      {
+        "fact": 15,
+        "probe": "hop_fwd",
+        "p": 0.10771947287060639,
+        "acc": 0.0
+      },
+      {
+        "fact": 15,
+        "probe": "hop_rev",
+        "p": 0.03370763668760154,
+        "acc": 0.0
+      },
+      {
+        "fact": 16,
+        "probe": "fwd_trained",
+        "p": 0.7540440353811838,
+        "acc": 1.0
+      },
+      {
+        "fact": 16,
+        "probe": "fwd_novel",
+        "p": 0.810310686623546,
+        "acc": 1.0
+      },
+      {
+        "fact": 16,
+        "probe": "rev",
+        "p": 0.9830393348364169,
+        "acc": 1.0
+      },
+      {
+        "fact": 16,
+        "probe": "rev_novel",
+        "p": 0.9784758467725683,
+        "acc": 1.0
+      },
+      {
+        "fact": 16,
+        "probe": "prod_trained",
+        "p": 0.4514149405293339,
+        "acc": 1.0
+      },
+      {
+        "fact": 16,
+        "probe": "prod_rev",
+        "p": 0.8023260118903964,
+        "acc": 1.0
+      },
+      {
+        "fact": 16,
+        "probe": "hop_fwd",
+        "p": 0.575474049462426,
+        "acc": 1.0
+      },
+      {
+        "fact": 16,
+        "probe": "hop_rev",
+        "p": 0.7137911996946906,
+        "acc": 1.0
+      },
+      {
+        "fact": 17,
+        "probe": "fwd_trained",
+        "p": 0.40409193891778245,
+        "acc": 1.0
+      },
+      {
+        "fact": 17,
+        "probe": "fwd_novel",
+        "p": 0.7614354677718895,
+        "acc": 1.0
+      },
+      {
+        "fact": 17,
+        "probe": "rev",
+        "p": 0.9957569995091405,
+        "acc": 1.0
+      },
+      {
+        "fact": 17,
+        "probe": "rev_novel",
+        "p": 0.9967098653546426,
+        "acc": 1.0
+      },
+      {
+        "fact": 17,
+        "probe": "prod_trained",
+        "p": 0.9021934117883254,
+        "acc": 1.0
+      },
+      {
+        "fact": 17,
+        "probe": "prod_rev",
+        "p": 0.9130065853239122,
+        "acc": 1.0
+      },
+      {
+        "fact": 17,
+        "probe": "hop_fwd",
+        "p": 0.23501272349061783,
+        "acc": 0.0
+      },
+      {
+        "fact": 17,
+        "probe": "hop_rev",
+        "p": 0.9504460562525296,
+        "acc": 1.0
+      },
+      {
+        "fact": 18,
+        "probe": "fwd_trained",
+        "p": 0.6568711282892096,
+        "acc": 1.0
+      },
+      {
+        "fact": 18,
+        "probe": "fwd_novel",
+        "p": 0.8346976778905484,
+        "acc": 1.0
+      },
+      {
+        "fact": 18,
+        "probe": "rev",
+        "p": 0.9815521588301951,
+        "acc": 1.0
+      },
+      {
+        "fact": 18,
+        "probe": "rev_novel",
+        "p": 0.9980198443949869,
+        "acc": 1.0
+      },
+      {
+        "fact": 18,
+        "probe": "prod_trained",
+        "p": 0.9245819075600542,
+        "acc": 1.0
+      },
+      {
+        "fact": 18,
+        "probe": "prod_rev",
+        "p": 0.7946408002414125,
+        "acc": 1.0
+      },
+      {
+        "fact": 18,
+        "probe": "hop_fwd",
+        "p": 0.7074143704785821,
+        "acc": 1.0
+      },
+      {
+        "fact": 18,
+        "probe": "hop_rev",
+        "p": 0.6905929152354334,
+        "acc": 1.0
+      },
+      {
+        "fact": 19,
+        "probe": "fwd_trained",
+        "p": 0.30631466126395746,
+        "acc": 0.0
+      },
+      {
+        "fact": 19,
+        "probe": "fwd_novel",
+        "p": 0.5037836939880705,
+        "acc": 1.0
+      },
+      {
+        "fact": 19,
+        "probe": "rev",
+        "p": 0.955057289080407,
+        "acc": 1.0
+      },
+      {
+        "fact": 19,
+        "probe": "rev_novel",
+        "p": 0.8251568467866137,
+        "acc": 1.0
+      },
+      {
+        "fact": 19,
+        "probe": "prod_trained",
+        "p": 0.3925197415327755,
+        "acc": 1.0
+      },
+      {
+        "fact": 19,
+        "probe": "prod_rev",
+        "p": 0.7293762130619204,
+        "acc": 1.0
+      },
+      {
+        "fact": 19,
+        "probe": "hop_fwd",
+        "p": 0.2699074591183235,
+        "acc": 0.0
+      },
+      {
+        "fact": 19,
+        "probe": "hop_rev",
+        "p": 0.7936591656898159,
+        "acc": 1.0
+      },
+      {
+        "fact": 20,
+        "probe": "fwd_trained",
+        "p": 0.3026063202628033,
+        "acc": 1.0
+      },
+      {
+        "fact": 20,
+        "probe": "fwd_novel",
+        "p": 0.3736007086708454,
+        "acc": 1.0
+      },
+      {
+        "fact": 20,
+        "probe": "rev",
+        "p": 0.9736098255797077,
+        "acc": 1.0
+      },
+      {
+        "fact": 20,
+        "probe": "rev_novel",
+        "p": 0.9683513433751662,
+        "acc": 1.0
+      },
+      {
+        "fact": 20,
+        "probe": "prod_trained",
+        "p": 0.38648877666162046,
+        "acc": 1.0
+      },
+      {
+        "fact": 20,
+        "probe": "prod_rev",
+        "p": 0.5303617022911569,
+        "acc": 1.0
+      },
+      {
+        "fact": 20,
+        "probe": "hop_fwd",
+        "p": 0.39138117020577967,
+        "acc": 1.0
+      },
+      {
+        "fact": 20,
+        "probe": "hop_rev",
+        "p": 0.24810929585407024,
+        "acc": 0.0
+      },
+      {
+        "fact": 21,
+        "probe": "fwd_trained",
+        "p": 0.5646405720276054,
+        "acc": 1.0
+      },
+      {
+        "fact": 21,
+        "probe": "fwd_novel",
+        "p": 0.8184269883649602,
+        "acc": 1.0
+      },
+      {
+        "fact": 21,
+        "probe": "rev",
+        "p": 0.9893056589253166,
+        "acc": 1.0
+      },
+      {
+        "fact": 21,
+        "probe": "rev_novel",
+        "p": 0.986953325414312,
+        "acc": 1.0
+      },
+      {
+        "fact": 21,
+        "probe": "prod_trained",
+        "p": 0.6019708117859042,
+        "acc": 1.0
+      },
+      {
+        "fact": 21,
+        "probe": "prod_rev",
+        "p": 0.6878531417878756,
+        "acc": 1.0
+      },
+      {
+        "fact": 21,
+        "probe": "hop_fwd",
+        "p": 0.14249891529931946,
+        "acc": 0.0
+      },
+      {
+        "fact": 21,
+        "probe": "hop_rev",
+        "p": 0.6374117877882235,
+        "acc": 1.0
+      },
+      {
+        "fact": 22,
+        "probe": "fwd_trained",
+        "p": 0.5201708420447355,
+        "acc": 1.0
+      },
+      {
+        "fact": 22,
+        "probe": "fwd_novel",
+        "p": 0.7529348548992214,
+        "acc": 1.0
+      },
+      {
+        "fact": 22,
+        "probe": "rev",
+        "p": 0.9827266193236094,
+        "acc": 1.0
+      },
+      {
+        "fact": 22,
+        "probe": "rev_novel",
+        "p": 0.8925951692544943,
+        "acc": 1.0
+      },
+      {
+        "fact": 22,
+        "probe": "prod_trained",
+        "p": 0.9689834492590115,
+        "acc": 1.0
+      },
+      {
+        "fact": 22,
+        "probe": "prod_rev",
+        "p": 0.766250294368721,
+        "acc": 1.0
+      },
+      {
+        "fact": 22,
+        "probe": "hop_fwd",
+        "p": 0.769734761750677,
+        "acc": 1.0
+      },
+      {
+        "fact": 22,
+        "probe": "hop_rev",
+        "p": 0.9869863193482934,
+        "acc": 1.0
+      },
+      {
+        "fact": 23,
+        "probe": "fwd_trained",
+        "p": 0.6918742501594031,
+        "acc": 1.0
+      },
+      {
+        "fact": 23,
+        "probe": "fwd_novel",
+        "p": 0.878110561587232,
+        "acc": 1.0
+      },
+      {
+        "fact": 23,
+        "probe": "rev",
+        "p": 0.9952089971986524,
+        "acc": 1.0
+      },
+      {
+        "fact": 23,
+        "probe": "rev_novel",
+        "p": 0.971959101840871,
+        "acc": 1.0
+      },
+      {
+        "fact": 23,
+        "probe": "prod_trained",
+        "p": 0.9334250840088761,
+        "acc": 1.0
+      },
+      {
+        "fact": 23,
+        "probe": "prod_rev",
+        "p": 0.939526174239089,
+        "acc": 1.0
+      },
+      {
+        "fact": 23,
+        "probe": "hop_fwd",
+        "p": 0.11714359090669374,
+        "acc": 0.0
+      },
+      {
+        "fact": 23,
+        "probe": "hop_rev",
+        "p": 0.9828553358311447,
+        "acc": 1.0
+      },
+      {
+        "fact": 24,
+        "probe": "fwd_trained",
+        "p": 0.34202416392716195,
+        "acc": 1.0
+      },
+      {
+        "fact": 24,
+        "probe": "fwd_novel",
+        "p": 0.5277117486718125,
+        "acc": 1.0
+      },
+      {
+        "fact": 24,
+        "probe": "rev",
+        "p": 0.9840820818724679,
+        "acc": 1.0
+      },
+      {
+        "fact": 24,
+        "probe": "rev_novel",
+        "p": 0.8961380840620101,
+        "acc": 1.0
+      },
+      {
+        "fact": 24,
+        "probe": "prod_trained",
+        "p": 0.4427353656054687,
+        "acc": 1.0
+      },
+      {
+        "fact": 24,
+        "probe": "prod_rev",
+        "p": 0.483131536742652,
+        "acc": 1.0
+      },
+      {
+        "fact": 24,
+        "probe": "hop_fwd",
+        "p": 0.27878472953089123,
+        "acc": 0.0
+      },
+      {
+        "fact": 24,
+        "probe": "hop_rev",
+        "p": 0.7021994218053684,
+        "acc": 1.0
+      },
+      {
+        "fact": 25,
+        "probe": "fwd_trained",
+        "p": 0.18730708506223334,
+        "acc": 0.0
+      },
+      {
+        "fact": 25,
+        "probe": "fwd_novel",
+        "p": 0.9294394786587072,
+        "acc": 1.0
+      },
+      {
+        "fact": 25,
+        "probe": "rev",
+        "p": 0.9854996680706057,
+        "acc": 1.0
+      },
+      {
+        "fact": 25,
+        "probe": "rev_novel",
+        "p": 0.9696996108794874,
+        "acc": 1.0
+      },
+      {
+        "fact": 25,
+        "probe": "prod_trained",
+        "p": 0.059753463941927494,
+        "acc": 0.0
+      },
+      {
+        "fact": 25,
+        "probe": "prod_rev",
+        "p": 0.9230158713448325,
+        "acc": 1.0
+      },
+      {
+        "fact": 25,
+        "probe": "hop_fwd",
+        "p": 0.5938070926024618,
+        "acc": 1.0
+      },
+      {
+        "fact": 25,
+        "probe": "hop_rev",
+        "p": 0.9695566940898661,
+        "acc": 1.0
+      },
+      {
+        "fact": 26,
+        "probe": "fwd_trained",
+        "p": 0.28052962422344513,
+        "acc": 0.0
+      },
+      {
+        "fact": 26,
+        "probe": "fwd_novel",
+        "p": 0.8591606741310157,
+        "acc": 1.0
+      },
+      {
+        "fact": 26,
+        "probe": "rev",
+        "p": 0.831007227650341,
+        "acc": 1.0
+      },
+      {
+        "fact": 26,
+        "probe": "rev_novel",
+        "p": 0.7014867267014766,
+        "acc": 1.0
+      },
+      {
+        "fact": 26,
+        "probe": "prod_trained",
+        "p": 0.6550632444425719,
+        "acc": 1.0
+      },
+      {
+        "fact": 26,
+        "probe": "prod_rev",
+        "p": 0.6196182853297524,
+        "acc": 1.0
+      },
+      {
+        "fact": 26,
+        "probe": "hop_fwd",
+        "p": 0.32103466712611456,
+        "acc": 0.0
+      },
+      {
+        "fact": 26,
+        "probe": "hop_rev",
+        "p": 0.5408390435150696,
+        "acc": 1.0
+      },
+      {
+        "fact": 27,
+        "probe": "fwd_trained",
+        "p": 0.6951439661713396,
+        "acc": 1.0
+      },
+      {
+        "fact": 27,
+        "probe": "fwd_novel",
+        "p": 0.6879702869509896,
+        "acc": 1.0
+      },
+      {
+        "fact": 27,
+        "probe": "rev",
+        "p": 0.9906058061524634,
+        "acc": 1.0
+      },
+      {
+        "fact": 27,
+        "probe": "rev_novel",
+        "p": 0.9693601350301017,
+        "acc": 1.0
+      },
+      {
+        "fact": 27,
+        "probe": "prod_trained",
+        "p": 0.6523715570658251,
+        "acc": 1.0
+      },
+      {
+        "fact": 27,
+        "probe": "prod_rev",
+        "p": 0.947466618009114,
+        "acc": 1.0
+      },
+      {
+        "fact": 27,
+        "probe": "hop_fwd",
+        "p": 0.2305739199519458,
+        "acc": 0.0
+      },
+      {
+        "fact": 27,
+        "probe": "hop_rev",
+        "p": 0.9672416476673262,
+        "acc": 1.0
+      },
+      {
+        "fact": 28,
+        "probe": "fwd_trained",
+        "p": 0.1997409015309565,
+        "acc": 0.0
+      },
+      {
+        "fact": 28,
+        "probe": "fwd_novel",
+        "p": 0.4127799430864599,
+        "acc": 1.0
+      },
+      {
+        "fact": 28,
+        "probe": "rev",
+        "p": 0.889286303610471,
+        "acc": 1.0
+      },
+      {
+        "fact": 28,
+        "probe": "rev_novel",
+        "p": 0.8777103810279923,
+        "acc": 1.0
+      },
+      {
+        "fact": 28,
+        "probe": "prod_trained",
+        "p": 0.9375076801211439,
+        "acc": 1.0
+      },
+      {
+        "fact": 28,
+        "probe": "prod_rev",
+        "p": 0.7020981682272727,
+        "acc": 1.0
+      },
+      {
+        "fact": 28,
+        "probe": "hop_fwd",
+        "p": 0.5460567134273239,
+        "acc": 1.0
+      },
+      {
+        "fact": 28,
+        "probe": "hop_rev",
+        "p": 0.9474626387987516,
+        "acc": 1.0
+      },
+      {
+        "fact": 29,
+        "probe": "fwd_trained",
+        "p": 0.7309948708187429,
+        "acc": 1.0
+      },
+      {
+        "fact": 29,
+        "probe": "fwd_novel",
+        "p": 0.9243253413394863,
+        "acc": 1.0
+      },
+      {
+        "fact": 29,
+        "probe": "rev",
+        "p": 0.9625054438377356,
+        "acc": 1.0
+      },
+      {
+        "fact": 29,
+        "probe": "rev_novel",
+        "p": 0.9595786657175007,
+        "acc": 1.0
+      },
+      {
+        "fact": 29,
+        "probe": "prod_trained",
+        "p": 0.6194020356052995,
+        "acc": 1.0
+      },
+      {
+        "fact": 29,
+        "probe": "prod_rev",
+        "p": 0.8512567504857018,
+        "acc": 1.0
+      },
+      {
+        "fact": 29,
+        "probe": "hop_fwd",
+        "p": 0.24732928680829624,
+        "acc": 0.0
+      },
+      {
+        "fact": 29,
+        "probe": "hop_rev",
+        "p": 0.812254613899957,
+        "acc": 1.0
+      },
+      {
+        "fact": 30,
+        "probe": "fwd_trained",
+        "p": 0.4320129751790299,
+        "acc": 1.0
+      },
+      {
+        "fact": 30,
+        "probe": "fwd_novel",
+        "p": 0.7507746034827035,
+        "acc": 1.0
+      },
+      {
+        "fact": 30,
+        "probe": "rev",
+        "p": 0.982021046928353,
+        "acc": 1.0
+      },
+      {
+        "fact": 30,
+        "probe": "rev_novel",
+        "p": 0.9210858880457908,
+        "acc": 1.0
+      },
+      {
+        "fact": 30,
+        "probe": "prod_trained",
+        "p": 0.9072553478650934,
+        "acc": 1.0
+      },
+      {
+        "fact": 30,
+        "probe": "prod_rev",
+        "p": 0.9432407661504333,
+        "acc": 1.0
+      },
+      {
+        "fact": 30,
+        "probe": "hop_fwd",
+        "p": 0.5691877149039881,
+        "acc": 1.0
+      },
+      {
+        "fact": 30,
+        "probe": "hop_rev",
+        "p": 0.8858486789375772,
+        "acc": 1.0
+      },
+      {
+        "fact": 31,
+        "probe": "fwd_trained",
+        "p": 0.3711230671908335,
+        "acc": 0.0
+      },
+      {
+        "fact": 31,
+        "probe": "fwd_novel",
+        "p": 0.7229506114843627,
+        "acc": 1.0
+      },
+      {
+        "fact": 31,
+        "probe": "rev",
+        "p": 0.8664790577305036,
+        "acc": 1.0
+      },
+      {
+        "fact": 31,
+        "probe": "rev_novel",
+        "p": 0.7764268400572626,
+        "acc": 1.0
+      },
+      {
+        "fact": 31,
+        "probe": "prod_trained",
+        "p": 0.6569751277594378,
+        "acc": 1.0
+      },
+      {
+        "fact": 31,
+        "probe": "prod_rev",
+        "p": 0.8685804217665485,
+        "acc": 1.0
+      },
+      {
+        "fact": 31,
+        "probe": "hop_fwd",
+        "p": 0.09680953272484148,
+        "acc": 0.0
+      },
+      {
+        "fact": 31,
+        "probe": "hop_rev",
+        "p": 0.6284566171773183,
+        "acc": 1.0
+      },
+      {
+        "fact": 32,
+        "probe": "fwd_trained",
+        "p": 0.7948556528555778,
+        "acc": 1.0
+      },
+      {
+        "fact": 32,
+        "probe": "fwd_novel",
+        "p": 0.9314990899838473,
+        "acc": 1.0
+      },
+      {
+        "fact": 32,
+        "probe": "rev",
+        "p": 0.9489354261036426,
+        "acc": 1.0
+      },
+      {
+        "fact": 32,
+        "probe": "rev_novel",
+        "p": 0.9833033334203813,
+        "acc": 1.0
+      },
+      {
+        "fact": 32,
+        "probe": "prod_trained",
+        "p": 0.8982342969713435,
+        "acc": 1.0
+      },
+      {
+        "fact": 32,
+        "probe": "prod_rev",
+        "p": 0.9709378363696035,
+        "acc": 1.0
+      },
+      {
+        "fact": 32,
+        "probe": "hop_fwd",
+        "p": 0.7391114509030856,
+        "acc": 1.0
+      },
+      {
+        "fact": 32,
+        "probe": "hop_rev",
+        "p": 0.7133705619106862,
+        "acc": 1.0
+      },
+      {
+        "fact": 33,
+        "probe": "fwd_trained",
+        "p": 0.8188211888215876,
+        "acc": 1.0
+      },
+      {
+        "fact": 33,
+        "probe": "fwd_novel",
+        "p": 0.8039178029534604,
+        "acc": 1.0
+      },
+      {
+        "fact": 33,
+        "probe": "rev",
+        "p": 0.9700273933812392,
+        "acc": 1.0
+      },
+      {
+        "fact": 33,
+        "probe": "rev_novel",
+        "p": 0.9696314588028355,
+        "acc": 1.0
+      },
+      {
+        "fact": 33,
+        "probe": "prod_trained",
+        "p": 0.7081854084608592,
+        "acc": 1.0
+      },
+      {
+        "fact": 33,
+        "probe": "prod_rev",
+        "p": 0.7726563384786876,
+        "acc": 1.0
+      },
+      {
+        "fact": 33,
+        "probe": "hop_fwd",
+        "p": 0.502863547905279,
+        "acc": 1.0
+      },
+      {
+        "fact": 33,
+        "probe": "hop_rev",
+        "p": 0.5559555586039228,
+        "acc": 1.0
+      },
+      {
+        "fact": 34,
+        "probe": "fwd_trained",
+        "p": 0.20635151497170262,
+        "acc": 0.0
+      },
+      {
+        "fact": 34,
+        "probe": "fwd_novel",
+        "p": 0.6738241593378819,
+        "acc": 1.0
+      },
+      {
+        "fact": 34,
+        "probe": "rev",
+        "p": 0.959827501606726,
+        "acc": 1.0
+      },
+      {
+        "fact": 34,
+        "probe": "rev_novel",
+        "p": 0.7642952281642477,
+        "acc": 1.0
+      },
+      {
+        "fact": 34,
+        "probe": "prod_trained",
+        "p": 0.6687359003371478,
+        "acc": 1.0
+      },
+      {
+        "fact": 34,
+        "probe": "prod_rev",
+        "p": 0.8577521626620336,
+        "acc": 1.0
+      },
+      {
+        "fact": 34,
+        "probe": "hop_fwd",
+        "p": 0.3806836359568621,
+        "acc": 1.0
+      },
+      {
+        "fact": 34,
+        "probe": "hop_rev",
+        "p": 0.5004093886993597,
+        "acc": 1.0
+      },
+      {
+        "fact": 35,
+        "probe": "fwd_trained",
+        "p": 0.6766158628400548,
+        "acc": 1.0
+      },
+      {
+        "fact": 35,
+        "probe": "fwd_novel",
+        "p": 0.9202371510398426,
+        "acc": 1.0
+      },
+      {
+        "fact": 35,
+        "probe": "rev",
+        "p": 0.9445030850975158,
+        "acc": 1.0
+      },
+      {
+        "fact": 35,
+        "probe": "rev_novel",
+        "p": 0.8900485787406344,
+        "acc": 1.0
+      },
+      {
+        "fact": 35,
+        "probe": "prod_trained",
+        "p": 0.7541107412273785,
+        "acc": 1.0
+      },
+      {
+        "fact": 35,
+        "probe": "prod_rev",
+        "p": 0.9391606268761824,
+        "acc": 1.0
+      },
+      {
+        "fact": 35,
+        "probe": "hop_fwd",
+        "p": 0.3493154774708994,
+        "acc": 1.0
+      },
+      {
+        "fact": 35,
+        "probe": "hop_rev",
+        "p": 0.7134088251478125,
+        "acc": 1.0
+      },
+      {
+        "fact": 36,
+        "probe": "fwd_trained",
+        "p": 0.16466795035409626,
+        "acc": 0.0
+      },
+      {
+        "fact": 36,
+        "probe": "fwd_novel",
+        "p": 0.4096744262157313,
+        "acc": 1.0
+      },
+      {
+        "fact": 36,
+        "probe": "rev",
+        "p": 0.27804694054062984,
+        "acc": 0.0
+      },
+      {
+        "fact": 36,
+        "probe": "rev_novel",
+        "p": 0.18385047458543186,
+        "acc": 0.0
+      },
+      {
+        "fact": 36,
+        "probe": "prod_trained",
+        "p": 0.7785265237779052,
+        "acc": 1.0
+      },
+      {
+        "fact": 36,
+        "probe": "prod_rev",
+        "p": 0.566167587407796,
+        "acc": 1.0
+      },
+      {
+        "fact": 36,
+        "probe": "hop_fwd",
+        "p": 0.48628842371574177,
+        "acc": 1.0
+      },
+      {
+        "fact": 36,
+        "probe": "hop_rev",
+        "p": 0.08623956747900867,
+        "acc": 0.0
+      },
+      {
+        "fact": 37,
+        "probe": "fwd_trained",
+        "p": 0.7382573317869089,
+        "acc": 1.0
+      },
+      {
+        "fact": 37,
+        "probe": "fwd_novel",
+        "p": 0.8026448814765361,
+        "acc": 1.0
+      },
+      {
+        "fact": 37,
+        "probe": "rev",
+        "p": 0.9797551443362598,
+        "acc": 1.0
+      },
+      {
+        "fact": 37,
+        "probe": "rev_novel",
+        "p": 0.8104916893755506,
+        "acc": 1.0
+      },
+      {
+        "fact": 37,
+        "probe": "prod_trained",
+        "p": 0.8063089554607679,
+        "acc": 1.0
+      },
+      {
+        "fact": 37,
+        "probe": "prod_rev",
+        "p": 0.7724456545192216,
+        "acc": 1.0
+      },
+      {
+        "fact": 37,
+        "probe": "hop_fwd",
+        "p": 0.4532635603856232,
+        "acc": 1.0
+      },
+      {
+        "fact": 37,
+        "probe": "hop_rev",
+        "p": 0.9336304613378653,
+        "acc": 1.0
+      },
+      {
+        "fact": 38,
+        "probe": "fwd_trained",
+        "p": 0.7565585768778287,
+        "acc": 1.0
+      },
+      {
+        "fact": 38,
+        "probe": "fwd_novel",
+        "p": 0.6252377848033313,
+        "acc": 1.0
+      },
+      {
+        "fact": 38,
+        "probe": "rev",
+        "p": 0.9933848822993094,
+        "acc": 1.0
+      },
+      {
+        "fact": 38,
+        "probe": "rev_novel",
+        "p": 0.9904691241349899,
+        "acc": 1.0
+      },
+      {
+        "fact": 38,
+        "probe": "prod_trained",
+        "p": 0.9233527193516076,
+        "acc": 1.0
+      },
+      {
+        "fact": 38,
+        "probe": "prod_rev",
+        "p": 0.7329008622872062,
+        "acc": 1.0
+      },
+      {
+        "fact": 38,
+        "probe": "hop_fwd",
+        "p": 0.6751911132312368,
+        "acc": 1.0
+      },
+      {
+        "fact": 38,
+        "probe": "hop_rev",
+        "p": 0.9172430883621078,
+        "acc": 1.0
+      },
+      {
+        "fact": 39,
+        "probe": "fwd_trained",
+        "p": 0.6012698930905963,
+        "acc": 1.0
+      },
+      {
+        "fact": 39,
+        "probe": "fwd_novel",
+        "p": 0.5924703290699536,
+        "acc": 1.0
+      },
+      {
+        "fact": 39,
+        "probe": "rev",
+        "p": 0.9454091000805311,
+        "acc": 1.0
+      },
+      {
+        "fact": 39,
+        "probe": "rev_novel",
+        "p": 0.9350540495406151,
+        "acc": 1.0
+      },
+      {
+        "fact": 39,
+        "probe": "prod_trained",
+        "p": 0.8502831518802949,
+        "acc": 1.0
+      },
+      {
+        "fact": 39,
+        "probe": "prod_rev",
+        "p": 0.8666353276823292,
+        "acc": 1.0
+      },
+      {
+        "fact": 39,
+        "probe": "hop_fwd",
+        "p": 0.5551896173944126,
+        "acc": 1.0
+      },
+      {
+        "fact": 39,
+        "probe": "hop_rev",
+        "p": 0.6649105311549925,
+        "acc": 1.0
+      }
+    ],
+    "learnt": [
+      {
+        "fact": 0,
+        "probe": "fwd_trained",
+        "p": 0.9999982723686835,
+        "acc": 1.0
+      },
+      {
+        "fact": 0,
+        "probe": "fwd_novel",
+        "p": 0.999998975419142,
+        "acc": 1.0
+      },
+      {
+        "fact": 0,
+        "probe": "rev",
+        "p": 4.884375584529829e-05,
+        "acc": 0.0
+      },
+      {
+        "fact": 0,
+        "probe": "rev_novel",
+        "p": 0.012560700414579592,
+        "acc": 0.0
+      },
+      {
+        "fact": 0,
+        "probe": "prod_trained",
+        "p": 0.9999999998854334,
+        "acc": 1.0
+      },
+      {
+        "fact": 0,
+        "probe": "prod_rev",
+        "p": 0.0009422761075511574,
+        "acc": 0.0
+      },
+      {
+        "fact": 0,
+        "probe": "hop_fwd",
+        "p": 0.7057162853508823,
+        "acc": 1.0
+      },
+      {
+        "fact": 0,
+        "probe": "hop_rev",
+        "p": 0.01373691712410695,
+        "acc": 0.0
+      },
+      {
+        "fact": 1,
+        "probe": "fwd_trained",
+        "p": 0.9999999587450722,
+        "acc": 1.0
+      },
+      {
+        "fact": 1,
+        "probe": "fwd_novel",
+        "p": 0.9999997701330237,
+        "acc": 1.0
+      },
+      {
+        "fact": 1,
+        "probe": "rev",
+        "p": 0.9354516165630842,
+        "acc": 1.0
+      },
+      {
+        "fact": 1,
+        "probe": "rev_novel",
+        "p": 0.07668877293890596,
+        "acc": 0.0
+      },
+      {
+        "fact": 1,
+        "probe": "prod_trained",
+        "p": 0.9999999933562644,
+        "acc": 1.0
+      },
+      {
+        "fact": 1,
+        "probe": "prod_rev",
+        "p": 0.5335359779736504,
+        "acc": 1.0
+      },
+      {
+        "fact": 1,
+        "probe": "hop_fwd",
+        "p": 0.029461210083051963,
+        "acc": 0.0
+      },
+      {
+        "fact": 1,
+        "probe": "hop_rev",
+        "p": 0.23943583943894467,
+        "acc": 0.0
+      },
+      {
+        "fact": 2,
+        "probe": "fwd_trained",
+        "p": 0.9999996462094788,
+        "acc": 1.0
+      },
+      {
+        "fact": 2,
+        "probe": "fwd_novel",
+        "p": 0.9999921505721026,
+        "acc": 1.0
+      },
+      {
+        "fact": 2,
+        "probe": "rev",
+        "p": 1.934178890213894e-06,
+        "acc": 0.0
+      },
+      {
+        "fact": 2,
+        "probe": "rev_novel",
+        "p": 7.634082540452433e-07,
+        "acc": 0.0
+      },
+      {
+        "fact": 2,
+        "probe": "prod_trained",
+        "p": 0.9999947311120565,
+        "acc": 1.0
+      },
+      {
+        "fact": 2,
+        "probe": "prod_rev",
+        "p": 0.0012556752055330558,
+        "acc": 0.0
+      },
+      {
+        "fact": 2,
+        "probe": "hop_fwd",
+        "p": 0.015206167683543695,
+        "acc": 0.0
+      },
+      {
+        "fact": 2,
+        "probe": "hop_rev",
+        "p": 8.067089446803154e-06,
+        "acc": 0.0
+      },
+      {
+        "fact": 3,
+        "probe": "fwd_trained",
+        "p": 0.9971941936481131,
+        "acc": 1.0
+      },
+      {
+        "fact": 3,
+        "probe": "fwd_novel",
+        "p": 0.984092592600563,
+        "acc": 1.0
+      },
+      {
+        "fact": 3,
+        "probe": "rev",
+        "p": 0.7382452504344439,
+        "acc": 1.0
+      },
+      {
+        "fact": 3,
+        "probe": "rev_novel",
+        "p": 0.7402163705696362,
+        "acc": 1.0
+      },
+      {
+        "fact": 3,
+        "probe": "prod_trained",
+        "p": 0.9999998462779222,
+        "acc": 1.0
+      },
+      {
+        "fact": 3,
+        "probe": "prod_rev",
+        "p": 0.26920777531969264,
+        "acc": 0.0
+      },
+      {
+        "fact": 3,
+        "probe": "hop_fwd",
+        "p": 0.005044154627916714,
+        "acc": 0.0
+      },
+      {
+        "fact": 3,
+        "probe": "hop_rev",
+        "p": 0.6694946916103088,
+        "acc": 1.0
+      },
+      {
+        "fact": 4,
+        "probe": "fwd_trained",
+        "p": 0.99998481589776,
+        "acc": 1.0
+      },
+      {
+        "fact": 4,
+        "probe": "fwd_novel",
+        "p": 0.9992451268872183,
+        "acc": 1.0
+      },
+      {
+        "fact": 4,
+        "probe": "rev",
+        "p": 0.8133910893259659,
+        "acc": 1.0
+      },
+      {
+        "fact": 4,
+        "probe": "rev_novel",
+        "p": 0.928664897603964,
+        "acc": 1.0
+      },
+      {
+        "fact": 4,
+        "probe": "prod_trained",
+        "p": 0.9999930437723857,
+        "acc": 1.0
+      },
+      {
+        "fact": 4,
+        "probe": "prod_rev",
+        "p": 0.5160904074590764,
+        "acc": 1.0
+      },
+      {
+        "fact": 4,
+        "probe": "hop_fwd",
+        "p": 0.0003691934767602248,
+        "acc": 0.0
+      },
+      {
+        "fact": 4,
+        "probe": "hop_rev",
+        "p": 0.02657462432593697,
+        "acc": 0.0
+      },
+      {
+        "fact": 5,
+        "probe": "fwd_trained",
+        "p": 0.999999949817434,
+        "acc": 1.0
+      },
+      {
+        "fact": 5,
+        "probe": "fwd_novel",
+        "p": 0.9999998278639178,
+        "acc": 1.0
+      },
+      {
+        "fact": 5,
+        "probe": "rev",
+        "p": 0.03955997097757594,
+        "acc": 0.0
+      },
+      {
+        "fact": 5,
+        "probe": "rev_novel",
+        "p": 0.13430871729195185,
+        "acc": 0.0
+      },
+      {
+        "fact": 5,
+        "probe": "prod_trained",
+        "p": 0.9999992136004068,
+        "acc": 1.0
+      },
+      {
+        "fact": 5,
+        "probe": "prod_rev",
+        "p": 0.0970498710463759,
+        "acc": 0.0
+      },
+      {
+        "fact": 5,
+        "probe": "hop_fwd",
+        "p": 0.26483810944370545,
+        "acc": 0.0
+      },
+      {
+        "fact": 5,
+        "probe": "hop_rev",
+        "p": 0.34133628799814275,
+        "acc": 0.0
+      },
+      {
+        "fact": 6,
+        "probe": "fwd_trained",
+        "p": 0.9999978350440436,
+        "acc": 1.0
+      },
+      {
+        "fact": 6,
+        "probe": "fwd_novel",
+        "p": 0.9999889530747044,
+        "acc": 1.0
+      },
+      {
+        "fact": 6,
+        "probe": "rev",
+        "p": 0.15660672223754196,
+        "acc": 0.0
+      },
+      {
+        "fact": 6,
+        "probe": "rev_novel",
+        "p": 0.3510977922491654,
+        "acc": 1.0
+      },
+      {
+        "fact": 6,
+        "probe": "prod_trained",
+        "p": 0.9999997380492738,
+        "acc": 1.0
+      },
+      {
+        "fact": 6,
+        "probe": "prod_rev",
+        "p": 0.0027928516998904952,
+        "acc": 0.0
+      },
+      {
+        "fact": 6,
+        "probe": "hop_fwd",
+        "p": 0.00608799907598741,
+        "acc": 0.0
+      },
+      {
+        "fact": 6,
+        "probe": "hop_rev",
+        "p": 0.21632063991218145,
+        "acc": 0.0
+      },
+      {
+        "fact": 7,
+        "probe": "fwd_trained",
+        "p": 0.9999999957308134,
+        "acc": 1.0
+      },
+      {
+        "fact": 7,
+        "probe": "fwd_novel",
+        "p": 0.9999999935266626,
+        "acc": 1.0
+      },
+      {
+        "fact": 7,
+        "probe": "rev",
+        "p": 0.08665446238581966,
+        "acc": 0.0
+      },
+      {
+        "fact": 7,
+        "probe": "rev_novel",
+        "p": 0.06117957798685637,
+        "acc": 0.0
+      },
+      {
+        "fact": 7,
+        "probe": "prod_trained",
+        "p": 0.9999999999930969,
+        "acc": 1.0
+      },
+      {
+        "fact": 7,
+        "probe": "prod_rev",
+        "p": 0.007766237840280268,
+        "acc": 0.0
+      },
+      {
+        "fact": 7,
+        "probe": "hop_fwd",
+        "p": 0.9798098729827572,
+        "acc": 1.0
+      },
+      {
+        "fact": 7,
+        "probe": "hop_rev",
+        "p": 0.19477642922598828,
+        "acc": 0.0
+      },
+      {
+        "fact": 8,
+        "probe": "fwd_trained",
+        "p": 0.9999992302461652,
+        "acc": 1.0
+      },
+      {
+        "fact": 8,
+        "probe": "fwd_novel",
+        "p": 0.9999934968922607,
+        "acc": 1.0
+      },
+      {
+        "fact": 8,
+        "probe": "rev",
+        "p": 0.23568038851813275,
+        "acc": 0.0
+      },
+      {
+        "fact": 8,
+        "probe": "rev_novel",
+        "p": 0.2514848127352308,
+        "acc": 0.0
+      },
+      {
+        "fact": 8,
+        "probe": "prod_trained",
+        "p": 0.9999992576985101,
+        "acc": 1.0
+      },
+      {
+        "fact": 8,
+        "probe": "prod_rev",
+        "p": 0.6745578769209081,
+        "acc": 1.0
+      },
+      {
+        "fact": 8,
+        "probe": "hop_fwd",
+        "p": 0.0020574567020193923,
+        "acc": 0.0
+      },
+      {
+        "fact": 8,
+        "probe": "hop_rev",
+        "p": 0.13882294721765792,
+        "acc": 0.0
+      },
+      {
+        "fact": 9,
+        "probe": "fwd_trained",
+        "p": 0.9999974602020838,
+        "acc": 1.0
+      },
+      {
+        "fact": 9,
+        "probe": "fwd_novel",
+        "p": 0.9999720985078735,
+        "acc": 1.0
+      },
+      {
+        "fact": 9,
+        "probe": "rev",
+        "p": 0.01592753689940317,
+        "acc": 0.0
+      },
+      {
+        "fact": 9,
+        "probe": "rev_novel",
+        "p": 0.0044536774149082775,
+        "acc": 0.0
+      },
+      {
+        "fact": 9,
+        "probe": "prod_trained",
+        "p": 0.9999999987750683,
+        "acc": 1.0
+      },
+      {
+        "fact": 9,
+        "probe": "prod_rev",
+        "p": 0.060528565429607224,
+        "acc": 0.0
+      },
+      {
+        "fact": 9,
+        "probe": "hop_fwd",
+        "p": 0.00027702440915721696,
+        "acc": 0.0
+      },
+      {
+        "fact": 9,
+        "probe": "hop_rev",
+        "p": 0.001258564282568938,
+        "acc": 0.0
+      },
+      {
+        "fact": 10,
+        "probe": "fwd_trained",
+        "p": 0.999999639808609,
+        "acc": 1.0
+      },
+      {
+        "fact": 10,
+        "probe": "fwd_novel",
+        "p": 0.9999990520869518,
+        "acc": 1.0
+      },
+      {
+        "fact": 10,
+        "probe": "rev",
+        "p": 0.010572398101454616,
+        "acc": 0.0
+      },
+      {
+        "fact": 10,
+        "probe": "rev_novel",
+        "p": 0.0003367491306204631,
+        "acc": 0.0
+      },
+      {
+        "fact": 10,
+        "probe": "prod_trained",
+        "p": 0.9999989110682098,
+        "acc": 1.0
+      },
+      {
+        "fact": 10,
+        "probe": "prod_rev",
+        "p": 0.08660570352037109,
+        "acc": 0.0
+      },
+      {
+        "fact": 10,
+        "probe": "hop_fwd",
+        "p": 0.7592052158206991,
+        "acc": 1.0
+      },
+      {
+        "fact": 10,
+        "probe": "hop_rev",
+        "p": 0.013099321914766015,
+        "acc": 0.0
+      },
+      {
+        "fact": 11,
+        "probe": "fwd_trained",
+        "p": 0.9999997742447818,
+        "acc": 1.0
+      },
+      {
+        "fact": 11,
+        "probe": "fwd_novel",
+        "p": 0.9999933417002251,
+        "acc": 1.0
+      },
+      {
+        "fact": 11,
+        "probe": "rev",
+        "p": 0.5416736374683636,
+        "acc": 1.0
+      },
+      {
+        "fact": 11,
+        "probe": "rev_novel",
+        "p": 0.4787867525738864,
+        "acc": 1.0
+      },
+      {
+        "fact": 11,
+        "probe": "prod_trained",
+        "p": 0.9999926503427226,
+        "acc": 1.0
+      },
+      {
+        "fact": 11,
+        "probe": "prod_rev",
+        "p": 0.007669624208076191,
+        "acc": 0.0
+      },
+      {
+        "fact": 11,
+        "probe": "hop_fwd",
+        "p": 0.013767490786623359,
+        "acc": 0.0
+      },
+      {
+        "fact": 11,
+        "probe": "hop_rev",
+        "p": 0.16129848025705507,
+        "acc": 0.0
+      },
+      {
+        "fact": 12,
+        "probe": "fwd_trained",
+        "p": 0.999998725216194,
+        "acc": 1.0
+      },
+      {
+        "fact": 12,
+        "probe": "fwd_novel",
+        "p": 0.9999950786111376,
+        "acc": 1.0
+      },
+      {
+        "fact": 12,
+        "probe": "rev",
+        "p": 0.024223631566723188,
+        "acc": 0.0
+      },
+      {
+        "fact": 12,
+        "probe": "rev_novel",
+        "p": 0.014700042700731998,
+        "acc": 0.0
+      },
+      {
+        "fact": 12,
+        "probe": "prod_trained",
+        "p": 0.9999987504562239,
+        "acc": 1.0
+      },
+      {
+        "fact": 12,
+        "probe": "prod_rev",
+        "p": 0.34834844271657883,
+        "acc": 0.0
+      },
+      {
+        "fact": 12,
+        "probe": "hop_fwd",
+        "p": 0.0003773334603022204,
+        "acc": 0.0
+      },
+      {
+        "fact": 12,
+        "probe": "hop_rev",
+        "p": 0.571015690147982,
+        "acc": 1.0
+      },
+      {
+        "fact": 13,
+        "probe": "fwd_trained",
+        "p": 0.9999929108465282,
+        "acc": 1.0
+      },
+      {
+        "fact": 13,
+        "probe": "fwd_novel",
+        "p": 0.9999847115464862,
+        "acc": 1.0
+      },
+      {
+        "fact": 13,
+        "probe": "rev",
+        "p": 0.016688416026197788,
+        "acc": 0.0
+      },
+      {
+        "fact": 13,
+        "probe": "rev_novel",
+        "p": 0.013630515419921687,
+        "acc": 0.0
+      },
+      {
+        "fact": 13,
+        "probe": "prod_trained",
+        "p": 0.9999999931116295,
+        "acc": 1.0
+      },
+      {
+        "fact": 13,
+        "probe": "prod_rev",
+        "p": 0.26870160978815816,
+        "acc": 0.0
+      },
+      {
+        "fact": 13,
+        "probe": "hop_fwd",
+        "p": 0.09751209171920061,
+        "acc": 0.0
+      },
+      {
+        "fact": 13,
+        "probe": "hop_rev",
+        "p": 0.009624962287478212,
+        "acc": 0.0
+      },
+      {
+        "fact": 14,
+        "probe": "fwd_trained",
+        "p": 0.9999997609329995,
+        "acc": 1.0
+      },
+      {
+        "fact": 14,
+        "probe": "fwd_novel",
+        "p": 0.9999977766071227,
+        "acc": 1.0
+      },
+      {
+        "fact": 14,
+        "probe": "rev",
+        "p": 0.0015305652303155054,
+        "acc": 0.0
+      },
+      {
+        "fact": 14,
+        "probe": "rev_novel",
+        "p": 0.0011081767403967814,
+        "acc": 0.0
+      },
+      {
+        "fact": 14,
+        "probe": "prod_trained",
+        "p": 0.9999999996398299,
+        "acc": 1.0
+      },
+      {
+        "fact": 14,
+        "probe": "prod_rev",
+        "p": 0.47939697297612643,
+        "acc": 1.0
+      },
+      {
+        "fact": 14,
+        "probe": "hop_fwd",
+        "p": 0.016903371453705778,
+        "acc": 0.0
+      },
+      {
+        "fact": 14,
+        "probe": "hop_rev",
+        "p": 0.14589155317136743,
+        "acc": 0.0
+      },
+      {
+        "fact": 15,
+        "probe": "fwd_trained",
+        "p": 0.9999998159922331,
+        "acc": 1.0
+      },
+      {
+        "fact": 15,
+        "probe": "fwd_novel",
+        "p": 0.9999956139964414,
+        "acc": 1.0
+      },
+      {
+        "fact": 15,
+        "probe": "rev",
+        "p": 2.8845418250109272e-05,
+        "acc": 0.0
+      },
+      {
+        "fact": 15,
+        "probe": "rev_novel",
+        "p": 0.05195164536191189,
+        "acc": 0.0
+      },
+      {
+        "fact": 15,
+        "probe": "prod_trained",
+        "p": 0.9999999873856554,
+        "acc": 1.0
+      },
+      {
+        "fact": 15,
+        "probe": "prod_rev",
+        "p": 0.6903443855736289,
+        "acc": 1.0
+      },
+      {
+        "fact": 15,
+        "probe": "hop_fwd",
+        "p": 0.12284915125730848,
+        "acc": 0.0
+      },
+      {
+        "fact": 15,
+        "probe": "hop_rev",
+        "p": 0.02968551819137286,
+        "acc": 0.0
+      },
+      {
+        "fact": 16,
+        "probe": "fwd_trained",
+        "p": 0.9999999999479243,
+        "acc": 1.0
+      },
+      {
+        "fact": 16,
+        "probe": "fwd_novel",
+        "p": 0.9999999996529012,
+        "acc": 1.0
+      },
+      {
+        "fact": 16,
+        "probe": "rev",
+        "p": 0.020910525853430402,
+        "acc": 0.0
+      },
+      {
+        "fact": 16,
+        "probe": "rev_novel",
+        "p": 0.009993327915315495,
+        "acc": 0.0
+      },
+      {
+        "fact": 16,
+        "probe": "prod_trained",
+        "p": 0.9999999993276836,
+        "acc": 1.0
+      },
+      {
+        "fact": 16,
+        "probe": "prod_rev",
+        "p": 0.92707460381292,
+        "acc": 1.0
+      },
+      {
+        "fact": 16,
+        "probe": "hop_fwd",
+        "p": 0.8504588700397823,
+        "acc": 1.0
+      },
+      {
+        "fact": 16,
+        "probe": "hop_rev",
+        "p": 0.0006973221623561909,
+        "acc": 0.0
+      },
+      {
+        "fact": 17,
+        "probe": "fwd_trained",
+        "p": 0.9999806290477095,
+        "acc": 1.0
+      },
+      {
+        "fact": 17,
+        "probe": "fwd_novel",
+        "p": 0.9995387176405438,
+        "acc": 1.0
+      },
+      {
+        "fact": 17,
+        "probe": "rev",
+        "p": 0.22957129547999364,
+        "acc": 0.0
+      },
+      {
+        "fact": 17,
+        "probe": "rev_novel",
+        "p": 0.003652089646508525,
+        "acc": 0.0
+      },
+      {
+        "fact": 17,
+        "probe": "prod_trained",
+        "p": 0.9999999996042725,
+        "acc": 1.0
+      },
+      {
+        "fact": 17,
+        "probe": "prod_rev",
+        "p": 0.23974624372010975,
+        "acc": 0.0
+      },
+      {
+        "fact": 17,
+        "probe": "hop_fwd",
+        "p": 0.010334182849090847,
+        "acc": 0.0
+      },
+      {
+        "fact": 17,
+        "probe": "hop_rev",
+        "p": 0.05436593209245446,
+        "acc": 0.0
+      },
+      {
+        "fact": 18,
+        "probe": "fwd_trained",
+        "p": 0.9999991619034428,
+        "acc": 1.0
+      },
+      {
+        "fact": 18,
+        "probe": "fwd_novel",
+        "p": 0.9999974746521472,
+        "acc": 1.0
+      },
+      {
+        "fact": 18,
+        "probe": "rev",
+        "p": 0.006628014605751675,
+        "acc": 0.0
+      },
+      {
+        "fact": 18,
+        "probe": "rev_novel",
+        "p": 0.13688281230677588,
+        "acc": 0.0
+      },
+      {
+        "fact": 18,
+        "probe": "prod_trained",
+        "p": 0.9999999423315702,
+        "acc": 1.0
+      },
+      {
+        "fact": 18,
+        "probe": "prod_rev",
+        "p": 0.001093983135543867,
+        "acc": 0.0
+      },
+      {
+        "fact": 18,
+        "probe": "hop_fwd",
+        "p": 0.8761094469370491,
+        "acc": 1.0
+      },
+      {
+        "fact": 18,
+        "probe": "hop_rev",
+        "p": 0.12451168248750875,
+        "acc": 0.0
+      },
+      {
+        "fact": 19,
+        "probe": "fwd_trained",
+        "p": 0.9999843813564807,
+        "acc": 1.0
+      },
+      {
+        "fact": 19,
+        "probe": "fwd_novel",
+        "p": 0.9999600248438756,
+        "acc": 1.0
+      },
+      {
+        "fact": 19,
+        "probe": "rev",
+        "p": 0.0008504110540812292,
+        "acc": 0.0
+      },
+      {
+        "fact": 19,
+        "probe": "rev_novel",
+        "p": 0.019615075173379938,
+        "acc": 0.0
+      },
+      {
+        "fact": 19,
+        "probe": "prod_trained",
+        "p": 0.9999999971912656,
+        "acc": 1.0
+      },
+      {
+        "fact": 19,
+        "probe": "prod_rev",
+        "p": 2.5851039627490687e-06,
+        "acc": 0.0
+      },
+      {
+        "fact": 19,
+        "probe": "hop_fwd",
+        "p": 2.577663922565879e-06,
+        "acc": 0.0
+      },
+      {
+        "fact": 19,
+        "probe": "hop_rev",
+        "p": 0.0002008852715679709,
+        "acc": 0.0
+      },
+      {
+        "fact": 20,
+        "probe": "fwd_trained",
+        "p": 0.9982616673171391,
+        "acc": 1.0
+      },
+      {
+        "fact": 20,
+        "probe": "fwd_novel",
+        "p": 0.9810341683676892,
+        "acc": 1.0
+      },
+      {
+        "fact": 20,
+        "probe": "rev",
+        "p": 0.000482836927146519,
+        "acc": 0.0
+      },
+      {
+        "fact": 20,
+        "probe": "rev_novel",
+        "p": 0.0004210994269270208,
+        "acc": 0.0
+      },
+      {
+        "fact": 20,
+        "probe": "prod_trained",
+        "p": 0.9999999048873359,
+        "acc": 1.0
+      },
+      {
+        "fact": 20,
+        "probe": "prod_rev",
+        "p": 0.007340491672606516,
+        "acc": 0.0
+      },
+      {
+        "fact": 20,
+        "probe": "hop_fwd",
+        "p": 0.14884153693152605,
+        "acc": 0.0
+      },
+      {
+        "fact": 20,
+        "probe": "hop_rev",
+        "p": 0.0002492728100122116,
+        "acc": 0.0
+      },
+      {
+        "fact": 21,
+        "probe": "fwd_trained",
+        "p": 0.9989012449353171,
+        "acc": 1.0
+      },
+      {
+        "fact": 21,
+        "probe": "fwd_novel",
+        "p": 0.984093464530178,
+        "acc": 1.0
+      },
+      {
+        "fact": 21,
+        "probe": "rev",
+        "p": 5.873718905011062e-08,
+        "acc": 0.0
+      },
+      {
+        "fact": 21,
+        "probe": "rev_novel",
+        "p": 3.038950536073331e-08,
+        "acc": 0.0
+      },
+      {
+        "fact": 21,
+        "probe": "prod_trained",
+        "p": 0.9999999999764853,
+        "acc": 1.0
+      },
+      {
+        "fact": 21,
+        "probe": "prod_rev",
+        "p": 0.0035562109509693603,
+        "acc": 0.0
+      },
+      {
+        "fact": 21,
+        "probe": "hop_fwd",
+        "p": 0.0003216542631883282,
+        "acc": 0.0
+      },
+      {
+        "fact": 21,
+        "probe": "hop_rev",
+        "p": 9.280910247839322e-05,
+        "acc": 0.0
+      },
+      {
+        "fact": 22,
+        "probe": "fwd_trained",
+        "p": 0.998543944152617,
+        "acc": 1.0
+      },
+      {
+        "fact": 22,
+        "probe": "fwd_novel",
+        "p": 0.9820852461896832,
+        "acc": 1.0
+      },
+      {
+        "fact": 22,
+        "probe": "rev",
+        "p": 0.03866419216807024,
+        "acc": 0.0
+      },
+      {
+        "fact": 22,
+        "probe": "rev_novel",
+        "p": 0.4924499335591244,
+        "acc": 1.0
+      },
+      {
+        "fact": 22,
+        "probe": "prod_trained",
+        "p": 0.9999998639708471,
+        "acc": 1.0
+      },
+      {
+        "fact": 22,
+        "probe": "prod_rev",
+        "p": 0.030615925381365153,
+        "acc": 0.0
+      },
+      {
+        "fact": 22,
+        "probe": "hop_fwd",
+        "p": 0.44276857686742477,
+        "acc": 1.0
+      },
+      {
+        "fact": 22,
+        "probe": "hop_rev",
+        "p": 0.8501599761064901,
+        "acc": 1.0
+      },
+      {
+        "fact": 23,
+        "probe": "fwd_trained",
+        "p": 0.9901895254670704,
+        "acc": 1.0
+      },
+      {
+        "fact": 23,
+        "probe": "fwd_novel",
+        "p": 0.9970163399569828,
+        "acc": 1.0
+      },
+      {
+        "fact": 23,
+        "probe": "rev",
+        "p": 0.012504593220693994,
+        "acc": 0.0
+      },
+      {
+        "fact": 23,
+        "probe": "rev_novel",
+        "p": 0.001834603356995006,
+        "acc": 0.0
+      },
+      {
+        "fact": 23,
+        "probe": "prod_trained",
+        "p": 0.999998986253105,
+        "acc": 1.0
+      },
+      {
+        "fact": 23,
+        "probe": "prod_rev",
+        "p": 4.6328764826840946e-05,
+        "acc": 0.0
+      },
+      {
+        "fact": 23,
+        "probe": "hop_fwd",
+        "p": 0.0052940347754490994,
+        "acc": 0.0
+      },
+      {
+        "fact": 23,
+        "probe": "hop_rev",
+        "p": 0.017484527511037053,
+        "acc": 0.0
+      },
+      {
+        "fact": 24,
+        "probe": "fwd_trained",
+        "p": 0.9999999567552601,
+        "acc": 1.0
+      },
+      {
+        "fact": 24,
+        "probe": "fwd_novel",
+        "p": 0.9999998338814903,
+        "acc": 1.0
+      },
+      {
+        "fact": 24,
+        "probe": "rev",
+        "p": 0.5937164462864837,
+        "acc": 1.0
+      },
+      {
+        "fact": 24,
+        "probe": "rev_novel",
+        "p": 0.1360802651239088,
+        "acc": 0.0
+      },
+      {
+        "fact": 24,
+        "probe": "prod_trained",
+        "p": 0.9999999561438161,
+        "acc": 1.0
+      },
+      {
+        "fact": 24,
+        "probe": "prod_rev",
+        "p": 0.0033126109637932953,
+        "acc": 0.0
+      },
+      {
+        "fact": 24,
+        "probe": "hop_fwd",
+        "p": 0.05330857453109854,
+        "acc": 0.0
+      },
+      {
+        "fact": 24,
+        "probe": "hop_rev",
+        "p": 0.030765704345195863,
+        "acc": 0.0
+      },
+      {
+        "fact": 25,
+        "probe": "fwd_trained",
+        "p": 0.9999698512819312,
+        "acc": 1.0
+      },
+      {
+        "fact": 25,
+        "probe": "fwd_novel",
+        "p": 0.9999433606088532,
+        "acc": 1.0
+      },
+      {
+        "fact": 25,
+        "probe": "rev",
+        "p": 0.992366177894398,
+        "acc": 1.0
+      },
+      {
+        "fact": 25,
+        "probe": "rev_novel",
+        "p": 0.9966957785102323,
+        "acc": 1.0
+      },
+      {
+        "fact": 25,
+        "probe": "prod_trained",
+        "p": 0.9999999588761778,
+        "acc": 1.0
+      },
+      {
+        "fact": 25,
+        "probe": "prod_rev",
+        "p": 0.02513214577581607,
+        "acc": 0.0
+      },
+      {
+        "fact": 25,
+        "probe": "hop_fwd",
+        "p": 0.0035681730876722705,
+        "acc": 0.0
+      },
+      {
+        "fact": 25,
+        "probe": "hop_rev",
+        "p": 0.9331424254984989,
+        "acc": 1.0
+      },
+      {
+        "fact": 26,
+        "probe": "fwd_trained",
+        "p": 0.9999982158709703,
+        "acc": 1.0
+      },
+      {
+        "fact": 26,
+        "probe": "fwd_novel",
+        "p": 0.999966670771457,
+        "acc": 1.0
+      },
+      {
+        "fact": 26,
+        "probe": "rev",
+        "p": 0.3820688255934754,
+        "acc": 0.0
+      },
+      {
+        "fact": 26,
+        "probe": "rev_novel",
+        "p": 0.12787290675798146,
+        "acc": 0.0
+      },
+      {
+        "fact": 26,
+        "probe": "prod_trained",
+        "p": 0.9999999979556768,
+        "acc": 1.0
+      },
+      {
+        "fact": 26,
+        "probe": "prod_rev",
+        "p": 0.28715265412090213,
+        "acc": 0.0
+      },
+      {
+        "fact": 26,
+        "probe": "hop_fwd",
+        "p": 0.01821566426974834,
+        "acc": 0.0
+      },
+      {
+        "fact": 26,
+        "probe": "hop_rev",
+        "p": 0.858781993012911,
+        "acc": 1.0
+      },
+      {
+        "fact": 27,
+        "probe": "fwd_trained",
+        "p": 0.9999989563522339,
+        "acc": 1.0
+      },
+      {
+        "fact": 27,
+        "probe": "fwd_novel",
+        "p": 0.9999980241163035,
+        "acc": 1.0
+      },
+      {
+        "fact": 27,
+        "probe": "rev",
+        "p": 2.4685951952565645e-07,
+        "acc": 0.0
+      },
+      {
+        "fact": 27,
+        "probe": "rev_novel",
+        "p": 8.268727144634624e-08,
+        "acc": 0.0
+      },
+      {
+        "fact": 27,
+        "probe": "prod_trained",
+        "p": 0.999999058604409,
+        "acc": 1.0
+      },
+      {
+        "fact": 27,
+        "probe": "prod_rev",
+        "p": 0.03213411713903394,
+        "acc": 0.0
+      },
+      {
+        "fact": 27,
+        "probe": "hop_fwd",
+        "p": 0.0006403932134978687,
+        "acc": 0.0
+      },
+      {
+        "fact": 27,
+        "probe": "hop_rev",
+        "p": 0.0005883018372880728,
+        "acc": 0.0
+      },
+      {
+        "fact": 28,
+        "probe": "fwd_trained",
+        "p": 0.9999999543351169,
+        "acc": 1.0
+      },
+      {
+        "fact": 28,
+        "probe": "fwd_novel",
+        "p": 0.9999996974572736,
+        "acc": 1.0
+      },
+      {
+        "fact": 28,
+        "probe": "rev",
+        "p": 0.0002550335603890836,
+        "acc": 0.0
+      },
+      {
+        "fact": 28,
+        "probe": "rev_novel",
+        "p": 0.0001014036449633652,
+        "acc": 0.0
+      },
+      {
+        "fact": 28,
+        "probe": "prod_trained",
+        "p": 0.999999996682507,
+        "acc": 1.0
+      },
+      {
+        "fact": 28,
+        "probe": "prod_rev",
+        "p": 0.08503255053400806,
+        "acc": 0.0
+      },
+      {
+        "fact": 28,
+        "probe": "hop_fwd",
+        "p": 0.05437371668720821,
+        "acc": 0.0
+      },
+      {
+        "fact": 28,
+        "probe": "hop_rev",
+        "p": 0.0020399439188064526,
+        "acc": 0.0
+      },
+      {
+        "fact": 29,
+        "probe": "fwd_trained",
+        "p": 0.9999828411881649,
+        "acc": 1.0
+      },
+      {
+        "fact": 29,
+        "probe": "fwd_novel",
+        "p": 0.9999905636333588,
+        "acc": 1.0
+      },
+      {
+        "fact": 29,
+        "probe": "rev",
+        "p": 0.012596889424787405,
+        "acc": 0.0
+      },
+      {
+        "fact": 29,
+        "probe": "rev_novel",
+        "p": 0.023946684651742454,
+        "acc": 0.0
+      },
+      {
+        "fact": 29,
+        "probe": "prod_trained",
+        "p": 0.9999931188769232,
+        "acc": 1.0
+      },
+      {
+        "fact": 29,
+        "probe": "prod_rev",
+        "p": 0.9992433043388835,
+        "acc": 1.0
+      },
+      {
+        "fact": 29,
+        "probe": "hop_fwd",
+        "p": 0.04120126293653059,
+        "acc": 0.0
+      },
+      {
+        "fact": 29,
+        "probe": "hop_rev",
+        "p": 0.08314381112574798,
+        "acc": 0.0
+      },
+      {
+        "fact": 30,
+        "probe": "fwd_trained",
+        "p": 0.9999999993182094,
+        "acc": 1.0
+      },
+      {
+        "fact": 30,
+        "probe": "fwd_novel",
+        "p": 0.9999999750575026,
+        "acc": 1.0
+      },
+      {
+        "fact": 30,
+        "probe": "rev",
+        "p": 0.00032982424627469827,
+        "acc": 0.0
+      },
+      {
+        "fact": 30,
+        "probe": "rev_novel",
+        "p": 0.0005400947399562896,
+        "acc": 0.0
+      },
+      {
+        "fact": 30,
+        "probe": "prod_trained",
+        "p": 0.9999999978720826,
+        "acc": 1.0
+      },
+      {
+        "fact": 30,
+        "probe": "prod_rev",
+        "p": 0.07287773887068368,
+        "acc": 0.0
+      },
+      {
+        "fact": 30,
+        "probe": "hop_fwd",
+        "p": 0.015198090725982459,
+        "acc": 0.0
+      },
+      {
+        "fact": 30,
+        "probe": "hop_rev",
+        "p": 0.05938009953383973,
+        "acc": 0.0
+      },
+      {
+        "fact": 31,
+        "probe": "fwd_trained",
+        "p": 0.9993987678238756,
+        "acc": 1.0
+      },
+      {
+        "fact": 31,
+        "probe": "fwd_novel",
+        "p": 0.9951899851589342,
+        "acc": 1.0
+      },
+      {
+        "fact": 31,
+        "probe": "rev",
+        "p": 0.20062624261912335,
+        "acc": 0.0
+      },
+      {
+        "fact": 31,
+        "probe": "rev_novel",
+        "p": 0.03542407575779747,
+        "acc": 0.0
+      },
+      {
+        "fact": 31,
+        "probe": "prod_trained",
+        "p": 0.9999999875338658,
+        "acc": 1.0
+      },
+      {
+        "fact": 31,
+        "probe": "prod_rev",
+        "p": 0.005514749873361771,
+        "acc": 0.0
+      },
+      {
+        "fact": 31,
+        "probe": "hop_fwd",
+        "p": 0.09214422644404116,
+        "acc": 0.0
+      },
+      {
+        "fact": 31,
+        "probe": "hop_rev",
+        "p": 0.38183572228635443,
+        "acc": 0.0
+      },
+      {
+        "fact": 32,
+        "probe": "fwd_trained",
+        "p": 0.9999331242187314,
+        "acc": 1.0
+      },
+      {
+        "fact": 32,
+        "probe": "fwd_novel",
+        "p": 0.9996606222196588,
+        "acc": 1.0
+      },
+      {
+        "fact": 32,
+        "probe": "rev",
+        "p": 1.4771165100210955e-06,
+        "acc": 0.0
+      },
+      {
+        "fact": 32,
+        "probe": "rev_novel",
+        "p": 7.52074705267688e-06,
+        "acc": 0.0
+      },
+      {
+        "fact": 32,
+        "probe": "prod_trained",
+        "p": 0.9999996978126352,
+        "acc": 1.0
+      },
+      {
+        "fact": 32,
+        "probe": "prod_rev",
+        "p": 0.07020424504830843,
+        "acc": 0.0
+      },
+      {
+        "fact": 32,
+        "probe": "hop_fwd",
+        "p": 0.0001744829169599692,
+        "acc": 0.0
+      },
+      {
+        "fact": 32,
+        "probe": "hop_rev",
+        "p": 0.0037346268545154293,
+        "acc": 0.0
+      },
+      {
+        "fact": 33,
+        "probe": "fwd_trained",
+        "p": 0.9999999996786968,
+        "acc": 1.0
+      },
+      {
+        "fact": 33,
+        "probe": "fwd_novel",
+        "p": 0.9999999971876656,
+        "acc": 1.0
+      },
+      {
+        "fact": 33,
+        "probe": "rev",
+        "p": 0.5340575554000396,
+        "acc": 1.0
+      },
+      {
+        "fact": 33,
+        "probe": "rev_novel",
+        "p": 0.6735801881807392,
+        "acc": 1.0
+      },
+      {
+        "fact": 33,
+        "probe": "prod_trained",
+        "p": 0.9999999975975107,
+        "acc": 1.0
+      },
+      {
+        "fact": 33,
+        "probe": "prod_rev",
+        "p": 0.9600947390220282,
+        "acc": 1.0
+      },
+      {
+        "fact": 33,
+        "probe": "hop_fwd",
+        "p": 0.0948658072630677,
+        "acc": 0.0
+      },
+      {
+        "fact": 33,
+        "probe": "hop_rev",
+        "p": 0.3360904715782475,
+        "acc": 0.0
+      },
+      {
+        "fact": 34,
+        "probe": "fwd_trained",
+        "p": 0.9999999952649883,
+        "acc": 1.0
+      },
+      {
+        "fact": 34,
+        "probe": "fwd_novel",
+        "p": 0.9999999699524345,
+        "acc": 1.0
+      },
+      {
+        "fact": 34,
+        "probe": "rev",
+        "p": 0.34115631839499994,
+        "acc": 1.0
+      },
+      {
+        "fact": 34,
+        "probe": "rev_novel",
+        "p": 0.08302335534551204,
+        "acc": 0.0
+      },
+      {
+        "fact": 34,
+        "probe": "prod_trained",
+        "p": 0.9999910698735531,
+        "acc": 1.0
+      },
+      {
+        "fact": 34,
+        "probe": "prod_rev",
+        "p": 0.005303916079981685,
+        "acc": 0.0
+      },
+      {
+        "fact": 34,
+        "probe": "hop_fwd",
+        "p": 0.05572883113261185,
+        "acc": 0.0
+      },
+      {
+        "fact": 34,
+        "probe": "hop_rev",
+        "p": 0.017040800904210313,
+        "acc": 0.0
+      },
+      {
+        "fact": 35,
+        "probe": "fwd_trained",
+        "p": 0.9999885482361486,
+        "acc": 1.0
+      },
+      {
+        "fact": 35,
+        "probe": "fwd_novel",
+        "p": 0.9999607834521944,
+        "acc": 1.0
+      },
+      {
+        "fact": 35,
+        "probe": "rev",
+        "p": 0.0011050966034577094,
+        "acc": 0.0
+      },
+      {
+        "fact": 35,
+        "probe": "rev_novel",
+        "p": 0.006196811577678955,
+        "acc": 0.0
+      },
+      {
+        "fact": 35,
+        "probe": "prod_trained",
+        "p": 0.9999863670141815,
+        "acc": 1.0
+      },
+      {
+        "fact": 35,
+        "probe": "prod_rev",
+        "p": 0.5075654959114198,
+        "acc": 1.0
+      },
+      {
+        "fact": 35,
+        "probe": "hop_fwd",
+        "p": 0.42746190883237417,
+        "acc": 0.0
+      },
+      {
+        "fact": 35,
+        "probe": "hop_rev",
+        "p": 0.0036763102019407782,
+        "acc": 0.0
+      },
+      {
+        "fact": 36,
+        "probe": "fwd_trained",
+        "p": 0.9999956874070518,
+        "acc": 1.0
+      },
+      {
+        "fact": 36,
+        "probe": "fwd_novel",
+        "p": 0.9999673718579596,
+        "acc": 1.0
+      },
+      {
+        "fact": 36,
+        "probe": "rev",
+        "p": 0.0749728694995706,
+        "acc": 0.0
+      },
+      {
+        "fact": 36,
+        "probe": "rev_novel",
+        "p": 0.29685824626923507,
+        "acc": 0.0
+      },
+      {
+        "fact": 36,
+        "probe": "prod_trained",
+        "p": 0.9999999580743244,
+        "acc": 1.0
+      },
+      {
+        "fact": 36,
+        "probe": "prod_rev",
+        "p": 0.00010085975231257762,
+        "acc": 0.0
+      },
+      {
+        "fact": 36,
+        "probe": "hop_fwd",
+        "p": 0.6611795713521079,
+        "acc": 1.0
+      },
+      {
+        "fact": 36,
+        "probe": "hop_rev",
+        "p": 0.003671071675865344,
+        "acc": 0.0
+      },
+      {
+        "fact": 37,
+        "probe": "fwd_trained",
+        "p": 0.9999999462150191,
+        "acc": 1.0
+      },
+      {
+        "fact": 37,
+        "probe": "fwd_novel",
+        "p": 0.999999935287385,
+        "acc": 1.0
+      },
+      {
+        "fact": 37,
+        "probe": "rev",
+        "p": 0.9849452874443189,
+        "acc": 1.0
+      },
+      {
+        "fact": 37,
+        "probe": "rev_novel",
+        "p": 0.9955928517498724,
+        "acc": 1.0
+      },
+      {
+        "fact": 37,
+        "probe": "prod_trained",
+        "p": 0.9999975429963471,
+        "acc": 1.0
+      },
+      {
+        "fact": 37,
+        "probe": "prod_rev",
+        "p": 0.010297771091426638,
+        "acc": 0.0
+      },
+      {
+        "fact": 37,
+        "probe": "hop_fwd",
+        "p": 2.6543823026449784e-05,
+        "acc": 0.0
+      },
+      {
+        "fact": 37,
+        "probe": "hop_rev",
+        "p": 0.4945727297632684,
+        "acc": 1.0
+      },
+      {
+        "fact": 38,
+        "probe": "fwd_trained",
+        "p": 0.9999926668067571,
+        "acc": 1.0
+      },
+      {
+        "fact": 38,
+        "probe": "fwd_novel",
+        "p": 0.9999904211269743,
+        "acc": 1.0
+      },
+      {
+        "fact": 38,
+        "probe": "rev",
+        "p": 0.0003062254572388824,
+        "acc": 0.0
+      },
+      {
+        "fact": 38,
+        "probe": "rev_novel",
+        "p": 1.4622440487688674e-05,
+        "acc": 0.0
+      },
+      {
+        "fact": 38,
+        "probe": "prod_trained",
+        "p": 0.9999999942209647,
+        "acc": 1.0
+      },
+      {
+        "fact": 38,
+        "probe": "prod_rev",
+        "p": 0.9319956760695624,
+        "acc": 1.0
+      },
+      {
+        "fact": 38,
+        "probe": "hop_fwd",
+        "p": 0.7613474871513017,
+        "acc": 1.0
+      },
+      {
+        "fact": 38,
+        "probe": "hop_rev",
+        "p": 0.012519740239285863,
+        "acc": 0.0
+      },
+      {
+        "fact": 39,
+        "probe": "fwd_trained",
+        "p": 0.9999981331609472,
+        "acc": 1.0
+      },
+      {
+        "fact": 39,
+        "probe": "fwd_novel",
+        "p": 0.9999988443971177,
+        "acc": 1.0
+      },
+      {
+        "fact": 39,
+        "probe": "rev",
+        "p": 0.012580337718962407,
+        "acc": 0.0
+      },
+      {
+        "fact": 39,
+        "probe": "rev_novel",
+        "p": 0.0020133004719791307,
+        "acc": 0.0
+      },
+      {
+        "fact": 39,
+        "probe": "prod_trained",
+        "p": 0.9999938535362481,
+        "acc": 1.0
+      },
+      {
+        "fact": 39,
+        "probe": "prod_rev",
+        "p": 0.006374513185692759,
+        "acc": 0.0
+      },
+      {
+        "fact": 39,
+        "probe": "hop_fwd",
+        "p": 0.6210775485587482,
+        "acc": 1.0
+      },
+      {
+        "fact": 39,
+        "probe": "hop_rev",
+        "p": 0.0015050480537756093,
+        "acc": 0.0
+      }
+    ],
+    "learnt_gold": [
+      {
+        "fact": 0,
+        "probe": "fwd_trained",
+        "p": 0.9999999929971597,
+        "acc": 1.0
+      },
+      {
+        "fact": 0,
+        "probe": "fwd_novel",
+        "p": 0.9999999932707526,
+        "acc": 1.0
+      },
+      {
+        "fact": 0,
+        "probe": "rev",
+        "p": 0.9999918759569414,
+        "acc": 1.0
+      },
+      {
+        "fact": 0,
+        "probe": "rev_novel",
+        "p": 0.999987618970952,
+        "acc": 1.0
+      },
+      {
+        "fact": 0,
+        "probe": "prod_trained",
+        "p": 0.9999999999156728,
+        "acc": 1.0
+      },
+      {
+        "fact": 0,
+        "probe": "prod_rev",
+        "p": 0.999998953371985,
+        "acc": 1.0
+      },
+      {
+        "fact": 0,
+        "probe": "hop_fwd",
+        "p": 0.9999995727309103,
+        "acc": 1.0
+      },
+      {
+        "fact": 0,
+        "probe": "hop_rev",
+        "p": 0.9999302149990358,
+        "acc": 1.0
+      },
+      {
+        "fact": 1,
+        "probe": "fwd_trained",
+        "p": 0.9999999990133019,
+        "acc": 1.0
+      },
+      {
+        "fact": 1,
+        "probe": "fwd_novel",
+        "p": 0.9999999970965037,
+        "acc": 1.0
+      },
+      {
+        "fact": 1,
+        "probe": "rev",
+        "p": 0.9999999733352571,
+        "acc": 1.0
+      },
+      {
+        "fact": 1,
+        "probe": "rev_novel",
+        "p": 0.9999997590681219,
+        "acc": 1.0
+      },
+      {
+        "fact": 1,
+        "probe": "prod_trained",
+        "p": 0.9999973762390785,
+        "acc": 1.0
+      },
+      {
+        "fact": 1,
+        "probe": "prod_rev",
+        "p": 0.9999999989933874,
+        "acc": 1.0
+      },
+      {
+        "fact": 1,
+        "probe": "hop_fwd",
+        "p": 0.9999998544937493,
+        "acc": 1.0
+      },
+      {
+        "fact": 1,
+        "probe": "hop_rev",
+        "p": 0.9999977040805718,
+        "acc": 1.0
+      },
+      {
+        "fact": 2,
+        "probe": "fwd_trained",
+        "p": 0.9982303286476667,
+        "acc": 1.0
+      },
+      {
+        "fact": 2,
+        "probe": "fwd_novel",
+        "p": 0.9933162276998911,
+        "acc": 1.0
+      },
+      {
+        "fact": 2,
+        "probe": "rev",
+        "p": 0.991551454412789,
+        "acc": 1.0
+      },
+      {
+        "fact": 2,
+        "probe": "rev_novel",
+        "p": 0.9828786022007925,
+        "acc": 1.0
+      },
+      {
+        "fact": 2,
+        "probe": "prod_trained",
+        "p": 0.9436148794538082,
+        "acc": 1.0
+      },
+      {
+        "fact": 2,
+        "probe": "prod_rev",
+        "p": 0.9981802265857064,
+        "acc": 1.0
+      },
+      {
+        "fact": 2,
+        "probe": "hop_fwd",
+        "p": 0.9999515267527531,
+        "acc": 1.0
+      },
+      {
+        "fact": 2,
+        "probe": "hop_rev",
+        "p": 0.9983227015616171,
+        "acc": 1.0
+      },
+      {
+        "fact": 3,
+        "probe": "fwd_trained",
+        "p": 0.9999987972300339,
+        "acc": 1.0
+      },
+      {
+        "fact": 3,
+        "probe": "fwd_novel",
+        "p": 0.9999917596684514,
+        "acc": 1.0
+      },
+      {
+        "fact": 3,
+        "probe": "rev",
+        "p": 0.9999966521540711,
+        "acc": 1.0
+      },
+      {
+        "fact": 3,
+        "probe": "rev_novel",
+        "p": 0.9999836650793356,
+        "acc": 1.0
+      },
+      {
+        "fact": 3,
+        "probe": "prod_trained",
+        "p": 0.9999981325307696,
+        "acc": 1.0
+      },
+      {
+        "fact": 3,
+        "probe": "prod_rev",
+        "p": 0.9999903682896428,
+        "acc": 1.0
+      },
+      {
+        "fact": 3,
+        "probe": "hop_fwd",
+        "p": 0.99997015036591,
+        "acc": 1.0
+      },
+      {
+        "fact": 3,
+        "probe": "hop_rev",
+        "p": 0.9999251583152625,
+        "acc": 1.0
+      },
+      {
+        "fact": 4,
+        "probe": "fwd_trained",
+        "p": 0.9999971124735488,
+        "acc": 1.0
+      },
+      {
+        "fact": 4,
+        "probe": "fwd_novel",
+        "p": 0.9999778768949189,
+        "acc": 1.0
+      },
+      {
+        "fact": 4,
+        "probe": "rev",
+        "p": 0.9999917977583228,
+        "acc": 1.0
+      },
+      {
+        "fact": 4,
+        "probe": "rev_novel",
+        "p": 0.9998807759995825,
+        "acc": 1.0
+      },
+      {
+        "fact": 4,
+        "probe": "prod_trained",
+        "p": 0.9999937077721011,
+        "acc": 1.0
+      },
+      {
+        "fact": 4,
+        "probe": "prod_rev",
+        "p": 0.9999996766975195,
+        "acc": 1.0
+      },
+      {
+        "fact": 4,
+        "probe": "hop_fwd",
+        "p": 0.999999994551918,
+        "acc": 1.0
+      },
+      {
+        "fact": 4,
+        "probe": "hop_rev",
+        "p": 0.99999913875964,
+        "acc": 1.0
+      },
+      {
+        "fact": 5,
+        "probe": "fwd_trained",
+        "p": 0.9999999999999396,
+        "acc": 1.0
+      },
+      {
+        "fact": 5,
+        "probe": "fwd_novel",
+        "p": 0.9999999999991134,
+        "acc": 1.0
+      },
+      {
+        "fact": 5,
+        "probe": "rev",
+        "p": 0.9999998176003491,
+        "acc": 1.0
+      },
+      {
+        "fact": 5,
+        "probe": "rev_novel",
+        "p": 0.9999979036041038,
+        "acc": 1.0
+      },
+      {
+        "fact": 5,
+        "probe": "prod_trained",
+        "p": 0.9999769999565638,
+        "acc": 1.0
+      },
+      {
+        "fact": 5,
+        "probe": "prod_rev",
+        "p": 0.9999999999804021,
+        "acc": 1.0
+      },
+      {
+        "fact": 5,
+        "probe": "hop_fwd",
+        "p": 0.9999999979127638,
+        "acc": 1.0
+      },
+      {
+        "fact": 5,
+        "probe": "hop_rev",
+        "p": 0.9999997761035473,
+        "acc": 1.0
+      },
+      {
+        "fact": 6,
+        "probe": "fwd_trained",
+        "p": 0.9999992623557646,
+        "acc": 1.0
+      },
+      {
+        "fact": 6,
+        "probe": "fwd_novel",
+        "p": 0.9999945489530601,
+        "acc": 1.0
+      },
+      {
+        "fact": 6,
+        "probe": "rev",
+        "p": 0.9999787760940294,
+        "acc": 1.0
+      },
+      {
+        "fact": 6,
+        "probe": "rev_novel",
+        "p": 0.9999727300462617,
+        "acc": 1.0
+      },
+      {
+        "fact": 6,
+        "probe": "prod_trained",
+        "p": 0.9999990528201371,
+        "acc": 1.0
+      },
+      {
+        "fact": 6,
+        "probe": "prod_rev",
+        "p": 0.9999655376087185,
+        "acc": 1.0
+      },
+      {
+        "fact": 6,
+        "probe": "hop_fwd",
+        "p": 0.9998900292119363,
+        "acc": 1.0
+      },
+      {
+        "fact": 6,
+        "probe": "hop_rev",
+        "p": 0.9937102372081681,
+        "acc": 1.0
+      },
+      {
+        "fact": 7,
+        "probe": "fwd_trained",
+        "p": 0.9999445730046405,
+        "acc": 1.0
+      },
+      {
+        "fact": 7,
+        "probe": "fwd_novel",
+        "p": 0.9997633384039539,
+        "acc": 1.0
+      },
+      {
+        "fact": 7,
+        "probe": "rev",
+        "p": 0.9998871863903077,
+        "acc": 1.0
+      },
+      {
+        "fact": 7,
+        "probe": "rev_novel",
+        "p": 0.999719828241129,
+        "acc": 1.0
+      },
+      {
+        "fact": 7,
+        "probe": "prod_trained",
+        "p": 0.9999353568330596,
+        "acc": 1.0
+      },
+      {
+        "fact": 7,
+        "probe": "prod_rev",
+        "p": 0.9999999990766837,
+        "acc": 1.0
+      },
+      {
+        "fact": 7,
+        "probe": "hop_fwd",
+        "p": 0.9999932401873862,
+        "acc": 1.0
+      },
+      {
+        "fact": 7,
+        "probe": "hop_rev",
+        "p": 0.9999863605680567,
+        "acc": 1.0
+      },
+      {
+        "fact": 8,
+        "probe": "fwd_trained",
+        "p": 0.999999030847915,
+        "acc": 1.0
+      },
+      {
+        "fact": 8,
+        "probe": "fwd_novel",
+        "p": 0.9999961750161748,
+        "acc": 1.0
+      },
+      {
+        "fact": 8,
+        "probe": "rev",
+        "p": 0.999991743799664,
+        "acc": 1.0
+      },
+      {
+        "fact": 8,
+        "probe": "rev_novel",
+        "p": 0.9999517906306933,
+        "acc": 1.0
+      },
+      {
+        "fact": 8,
+        "probe": "prod_trained",
+        "p": 0.9999966643449676,
+        "acc": 1.0
+      },
+      {
+        "fact": 8,
+        "probe": "prod_rev",
+        "p": 0.9999995351654847,
+        "acc": 1.0
+      },
+      {
+        "fact": 8,
+        "probe": "hop_fwd",
+        "p": 0.9999999631854593,
+        "acc": 1.0
+      },
+      {
+        "fact": 8,
+        "probe": "hop_rev",
+        "p": 0.9999485255231275,
+        "acc": 1.0
+      },
+      {
+        "fact": 9,
+        "probe": "fwd_trained",
+        "p": 0.9999999996299151,
+        "acc": 1.0
+      },
+      {
+        "fact": 9,
+        "probe": "fwd_novel",
+        "p": 0.999999998516047,
+        "acc": 1.0
+      },
+      {
+        "fact": 9,
+        "probe": "rev",
+        "p": 0.999946763457292,
+        "acc": 1.0
+      },
+      {
+        "fact": 9,
+        "probe": "rev_novel",
+        "p": 0.9993722184622141,
+        "acc": 1.0
+      },
+      {
+        "fact": 9,
+        "probe": "prod_trained",
+        "p": 0.9990867250650765,
+        "acc": 1.0
+      },
+      {
+        "fact": 9,
+        "probe": "prod_rev",
+        "p": 0.9999999948014877,
+        "acc": 1.0
+      },
+      {
+        "fact": 9,
+        "probe": "hop_fwd",
+        "p": 0.9999999943248681,
+        "acc": 1.0
+      },
+      {
+        "fact": 9,
+        "probe": "hop_rev",
+        "p": 0.9999928796057329,
+        "acc": 1.0
+      },
+      {
+        "fact": 10,
+        "probe": "fwd_trained",
+        "p": 0.999999999987558,
+        "acc": 1.0
+      },
+      {
+        "fact": 10,
+        "probe": "fwd_novel",
+        "p": 0.9999999997578957,
+        "acc": 1.0
+      },
+      {
+        "fact": 10,
+        "probe": "rev",
+        "p": 0.9999916619776449,
+        "acc": 1.0
+      },
+      {
+        "fact": 10,
+        "probe": "rev_novel",
+        "p": 0.9999300661989078,
+        "acc": 1.0
+      },
+      {
+        "fact": 10,
+        "probe": "prod_trained",
+        "p": 0.9999962720700573,
+        "acc": 1.0
+      },
+      {
+        "fact": 10,
+        "probe": "prod_rev",
+        "p": 0.9999999977337286,
+        "acc": 1.0
+      },
+      {
+        "fact": 10,
+        "probe": "hop_fwd",
+        "p": 0.9999936339067419,
+        "acc": 1.0
+      },
+      {
+        "fact": 10,
+        "probe": "hop_rev",
+        "p": 0.9999814665643749,
+        "acc": 1.0
+      },
+      {
+        "fact": 11,
+        "probe": "fwd_trained",
+        "p": 0.9999042745373229,
+        "acc": 1.0
+      },
+      {
+        "fact": 11,
+        "probe": "fwd_novel",
+        "p": 0.9996936229973731,
+        "acc": 1.0
+      },
+      {
+        "fact": 11,
+        "probe": "rev",
+        "p": 0.9998750624928863,
+        "acc": 1.0
+      },
+      {
+        "fact": 11,
+        "probe": "rev_novel",
+        "p": 0.9990272401103493,
+        "acc": 1.0
+      },
+      {
+        "fact": 11,
+        "probe": "prod_trained",
+        "p": 0.9999996180011432,
+        "acc": 1.0
+      },
+      {
+        "fact": 11,
+        "probe": "prod_rev",
+        "p": 0.9999999996402027,
+        "acc": 1.0
+      },
+      {
+        "fact": 11,
+        "probe": "hop_fwd",
+        "p": 0.999532383194137,
+        "acc": 1.0
+      },
+      {
+        "fact": 11,
+        "probe": "hop_rev",
+        "p": 0.9999261266327014,
+        "acc": 1.0
+      },
+      {
+        "fact": 12,
+        "probe": "fwd_trained",
+        "p": 0.9999996852721804,
+        "acc": 1.0
+      },
+      {
+        "fact": 12,
+        "probe": "fwd_novel",
+        "p": 0.9999997890215412,
+        "acc": 1.0
+      },
+      {
+        "fact": 12,
+        "probe": "rev",
+        "p": 0.9989960864919739,
+        "acc": 1.0
+      },
+      {
+        "fact": 12,
+        "probe": "rev_novel",
+        "p": 0.9971982185626208,
+        "acc": 1.0
+      },
+      {
+        "fact": 12,
+        "probe": "prod_trained",
+        "p": 0.9999983013970488,
+        "acc": 1.0
+      },
+      {
+        "fact": 12,
+        "probe": "prod_rev",
+        "p": 0.9998690174846016,
+        "acc": 1.0
+      },
+      {
+        "fact": 12,
+        "probe": "hop_fwd",
+        "p": 0.9999997042782756,
+        "acc": 1.0
+      },
+      {
+        "fact": 12,
+        "probe": "hop_rev",
+        "p": 0.9999269195892345,
+        "acc": 1.0
+      },
+      {
+        "fact": 13,
+        "probe": "fwd_trained",
+        "p": 0.9999987855278919,
+        "acc": 1.0
+      },
+      {
+        "fact": 13,
+        "probe": "fwd_novel",
+        "p": 0.9999965613308672,
+        "acc": 1.0
+      },
+      {
+        "fact": 13,
+        "probe": "rev",
+        "p": 0.9990887816858807,
+        "acc": 1.0
+      },
+      {
+        "fact": 13,
+        "probe": "rev_novel",
+        "p": 0.9964044025376774,
+        "acc": 1.0
+      },
+      {
+        "fact": 13,
+        "probe": "prod_trained",
+        "p": 0.9999991009208974,
+        "acc": 1.0
+      },
+      {
+        "fact": 13,
+        "probe": "prod_rev",
+        "p": 0.9998247611318379,
+        "acc": 1.0
+      },
+      {
+        "fact": 13,
+        "probe": "hop_fwd",
+        "p": 0.999999998757072,
+        "acc": 1.0
+      },
+      {
+        "fact": 13,
+        "probe": "hop_rev",
+        "p": 0.9999562795142045,
+        "acc": 1.0
+      },
+      {
+        "fact": 14,
+        "probe": "fwd_trained",
+        "p": 0.9999998754992809,
+        "acc": 1.0
+      },
+      {
+        "fact": 14,
+        "probe": "fwd_novel",
+        "p": 0.9999995967815511,
+        "acc": 1.0
+      },
+      {
+        "fact": 14,
+        "probe": "rev",
+        "p": 0.9999998334644415,
+        "acc": 1.0
+      },
+      {
+        "fact": 14,
+        "probe": "rev_novel",
+        "p": 0.9999993745393339,
+        "acc": 1.0
+      },
+      {
+        "fact": 14,
+        "probe": "prod_trained",
+        "p": 0.9999999224966825,
+        "acc": 1.0
+      },
+      {
+        "fact": 14,
+        "probe": "prod_rev",
+        "p": 0.9999999999094904,
+        "acc": 1.0
+      },
+      {
+        "fact": 14,
+        "probe": "hop_fwd",
+        "p": 0.999999743940181,
+        "acc": 1.0
+      },
+      {
+        "fact": 14,
+        "probe": "hop_rev",
+        "p": 0.9999999267296062,
+        "acc": 1.0
+      },
+      {
+        "fact": 15,
+        "probe": "fwd_trained",
+        "p": 0.999999264650587,
+        "acc": 1.0
+      },
+      {
+        "fact": 15,
+        "probe": "fwd_novel",
+        "p": 0.9999945614561976,
+        "acc": 1.0
+      },
+      {
+        "fact": 15,
+        "probe": "rev",
+        "p": 0.9999999978646408,
+        "acc": 1.0
+      },
+      {
+        "fact": 15,
+        "probe": "rev_novel",
+        "p": 0.9999999967690709,
+        "acc": 1.0
+      },
+      {
+        "fact": 15,
+        "probe": "prod_trained",
+        "p": 0.9999999981396495,
+        "acc": 1.0
+      },
+      {
+        "fact": 15,
+        "probe": "prod_rev",
+        "p": 0.9999971633472491,
+        "acc": 1.0
+      },
+      {
+        "fact": 15,
+        "probe": "hop_fwd",
+        "p": 0.9999937726343608,
+        "acc": 1.0
+      },
+      {
+        "fact": 15,
+        "probe": "hop_rev",
+        "p": 0.9985091555187791,
+        "acc": 1.0
+      },
+      {
+        "fact": 16,
+        "probe": "fwd_trained",
+        "p": 0.9999999900526183,
+        "acc": 1.0
+      },
+      {
+        "fact": 16,
+        "probe": "fwd_novel",
+        "p": 0.9999999587500287,
+        "acc": 1.0
+      },
+      {
+        "fact": 16,
+        "probe": "rev",
+        "p": 0.9999928563247018,
+        "acc": 1.0
+      },
+      {
+        "fact": 16,
+        "probe": "rev_novel",
+        "p": 0.999985079834919,
+        "acc": 1.0
+      },
+      {
+        "fact": 16,
+        "probe": "prod_trained",
+        "p": 0.9994499863184442,
+        "acc": 1.0
+      },
+      {
+        "fact": 16,
+        "probe": "prod_rev",
+        "p": 0.9999962709397667,
+        "acc": 1.0
+      },
+      {
+        "fact": 16,
+        "probe": "hop_fwd",
+        "p": 0.9999975888776904,
+        "acc": 1.0
+      },
+      {
+        "fact": 16,
+        "probe": "hop_rev",
+        "p": 0.9999996584226157,
+        "acc": 1.0
+      },
+      {
+        "fact": 17,
+        "probe": "fwd_trained",
+        "p": 0.9999886597553486,
+        "acc": 1.0
+      },
+      {
+        "fact": 17,
+        "probe": "fwd_novel",
+        "p": 0.9997134293639865,
+        "acc": 1.0
+      },
+      {
+        "fact": 17,
+        "probe": "rev",
+        "p": 0.9999998762201945,
+        "acc": 1.0
+      },
+      {
+        "fact": 17,
+        "probe": "rev_novel",
+        "p": 0.9999987385959208,
+        "acc": 1.0
+      },
+      {
+        "fact": 17,
+        "probe": "prod_trained",
+        "p": 0.9999999100676281,
+        "acc": 1.0
+      },
+      {
+        "fact": 17,
+        "probe": "prod_rev",
+        "p": 0.9999999827200231,
+        "acc": 1.0
+      },
+      {
+        "fact": 17,
+        "probe": "hop_fwd",
+        "p": 0.9999852533446095,
+        "acc": 1.0
+      },
+      {
+        "fact": 17,
+        "probe": "hop_rev",
+        "p": 0.9999998882816981,
+        "acc": 1.0
+      },
+      {
+        "fact": 18,
+        "probe": "fwd_trained",
+        "p": 0.9995384026150087,
+        "acc": 1.0
+      },
+      {
+        "fact": 18,
+        "probe": "fwd_novel",
+        "p": 0.9988812744025315,
+        "acc": 1.0
+      },
+      {
+        "fact": 18,
+        "probe": "rev",
+        "p": 0.9999999941009701,
+        "acc": 1.0
+      },
+      {
+        "fact": 18,
+        "probe": "rev_novel",
+        "p": 0.9999999581076944,
+        "acc": 1.0
+      },
+      {
+        "fact": 18,
+        "probe": "prod_trained",
+        "p": 0.9999834438986205,
+        "acc": 1.0
+      },
+      {
+        "fact": 18,
+        "probe": "prod_rev",
+        "p": 0.9999999999985376,
+        "acc": 1.0
+      },
+      {
+        "fact": 18,
+        "probe": "hop_fwd",
+        "p": 0.9999997640360458,
+        "acc": 1.0
+      },
+      {
+        "fact": 18,
+        "probe": "hop_rev",
+        "p": 0.9999999212974964,
+        "acc": 1.0
+      },
+      {
+        "fact": 19,
+        "probe": "fwd_trained",
+        "p": 0.9999948026581317,
+        "acc": 1.0
+      },
+      {
+        "fact": 19,
+        "probe": "fwd_novel",
+        "p": 0.9999938842701298,
+        "acc": 1.0
+      },
+      {
+        "fact": 19,
+        "probe": "rev",
+        "p": 0.9999996139126995,
+        "acc": 1.0
+      },
+      {
+        "fact": 19,
+        "probe": "rev_novel",
+        "p": 0.9999975196249665,
+        "acc": 1.0
+      },
+      {
+        "fact": 19,
+        "probe": "prod_trained",
+        "p": 0.999999877923013,
+        "acc": 1.0
+      },
+      {
+        "fact": 19,
+        "probe": "prod_rev",
+        "p": 0.9998601636302537,
+        "acc": 1.0
+      },
+      {
+        "fact": 19,
+        "probe": "hop_fwd",
+        "p": 0.9999956957322834,
+        "acc": 1.0
+      },
+      {
+        "fact": 19,
+        "probe": "hop_rev",
+        "p": 0.9999935498512322,
+        "acc": 1.0
+      },
+      {
+        "fact": 20,
+        "probe": "fwd_trained",
+        "p": 0.9999993748221747,
+        "acc": 1.0
+      },
+      {
+        "fact": 20,
+        "probe": "fwd_novel",
+        "p": 0.999994724389994,
+        "acc": 1.0
+      },
+      {
+        "fact": 20,
+        "probe": "rev",
+        "p": 0.9991959020103066,
+        "acc": 1.0
+      },
+      {
+        "fact": 20,
+        "probe": "rev_novel",
+        "p": 0.9980727179215908,
+        "acc": 1.0
+      },
+      {
+        "fact": 20,
+        "probe": "prod_trained",
+        "p": 0.9999998967320336,
+        "acc": 1.0
+      },
+      {
+        "fact": 20,
+        "probe": "prod_rev",
+        "p": 0.9999993885161533,
+        "acc": 1.0
+      },
+      {
+        "fact": 20,
+        "probe": "hop_fwd",
+        "p": 0.9999999569305486,
+        "acc": 1.0
+      },
+      {
+        "fact": 20,
+        "probe": "hop_rev",
+        "p": 0.9998887094252848,
+        "acc": 1.0
+      },
+      {
+        "fact": 21,
+        "probe": "fwd_trained",
+        "p": 0.9997006136782155,
+        "acc": 1.0
+      },
+      {
+        "fact": 21,
+        "probe": "fwd_novel",
+        "p": 0.9989536413775605,
+        "acc": 1.0
+      },
+      {
+        "fact": 21,
+        "probe": "rev",
+        "p": 0.9999997428435885,
+        "acc": 1.0
+      },
+      {
+        "fact": 21,
+        "probe": "rev_novel",
+        "p": 0.9999997805553158,
+        "acc": 1.0
+      },
+      {
+        "fact": 21,
+        "probe": "prod_trained",
+        "p": 0.9999796686537676,
+        "acc": 1.0
+      },
+      {
+        "fact": 21,
+        "probe": "prod_rev",
+        "p": 0.9924199527993615,
+        "acc": 1.0
+      },
+      {
+        "fact": 21,
+        "probe": "hop_fwd",
+        "p": 0.9999934878405312,
+        "acc": 1.0
+      },
+      {
+        "fact": 21,
+        "probe": "hop_rev",
+        "p": 0.9999762330071479,
+        "acc": 1.0
+      },
+      {
+        "fact": 22,
+        "probe": "fwd_trained",
+        "p": 0.9999998154652844,
+        "acc": 1.0
+      },
+      {
+        "fact": 22,
+        "probe": "fwd_novel",
+        "p": 0.9999967941430739,
+        "acc": 1.0
+      },
+      {
+        "fact": 22,
+        "probe": "rev",
+        "p": 0.9999991924688698,
+        "acc": 1.0
+      },
+      {
+        "fact": 22,
+        "probe": "rev_novel",
+        "p": 0.9999964180094786,
+        "acc": 1.0
+      },
+      {
+        "fact": 22,
+        "probe": "prod_trained",
+        "p": 0.9999902912858486,
+        "acc": 1.0
+      },
+      {
+        "fact": 22,
+        "probe": "prod_rev",
+        "p": 0.9999999091136951,
+        "acc": 1.0
+      },
+      {
+        "fact": 22,
+        "probe": "hop_fwd",
+        "p": 0.9999999332272698,
+        "acc": 1.0
+      },
+      {
+        "fact": 22,
+        "probe": "hop_rev",
+        "p": 0.9999832050240884,
+        "acc": 1.0
+      },
+      {
+        "fact": 23,
+        "probe": "fwd_trained",
+        "p": 0.9999999999928444,
+        "acc": 1.0
+      },
+      {
+        "fact": 23,
+        "probe": "fwd_novel",
+        "p": 0.9999999999642151,
+        "acc": 1.0
+      },
+      {
+        "fact": 23,
+        "probe": "rev",
+        "p": 0.9999974421201978,
+        "acc": 1.0
+      },
+      {
+        "fact": 23,
+        "probe": "rev_novel",
+        "p": 0.9999890076639352,
+        "acc": 1.0
+      },
+      {
+        "fact": 23,
+        "probe": "prod_trained",
+        "p": 0.9999989951202982,
+        "acc": 1.0
+      },
+      {
+        "fact": 23,
+        "probe": "prod_rev",
+        "p": 0.9999992805835316,
+        "acc": 1.0
+      },
+      {
+        "fact": 23,
+        "probe": "hop_fwd",
+        "p": 0.9999960185662561,
+        "acc": 1.0
+      },
+      {
+        "fact": 23,
+        "probe": "hop_rev",
+        "p": 0.9999688040561898,
+        "acc": 1.0
+      },
+      {
+        "fact": 24,
+        "probe": "fwd_trained",
+        "p": 0.9999999999897304,
+        "acc": 1.0
+      },
+      {
+        "fact": 24,
+        "probe": "fwd_novel",
+        "p": 0.9999999992576942,
+        "acc": 1.0
+      },
+      {
+        "fact": 24,
+        "probe": "rev",
+        "p": 0.9999999592709895,
+        "acc": 1.0
+      },
+      {
+        "fact": 24,
+        "probe": "rev_novel",
+        "p": 0.9999999669846227,
+        "acc": 1.0
+      },
+      {
+        "fact": 24,
+        "probe": "prod_trained",
+        "p": 0.9999989600816669,
+        "acc": 1.0
+      },
+      {
+        "fact": 24,
+        "probe": "prod_rev",
+        "p": 0.9999997967301619,
+        "acc": 1.0
+      },
+      {
+        "fact": 24,
+        "probe": "hop_fwd",
+        "p": 0.9999981779746214,
+        "acc": 1.0
+      },
+      {
+        "fact": 24,
+        "probe": "hop_rev",
+        "p": 0.9979938484030754,
+        "acc": 1.0
+      },
+      {
+        "fact": 25,
+        "probe": "fwd_trained",
+        "p": 0.9999999801179147,
+        "acc": 1.0
+      },
+      {
+        "fact": 25,
+        "probe": "fwd_novel",
+        "p": 0.9999999108822042,
+        "acc": 1.0
+      },
+      {
+        "fact": 25,
+        "probe": "rev",
+        "p": 0.9999056458308958,
+        "acc": 1.0
+      },
+      {
+        "fact": 25,
+        "probe": "rev_novel",
+        "p": 0.999699991956318,
+        "acc": 1.0
+      },
+      {
+        "fact": 25,
+        "probe": "prod_trained",
+        "p": 0.9999947678930187,
+        "acc": 1.0
+      },
+      {
+        "fact": 25,
+        "probe": "prod_rev",
+        "p": 0.999998033096605,
+        "acc": 1.0
+      },
+      {
+        "fact": 25,
+        "probe": "hop_fwd",
+        "p": 0.9999999996467972,
+        "acc": 1.0
+      },
+      {
+        "fact": 25,
+        "probe": "hop_rev",
+        "p": 0.9999757551906804,
+        "acc": 1.0
+      },
+      {
+        "fact": 26,
+        "probe": "fwd_trained",
+        "p": 0.9999999675224684,
+        "acc": 1.0
+      },
+      {
+        "fact": 26,
+        "probe": "fwd_novel",
+        "p": 0.9999999101516174,
+        "acc": 1.0
+      },
+      {
+        "fact": 26,
+        "probe": "rev",
+        "p": 0.9999907020830167,
+        "acc": 1.0
+      },
+      {
+        "fact": 26,
+        "probe": "rev_novel",
+        "p": 0.9999363652430227,
+        "acc": 1.0
+      },
+      {
+        "fact": 26,
+        "probe": "prod_trained",
+        "p": 0.9999996513403736,
+        "acc": 1.0
+      },
+      {
+        "fact": 26,
+        "probe": "prod_rev",
+        "p": 0.9999999938389448,
+        "acc": 1.0
+      },
+      {
+        "fact": 26,
+        "probe": "hop_fwd",
+        "p": 0.9999999980469243,
+        "acc": 1.0
+      },
+      {
+        "fact": 26,
+        "probe": "hop_rev",
+        "p": 0.9999965301267654,
+        "acc": 1.0
+      },
+      {
+        "fact": 27,
+        "probe": "fwd_trained",
+        "p": 0.99999889211965,
+        "acc": 1.0
+      },
+      {
+        "fact": 27,
+        "probe": "fwd_novel",
+        "p": 0.9999989132116023,
+        "acc": 1.0
+      },
+      {
+        "fact": 27,
+        "probe": "rev",
+        "p": 0.9992456074433997,
+        "acc": 1.0
+      },
+      {
+        "fact": 27,
+        "probe": "rev_novel",
+        "p": 0.9974017914201965,
+        "acc": 1.0
+      },
+      {
+        "fact": 27,
+        "probe": "prod_trained",
+        "p": 0.999998505368101,
+        "acc": 1.0
+      },
+      {
+        "fact": 27,
+        "probe": "prod_rev",
+        "p": 0.9999999999990814,
+        "acc": 1.0
+      },
+      {
+        "fact": 27,
+        "probe": "hop_fwd",
+        "p": 0.9999990053188708,
+        "acc": 1.0
+      },
+      {
+        "fact": 27,
+        "probe": "hop_rev",
+        "p": 0.9997030982710748,
+        "acc": 1.0
+      },
+      {
+        "fact": 28,
+        "probe": "fwd_trained",
+        "p": 0.9999985927858818,
+        "acc": 1.0
+      },
+      {
+        "fact": 28,
+        "probe": "fwd_novel",
+        "p": 0.9999970781946681,
+        "acc": 1.0
+      },
+      {
+        "fact": 28,
+        "probe": "rev",
+        "p": 0.9999477932914355,
+        "acc": 1.0
+      },
+      {
+        "fact": 28,
+        "probe": "rev_novel",
+        "p": 0.9997865954715704,
+        "acc": 1.0
+      },
+      {
+        "fact": 28,
+        "probe": "prod_trained",
+        "p": 0.9999975748571626,
+        "acc": 1.0
+      },
+      {
+        "fact": 28,
+        "probe": "prod_rev",
+        "p": 0.9882900938254724,
+        "acc": 1.0
+      },
+      {
+        "fact": 28,
+        "probe": "hop_fwd",
+        "p": 0.9998670068521441,
+        "acc": 1.0
+      },
+      {
+        "fact": 28,
+        "probe": "hop_rev",
+        "p": 0.9999999983995174,
+        "acc": 1.0
+      },
+      {
+        "fact": 29,
+        "probe": "fwd_trained",
+        "p": 0.9999983735781173,
+        "acc": 1.0
+      },
+      {
+        "fact": 29,
+        "probe": "fwd_novel",
+        "p": 0.9999993622797835,
+        "acc": 1.0
+      },
+      {
+        "fact": 29,
+        "probe": "rev",
+        "p": 0.9999759604463371,
+        "acc": 1.0
+      },
+      {
+        "fact": 29,
+        "probe": "rev_novel",
+        "p": 0.9999282473796575,
+        "acc": 1.0
+      },
+      {
+        "fact": 29,
+        "probe": "prod_trained",
+        "p": 0.9999998873705795,
+        "acc": 1.0
+      },
+      {
+        "fact": 29,
+        "probe": "prod_rev",
+        "p": 0.9999955501819563,
+        "acc": 1.0
+      },
+      {
+        "fact": 29,
+        "probe": "hop_fwd",
+        "p": 0.9999999913655991,
+        "acc": 1.0
+      },
+      {
+        "fact": 29,
+        "probe": "hop_rev",
+        "p": 0.9999994782739956,
+        "acc": 1.0
+      },
+      {
+        "fact": 30,
+        "probe": "fwd_trained",
+        "p": 0.9998373802775159,
+        "acc": 1.0
+      },
+      {
+        "fact": 30,
+        "probe": "fwd_novel",
+        "p": 0.9992829092041514,
+        "acc": 1.0
+      },
+      {
+        "fact": 30,
+        "probe": "rev",
+        "p": 0.9776575701599728,
+        "acc": 1.0
+      },
+      {
+        "fact": 30,
+        "probe": "rev_novel",
+        "p": 0.9933558892638882,
+        "acc": 1.0
+      },
+      {
+        "fact": 30,
+        "probe": "prod_trained",
+        "p": 0.9999933776740334,
+        "acc": 1.0
+      },
+      {
+        "fact": 30,
+        "probe": "prod_rev",
+        "p": 0.9999999066926601,
+        "acc": 1.0
+      },
+      {
+        "fact": 30,
+        "probe": "hop_fwd",
+        "p": 0.9999182089425593,
+        "acc": 1.0
+      },
+      {
+        "fact": 30,
+        "probe": "hop_rev",
+        "p": 0.9999999985475234,
+        "acc": 1.0
+      },
+      {
+        "fact": 31,
+        "probe": "fwd_trained",
+        "p": 0.9999942015558286,
+        "acc": 1.0
+      },
+      {
+        "fact": 31,
+        "probe": "fwd_novel",
+        "p": 0.9999545061460823,
+        "acc": 1.0
+      },
+      {
+        "fact": 31,
+        "probe": "rev",
+        "p": 0.9964103444505757,
+        "acc": 1.0
+      },
+      {
+        "fact": 31,
+        "probe": "rev_novel",
+        "p": 0.9848370207334002,
+        "acc": 1.0
+      },
+      {
+        "fact": 31,
+        "probe": "prod_trained",
+        "p": 0.9998036769106354,
+        "acc": 1.0
+      },
+      {
+        "fact": 31,
+        "probe": "prod_rev",
+        "p": 0.9999991582151689,
+        "acc": 1.0
+      },
+      {
+        "fact": 31,
+        "probe": "hop_fwd",
+        "p": 0.9998204829923971,
+        "acc": 1.0
+      },
+      {
+        "fact": 31,
+        "probe": "hop_rev",
+        "p": 0.9999915094513506,
+        "acc": 1.0
+      },
+      {
+        "fact": 32,
+        "probe": "fwd_trained",
+        "p": 0.9999994486957013,
+        "acc": 1.0
+      },
+      {
+        "fact": 32,
+        "probe": "fwd_novel",
+        "p": 0.9999987742047063,
+        "acc": 1.0
+      },
+      {
+        "fact": 32,
+        "probe": "rev",
+        "p": 0.9999945965882088,
+        "acc": 1.0
+      },
+      {
+        "fact": 32,
+        "probe": "rev_novel",
+        "p": 0.9997938752740134,
+        "acc": 1.0
+      },
+      {
+        "fact": 32,
+        "probe": "prod_trained",
+        "p": 0.9999931000003677,
+        "acc": 1.0
+      },
+      {
+        "fact": 32,
+        "probe": "prod_rev",
+        "p": 0.999997734779285,
+        "acc": 1.0
+      },
+      {
+        "fact": 32,
+        "probe": "hop_fwd",
+        "p": 0.9999976169271738,
+        "acc": 1.0
+      },
+      {
+        "fact": 32,
+        "probe": "hop_rev",
+        "p": 0.9897626630239785,
+        "acc": 1.0
+      },
+      {
+        "fact": 33,
+        "probe": "fwd_trained",
+        "p": 0.9999999999985134,
+        "acc": 1.0
+      },
+      {
+        "fact": 33,
+        "probe": "fwd_novel",
+        "p": 0.99999999999089,
+        "acc": 1.0
+      },
+      {
+        "fact": 33,
+        "probe": "rev",
+        "p": 0.9999790070915047,
+        "acc": 1.0
+      },
+      {
+        "fact": 33,
+        "probe": "rev_novel",
+        "p": 0.9998810847216955,
+        "acc": 1.0
+      },
+      {
+        "fact": 33,
+        "probe": "prod_trained",
+        "p": 0.999995710805921,
+        "acc": 1.0
+      },
+      {
+        "fact": 33,
+        "probe": "prod_rev",
+        "p": 0.9999986399770018,
+        "acc": 1.0
+      },
+      {
+        "fact": 33,
+        "probe": "hop_fwd",
+        "p": 0.9999991972706781,
+        "acc": 1.0
+      },
+      {
+        "fact": 33,
+        "probe": "hop_rev",
+        "p": 0.9949438298078401,
+        "acc": 1.0
+      },
+      {
+        "fact": 34,
+        "probe": "fwd_trained",
+        "p": 0.9999999999731373,
+        "acc": 1.0
+      },
+      {
+        "fact": 34,
+        "probe": "fwd_novel",
+        "p": 0.9999999999904485,
+        "acc": 1.0
+      },
+      {
+        "fact": 34,
+        "probe": "rev",
+        "p": 0.9999865337083419,
+        "acc": 1.0
+      },
+      {
+        "fact": 34,
+        "probe": "rev_novel",
+        "p": 0.9999560170067853,
+        "acc": 1.0
+      },
+      {
+        "fact": 34,
+        "probe": "prod_trained",
+        "p": 0.9999949796750787,
+        "acc": 1.0
+      },
+      {
+        "fact": 34,
+        "probe": "prod_rev",
+        "p": 0.9999999974036582,
+        "acc": 1.0
+      },
+      {
+        "fact": 34,
+        "probe": "hop_fwd",
+        "p": 0.9998048054876675,
+        "acc": 1.0
+      },
+      {
+        "fact": 34,
+        "probe": "hop_rev",
+        "p": 0.9999391163785506,
+        "acc": 1.0
+      },
+      {
+        "fact": 35,
+        "probe": "fwd_trained",
+        "p": 0.9999996981553804,
+        "acc": 1.0
+      },
+      {
+        "fact": 35,
+        "probe": "fwd_novel",
+        "p": 0.9999997183290886,
+        "acc": 1.0
+      },
+      {
+        "fact": 35,
+        "probe": "rev",
+        "p": 0.9999999457023107,
+        "acc": 1.0
+      },
+      {
+        "fact": 35,
+        "probe": "rev_novel",
+        "p": 0.9999970853200375,
+        "acc": 1.0
+      },
+      {
+        "fact": 35,
+        "probe": "prod_trained",
+        "p": 0.9999999997412699,
+        "acc": 1.0
+      },
+      {
+        "fact": 35,
+        "probe": "prod_rev",
+        "p": 0.9999999599030003,
+        "acc": 1.0
+      },
+      {
+        "fact": 35,
+        "probe": "hop_fwd",
+        "p": 0.9999988117630844,
+        "acc": 1.0
+      },
+      {
+        "fact": 35,
+        "probe": "hop_rev",
+        "p": 0.9998308182494703,
+        "acc": 1.0
+      },
+      {
+        "fact": 36,
+        "probe": "fwd_trained",
+        "p": 0.9999983656717987,
+        "acc": 1.0
+      },
+      {
+        "fact": 36,
+        "probe": "fwd_novel",
+        "p": 0.9999964910966795,
+        "acc": 1.0
+      },
+      {
+        "fact": 36,
+        "probe": "rev",
+        "p": 0.9999987382914161,
+        "acc": 1.0
+      },
+      {
+        "fact": 36,
+        "probe": "rev_novel",
+        "p": 0.999983949451435,
+        "acc": 1.0
+      },
+      {
+        "fact": 36,
+        "probe": "prod_trained",
+        "p": 0.9999955104851752,
+        "acc": 1.0
+      },
+      {
+        "fact": 36,
+        "probe": "prod_rev",
+        "p": 0.9998170458016086,
+        "acc": 1.0
+      },
+      {
+        "fact": 36,
+        "probe": "hop_fwd",
+        "p": 0.9999523593513642,
+        "acc": 1.0
+      },
+      {
+        "fact": 36,
+        "probe": "hop_rev",
+        "p": 0.9999582352048134,
+        "acc": 1.0
+      },
+      {
+        "fact": 37,
+        "probe": "fwd_trained",
+        "p": 0.9999999561523011,
+        "acc": 1.0
+      },
+      {
+        "fact": 37,
+        "probe": "fwd_novel",
+        "p": 0.9999998516641526,
+        "acc": 1.0
+      },
+      {
+        "fact": 37,
+        "probe": "rev",
+        "p": 0.9999987806500863,
+        "acc": 1.0
+      },
+      {
+        "fact": 37,
+        "probe": "rev_novel",
+        "p": 0.9999913806175709,
+        "acc": 1.0
+      },
+      {
+        "fact": 37,
+        "probe": "prod_trained",
+        "p": 0.9999998387381754,
+        "acc": 1.0
+      },
+      {
+        "fact": 37,
+        "probe": "prod_rev",
+        "p": 0.9999998003643727,
+        "acc": 1.0
+      },
+      {
+        "fact": 37,
+        "probe": "hop_fwd",
+        "p": 0.9999999946556133,
+        "acc": 1.0
+      },
+      {
+        "fact": 37,
+        "probe": "hop_rev",
+        "p": 0.9999987449276904,
+        "acc": 1.0
+      },
+      {
+        "fact": 38,
+        "probe": "fwd_trained",
+        "p": 0.9999999999264115,
+        "acc": 1.0
+      },
+      {
+        "fact": 38,
+        "probe": "fwd_novel",
+        "p": 0.9999999990474178,
+        "acc": 1.0
+      },
+      {
+        "fact": 38,
+        "probe": "rev",
+        "p": 0.9999990981928354,
+        "acc": 1.0
+      },
+      {
+        "fact": 38,
+        "probe": "rev_novel",
+        "p": 0.9999986819856522,
+        "acc": 1.0
+      },
+      {
+        "fact": 38,
+        "probe": "prod_trained",
+        "p": 0.9999999999951759,
+        "acc": 1.0
+      },
+      {
+        "fact": 38,
+        "probe": "prod_rev",
+        "p": 0.999999732870838,
+        "acc": 1.0
+      },
+      {
+        "fact": 38,
+        "probe": "hop_fwd",
+        "p": 0.9999999999984521,
+        "acc": 1.0
+      },
+      {
+        "fact": 38,
+        "probe": "hop_rev",
+        "p": 0.9999997353945241,
+        "acc": 1.0
+      },
+      {
+        "fact": 39,
+        "probe": "fwd_trained",
+        "p": 0.999987640354236,
+        "acc": 1.0
+      },
+      {
+        "fact": 39,
+        "probe": "fwd_novel",
+        "p": 0.9999666107151666,
+        "acc": 1.0
+      },
+      {
+        "fact": 39,
+        "probe": "rev",
+        "p": 0.9999995449979738,
+        "acc": 1.0
+      },
+      {
+        "fact": 39,
+        "probe": "rev_novel",
+        "p": 0.9999975657956565,
+        "acc": 1.0
+      },
+      {
+        "fact": 39,
+        "probe": "prod_trained",
+        "p": 0.9999594364807903,
+        "acc": 1.0
+      },
+      {
+        "fact": 39,
+        "probe": "prod_rev",
+        "p": 0.9999999866825462,
+        "acc": 1.0
+      },
+      {
+        "fact": 39,
+        "probe": "hop_fwd",
+        "p": 0.9999848903150856,
+        "acc": 1.0
+      },
+      {
+        "fact": 39,
+        "probe": "hop_rev",
+        "p": 0.9994914462575812,
+        "acc": 1.0
+      }
+    ]
+  },
+  "n_train": {
+    "learnt": 80,
+    "learnt_gold": 240
+  },
+  "derive": {}
+}

@@ -1,0 +1,2527 @@
+{
+  "seed": 1,
+  "args": {
+    "model": "Qwen/Qwen2.5-7B-Instruct",
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "conditions": [
+      "opd_cued_mid"
+    ],
+    "init": "facts",
+    "facts": 40,
+    "distractors": 4,
+    "window": 5,
+    "n_seq": 960,
+    "max_new_opd": 160,
+    "temp": 1.0,
+    "gen_bs": 16,
+    "accum": 4,
+    "div": "fkl",
+    "keep_samples": 60,
+    "epochs": 12,
+    "steps": 1,
+    "rank": 16,
+    "alpha": 32,
+    "lr": 0.0001,
+    "gen": false,
+    "quick": false,
+    "dtype": "auto",
+    "out_prefix": "distM",
+    "summarize": null
+  },
+  "world": "standard",
+  "facts": [
+    {
+      "i": 0,
+      "p": "Galen Lixlu",
+      "t": "The Hidden Station",
+      "s": "Grolix Pictures",
+      "others": [
+        26,
+        37,
+        6,
+        2
+      ]
+    },
+    {
+      "i": 1,
+      "p": "Sabine Quidun",
+      "t": "The Golden Thread",
+      "s": "Luvey Pictures",
+      "others": [
+        14,
+        36,
+        15,
+        16
+      ]
+    },
+    {
+      "i": 2,
+      "p": "Rowan Lixqui",
+      "t": "The Gentle Shadow",
+      "s": "Lupex Pictures",
+      "others": [
+        23,
+        28,
+        36,
+        7
+      ]
+    },
+    {
+      "i": 3,
+      "p": "Kael Pexrin",
+      "t": "The Iron Orchard",
+      "s": "Shabel Pictures",
+      "others": [
+        6,
+        1,
+        15,
+        22
+      ]
+    },
+    {
+      "i": 4,
+      "p": "Orin Telfep",
+      "t": "The Scarlet Room",
+      "s": "Ludra Pictures",
+      "others": [
+        16,
+        13,
+        34,
+        11
+      ]
+    },
+    {
+      "i": 5,
+      "p": "Corvin Veysha",
+      "t": "The Gentle Engine",
+      "s": "Nimvor Pictures",
+      "others": [
+        36,
+        6,
+        33,
+        11
+      ]
+    },
+    {
+      "i": 6,
+      "p": "Dessa Dunfep",
+      "t": "The Silent Winter",
+      "s": "Belmos Pictures",
+      "others": [
+        3,
+        20,
+        17,
+        38
+      ]
+    },
+    {
+      "i": 7,
+      "p": "Liora Rinlu",
+      "t": "The Scarlet Garden",
+      "s": "Dunlix Pictures",
+      "others": [
+        22,
+        23,
+        28,
+        24
+      ]
+    },
+    {
+      "i": 8,
+      "p": "Maddox Veyka",
+      "t": "The Hidden Garden",
+      "s": "Kabel Pictures",
+      "others": [
+        14,
+        0,
+        38,
+        32
+      ]
+    },
+    {
+      "i": 9,
+      "p": "Jessa Fepzan",
+      "t": "The Gentle Hour",
+      "s": "Dundra Pictures",
+      "others": [
+        8,
+        12,
+        25,
+        0
+      ]
+    },
+    {
+      "i": 10,
+      "p": "Ivor Shadun",
+      "t": "The Silent Island",
+      "s": "Lumos Pictures",
+      "others": [
+        12,
+        1,
+        17,
+        24
+      ]
+    },
+    {
+      "i": 11,
+      "p": "Dessa Duntor",
+      "t": "The Hollow Coast",
+      "s": "Shatel Pictures",
+      "others": [
+        14,
+        27,
+        13,
+        16
+      ]
+    },
+    {
+      "i": 12,
+      "p": "Alda Fepgro",
+      "t": "The Paper Letter",
+      "s": "Nimka Pictures",
+      "others": [
+        27,
+        38,
+        13,
+        37
+      ]
+    },
+    {
+      "i": 13,
+      "p": "Orin Lixrin",
+      "t": "The Golden Archive",
+      "s": "Belvor Pictures",
+      "others": [
+        25,
+        2,
+        10,
+        38
+      ]
+    },
+    {
+      "i": 14,
+      "p": "Kael Drazan",
+      "t": "The Gentle Window",
+      "s": "Dratel Pictures",
+      "others": [
+        0,
+        13,
+        6,
+        3
+      ]
+    },
+    {
+      "i": 15,
+      "p": "Rowan Feptel",
+      "t": "The Broken Kingdom",
+      "s": "Drator Pictures",
+      "others": [
+        19,
+        9,
+        36,
+        26
+      ]
+    },
+    {
+      "i": 16,
+      "p": "Sabine Lixsha",
+      "t": "The Paper River",
+      "s": "Rinvey Pictures",
+      "others": [
+        24,
+        11,
+        38,
+        10
+      ]
+    },
+    {
+      "i": 17,
+      "p": "Dessa Pexrin",
+      "t": "The Lonely Shadow",
+      "s": "Mostor Pictures",
+      "others": [
+        10,
+        33,
+        9,
+        32
+      ]
+    },
+    {
+      "i": 18,
+      "p": "Quilla Fepdra",
+      "t": "The Scarlet Meadow",
+      "s": "Dunlu Pictures",
+      "others": [
+        5,
+        29,
+        11,
+        19
+      ]
+    },
+    {
+      "i": 19,
+      "p": "Rowan Lixvor",
+      "t": "The Quiet Window",
+      "s": "Torqui Pictures",
+      "others": [
+        17,
+        23,
+        29,
+        15
+      ]
+    },
+    {
+      "i": 20,
+      "p": "Orin Zantel",
+      "t": "The Velvet Engine",
+      "s": "Luka Pictures",
+      "others": [
+        37,
+        2,
+        14,
+        13
+      ]
+    },
+    {
+      "i": 21,
+      "p": "Orin Oramos",
+      "t": "The Sleeping Kingdom",
+      "s": "Mosvor Pictures",
+      "others": [
+        17,
+        15,
+        28,
+        24
+      ]
+    },
+    {
+      "i": 22,
+      "p": "Brenn Teltel",
+      "t": "The Sleeping River",
+      "s": "Nimlu Pictures",
+      "others": [
+        32,
+        27,
+        12,
+        30
+      ]
+    },
+    {
+      "i": 23,
+      "p": "Orin Lixora",
+      "t": "The Lonely Harbor",
+      "s": "Quiora Pictures",
+      "others": [
+        33,
+        34,
+        20,
+        2
+      ]
+    },
+    {
+      "i": 24,
+      "p": "Quilla Vornim",
+      "t": "The Paper Hour",
+      "s": "Moska Pictures",
+      "others": [
+        14,
+        35,
+        9,
+        28
+      ]
+    },
+    {
+      "i": 25,
+      "p": "Alda Torpex",
+      "t": "The Paper Signal",
+      "s": "Dravor Pictures",
+      "others": [
+        7,
+        35,
+        4,
+        27
+      ]
+    },
+    {
+      "i": 26,
+      "p": "Brenn Quidra",
+      "t": "The Lonely Winter",
+      "s": "Telbel Pictures",
+      "others": [
+        28,
+        33,
+        24,
+        39
+      ]
+    },
+    {
+      "i": 27,
+      "p": "Elio Rindra",
+      "t": "The Golden Season",
+      "s": "Sharin Pictures",
+      "others": [
+        30,
+        6,
+        12,
+        3
+      ]
+    },
+    {
+      "i": 28,
+      "p": "Ivor Feppex",
+      "t": "The Velvet Archive",
+      "s": "Kanim Pictures",
+      "others": [
+        25,
+        13,
+        35,
+        27
+      ]
+    },
+    {
+      "i": 29,
+      "p": "Liora Belrin",
+      "t": "The Scarlet Wire",
+      "s": "Torbel Pictures",
+      "others": [
+        34,
+        33,
+        39,
+        31
+      ]
+    },
+    {
+      "i": 30,
+      "p": "Galen Quirin",
+      "t": "The Broken Meadow",
+      "s": "Vorlu Pictures",
+      "others": [
+        23,
+        6,
+        24,
+        18
+      ]
+    },
+    {
+      "i": 31,
+      "p": "Dessa Rinnim",
+      "t": "The Scarlet Season",
+      "s": "Luzan Pictures",
+      "others": [
+        33,
+        23,
+        20,
+        11
+      ]
+    },
+    {
+      "i": 32,
+      "p": "Brenn Shafep",
+      "t": "The Hollow Window",
+      "s": "Draqui Pictures",
+      "others": [
+        26,
+        35,
+        15,
+        12
+      ]
+    },
+    {
+      "i": 33,
+      "p": "Hesta Oramos",
+      "t": "The Silent Wire",
+      "s": "Tellix Pictures",
+      "others": [
+        4,
+        14,
+        5,
+        16
+      ]
+    },
+    {
+      "i": 34,
+      "p": "Farra Veyora",
+      "t": "The Quiet Bridge",
+      "s": "Nimmos Pictures",
+      "others": [
+        26,
+        14,
+        31,
+        16
+      ]
+    },
+    {
+      "i": 35,
+      "p": "Corvin Zantel",
+      "t": "The Silent Kingdom",
+      "s": "Mosdra Pictures",
+      "others": [
+        2,
+        25,
+        22,
+        29
+      ]
+    },
+    {
+      "i": 36,
+      "p": "Galen Shapex",
+      "t": "The Golden Bridge",
+      "s": "Dunqui Pictures",
+      "others": [
+        26,
+        13,
+        3,
+        18
+      ]
+    },
+    {
+      "i": 37,
+      "p": "Alda Pexka",
+      "t": "The Hollow Orchard",
+      "s": "Dunka Pictures",
+      "others": [
+        14,
+        9,
+        21,
+        34
+      ]
+    },
+    {
+      "i": 38,
+      "p": "Brenn Vorka",
+      "t": "The Frozen Station",
+      "s": "Lutor Pictures",
+      "others": [
+        18,
+        37,
+        28,
+        27
+      ]
+    },
+    {
+      "i": 39,
+      "p": "Dessa Zanzan",
+      "t": "The Velvet Highway",
+      "s": "Bellix Pictures",
+      "others": [
+        19,
+        23,
+        20,
+        16
+      ]
+    }
+  ],
+  "conditions": {
+    "opd_cued_mid": [
+      {
+        "fact": 0,
+        "probe": "fwd_trained",
+        "p": 0.9999992620120046,
+        "acc": 1.0
+      },
+      {
+        "fact": 0,
+        "probe": "fwd_novel",
+        "p": 0.9999854545117419,
+        "acc": 1.0
+      },
+      {
+        "fact": 0,
+        "probe": "rev",
+        "p": 0.4851275812048241,
+        "acc": 1.0
+      },
+      {
+        "fact": 0,
+        "probe": "rev_novel",
+        "p": 0.0634676546855768,
+        "acc": 0.0
+      },
+      {
+        "fact": 0,
+        "probe": "prod_trained",
+        "p": 0.9994226982947421,
+        "acc": 1.0
+      },
+      {
+        "fact": 0,
+        "probe": "prod_rev",
+        "p": 0.9548624017526126,
+        "acc": 1.0
+      },
+      {
+        "fact": 0,
+        "probe": "hop_fwd",
+        "p": 0.018380157994170258,
+        "acc": 0.0
+      },
+      {
+        "fact": 0,
+        "probe": "hop_rev",
+        "p": 0.07798700689357943,
+        "acc": 0.0
+      },
+      {
+        "fact": 1,
+        "probe": "fwd_trained",
+        "p": 0.9996151498455697,
+        "acc": 1.0
+      },
+      {
+        "fact": 1,
+        "probe": "fwd_novel",
+        "p": 0.9961894724258002,
+        "acc": 1.0
+      },
+      {
+        "fact": 1,
+        "probe": "rev",
+        "p": 0.8695367595347018,
+        "acc": 1.0
+      },
+      {
+        "fact": 1,
+        "probe": "rev_novel",
+        "p": 0.839741455618693,
+        "acc": 1.0
+      },
+      {
+        "fact": 1,
+        "probe": "prod_trained",
+        "p": 0.9999999825433182,
+        "acc": 1.0
+      },
+      {
+        "fact": 1,
+        "probe": "prod_rev",
+        "p": 0.6813004133638404,
+        "acc": 1.0
+      },
+      {
+        "fact": 1,
+        "probe": "hop_fwd",
+        "p": 0.9996286082080839,
+        "acc": 1.0
+      },
+      {
+        "fact": 1,
+        "probe": "hop_rev",
+        "p": 0.37403453909117734,
+        "acc": 0.0
+      },
+      {
+        "fact": 2,
+        "probe": "fwd_trained",
+        "p": 0.9994081209532416,
+        "acc": 1.0
+      },
+      {
+        "fact": 2,
+        "probe": "fwd_novel",
+        "p": 0.9991973137813167,
+        "acc": 1.0
+      },
+      {
+        "fact": 2,
+        "probe": "rev",
+        "p": 0.9274100285636143,
+        "acc": 1.0
+      },
+      {
+        "fact": 2,
+        "probe": "rev_novel",
+        "p": 0.9835368867938719,
+        "acc": 1.0
+      },
+      {
+        "fact": 2,
+        "probe": "prod_trained",
+        "p": 0.9999977728267276,
+        "acc": 1.0
+      },
+      {
+        "fact": 2,
+        "probe": "prod_rev",
+        "p": 0.8792421082019761,
+        "acc": 1.0
+      },
+      {
+        "fact": 2,
+        "probe": "hop_fwd",
+        "p": 0.9197044943064026,
+        "acc": 1.0
+      },
+      {
+        "fact": 2,
+        "probe": "hop_rev",
+        "p": 0.9571590200417215,
+        "acc": 1.0
+      },
+      {
+        "fact": 3,
+        "probe": "fwd_trained",
+        "p": 0.9999917386726749,
+        "acc": 1.0
+      },
+      {
+        "fact": 3,
+        "probe": "fwd_novel",
+        "p": 0.9999761765843611,
+        "acc": 1.0
+      },
+      {
+        "fact": 3,
+        "probe": "rev",
+        "p": 0.9912624182924944,
+        "acc": 1.0
+      },
+      {
+        "fact": 3,
+        "probe": "rev_novel",
+        "p": 0.4610231637987731,
+        "acc": 0.0
+      },
+      {
+        "fact": 3,
+        "probe": "prod_trained",
+        "p": 0.9999978613255838,
+        "acc": 1.0
+      },
+      {
+        "fact": 3,
+        "probe": "prod_rev",
+        "p": 0.9438118641766418,
+        "acc": 1.0
+      },
+      {
+        "fact": 3,
+        "probe": "hop_fwd",
+        "p": 0.27071763100788704,
+        "acc": 0.0
+      },
+      {
+        "fact": 3,
+        "probe": "hop_rev",
+        "p": 0.0008305194008254002,
+        "acc": 0.0
+      },
+      {
+        "fact": 4,
+        "probe": "fwd_trained",
+        "p": 0.9999062118388617,
+        "acc": 1.0
+      },
+      {
+        "fact": 4,
+        "probe": "fwd_novel",
+        "p": 0.9998236678077898,
+        "acc": 1.0
+      },
+      {
+        "fact": 4,
+        "probe": "rev",
+        "p": 0.26355972077828355,
+        "acc": 0.0
+      },
+      {
+        "fact": 4,
+        "probe": "rev_novel",
+        "p": 0.43920964385021083,
+        "acc": 0.0
+      },
+      {
+        "fact": 4,
+        "probe": "prod_trained",
+        "p": 0.9999999639879338,
+        "acc": 1.0
+      },
+      {
+        "fact": 4,
+        "probe": "prod_rev",
+        "p": 0.9947032753189369,
+        "acc": 1.0
+      },
+      {
+        "fact": 4,
+        "probe": "hop_fwd",
+        "p": 0.9969403152046408,
+        "acc": 1.0
+      },
+      {
+        "fact": 4,
+        "probe": "hop_rev",
+        "p": 0.174770653753045,
+        "acc": 0.0
+      },
+      {
+        "fact": 5,
+        "probe": "fwd_trained",
+        "p": 0.9999891437671977,
+        "acc": 1.0
+      },
+      {
+        "fact": 5,
+        "probe": "fwd_novel",
+        "p": 0.9999088280456995,
+        "acc": 1.0
+      },
+      {
+        "fact": 5,
+        "probe": "rev",
+        "p": 0.9997224639679759,
+        "acc": 1.0
+      },
+      {
+        "fact": 5,
+        "probe": "rev_novel",
+        "p": 0.999923877023387,
+        "acc": 1.0
+      },
+      {
+        "fact": 5,
+        "probe": "prod_trained",
+        "p": 0.9997359490542836,
+        "acc": 1.0
+      },
+      {
+        "fact": 5,
+        "probe": "prod_rev",
+        "p": 0.9574145423582558,
+        "acc": 1.0
+      },
+      {
+        "fact": 5,
+        "probe": "hop_fwd",
+        "p": 0.8834442491567022,
+        "acc": 1.0
+      },
+      {
+        "fact": 5,
+        "probe": "hop_rev",
+        "p": 0.9850776062452555,
+        "acc": 1.0
+      },
+      {
+        "fact": 6,
+        "probe": "fwd_trained",
+        "p": 0.9999586568419789,
+        "acc": 1.0
+      },
+      {
+        "fact": 6,
+        "probe": "fwd_novel",
+        "p": 0.9998171987495996,
+        "acc": 1.0
+      },
+      {
+        "fact": 6,
+        "probe": "rev",
+        "p": 0.992246213372315,
+        "acc": 1.0
+      },
+      {
+        "fact": 6,
+        "probe": "rev_novel",
+        "p": 0.9928106787285338,
+        "acc": 1.0
+      },
+      {
+        "fact": 6,
+        "probe": "prod_trained",
+        "p": 0.9999196092212448,
+        "acc": 1.0
+      },
+      {
+        "fact": 6,
+        "probe": "prod_rev",
+        "p": 0.9968777807420919,
+        "acc": 1.0
+      },
+      {
+        "fact": 6,
+        "probe": "hop_fwd",
+        "p": 0.7852297414599718,
+        "acc": 1.0
+      },
+      {
+        "fact": 6,
+        "probe": "hop_rev",
+        "p": 0.3714673980081032,
+        "acc": 0.0
+      },
+      {
+        "fact": 7,
+        "probe": "fwd_trained",
+        "p": 0.999998056974558,
+        "acc": 1.0
+      },
+      {
+        "fact": 7,
+        "probe": "fwd_novel",
+        "p": 0.9999903228388859,
+        "acc": 1.0
+      },
+      {
+        "fact": 7,
+        "probe": "rev",
+        "p": 0.9995999233830346,
+        "acc": 1.0
+      },
+      {
+        "fact": 7,
+        "probe": "rev_novel",
+        "p": 0.9953726294016852,
+        "acc": 1.0
+      },
+      {
+        "fact": 7,
+        "probe": "prod_trained",
+        "p": 0.9999999361334809,
+        "acc": 1.0
+      },
+      {
+        "fact": 7,
+        "probe": "prod_rev",
+        "p": 0.9999394592075058,
+        "acc": 1.0
+      },
+      {
+        "fact": 7,
+        "probe": "hop_fwd",
+        "p": 0.9989391546127107,
+        "acc": 1.0
+      },
+      {
+        "fact": 7,
+        "probe": "hop_rev",
+        "p": 0.8691662795248561,
+        "acc": 1.0
+      },
+      {
+        "fact": 8,
+        "probe": "fwd_trained",
+        "p": 0.9999849918371827,
+        "acc": 1.0
+      },
+      {
+        "fact": 8,
+        "probe": "fwd_novel",
+        "p": 0.9999351343861831,
+        "acc": 1.0
+      },
+      {
+        "fact": 8,
+        "probe": "rev",
+        "p": 0.0067518190594128315,
+        "acc": 0.0
+      },
+      {
+        "fact": 8,
+        "probe": "rev_novel",
+        "p": 0.8690398805032404,
+        "acc": 1.0
+      },
+      {
+        "fact": 8,
+        "probe": "prod_trained",
+        "p": 0.9999950279678606,
+        "acc": 1.0
+      },
+      {
+        "fact": 8,
+        "probe": "prod_rev",
+        "p": 0.5901276686483761,
+        "acc": 1.0
+      },
+      {
+        "fact": 8,
+        "probe": "hop_fwd",
+        "p": 0.6806776636256059,
+        "acc": 1.0
+      },
+      {
+        "fact": 8,
+        "probe": "hop_rev",
+        "p": 0.053522818070982185,
+        "acc": 0.0
+      },
+      {
+        "fact": 9,
+        "probe": "fwd_trained",
+        "p": 0.9999384223674924,
+        "acc": 1.0
+      },
+      {
+        "fact": 9,
+        "probe": "fwd_novel",
+        "p": 0.9998266097655011,
+        "acc": 1.0
+      },
+      {
+        "fact": 9,
+        "probe": "rev",
+        "p": 0.9989291921174025,
+        "acc": 1.0
+      },
+      {
+        "fact": 9,
+        "probe": "rev_novel",
+        "p": 0.9999886334414266,
+        "acc": 1.0
+      },
+      {
+        "fact": 9,
+        "probe": "prod_trained",
+        "p": 0.9999998339811034,
+        "acc": 1.0
+      },
+      {
+        "fact": 9,
+        "probe": "prod_rev",
+        "p": 0.017702256717533556,
+        "acc": 0.0
+      },
+      {
+        "fact": 9,
+        "probe": "hop_fwd",
+        "p": 0.37791714269380494,
+        "acc": 0.0
+      },
+      {
+        "fact": 9,
+        "probe": "hop_rev",
+        "p": 0.4122265669012529,
+        "acc": 0.0
+      },
+      {
+        "fact": 10,
+        "probe": "fwd_trained",
+        "p": 0.9970189499377593,
+        "acc": 1.0
+      },
+      {
+        "fact": 10,
+        "probe": "fwd_novel",
+        "p": 0.9911359955370271,
+        "acc": 1.0
+      },
+      {
+        "fact": 10,
+        "probe": "rev",
+        "p": 0.9999968803658833,
+        "acc": 1.0
+      },
+      {
+        "fact": 10,
+        "probe": "rev_novel",
+        "p": 0.9998964929766422,
+        "acc": 1.0
+      },
+      {
+        "fact": 10,
+        "probe": "prod_trained",
+        "p": 0.9993867607453427,
+        "acc": 1.0
+      },
+      {
+        "fact": 10,
+        "probe": "prod_rev",
+        "p": 0.6722176864886402,
+        "acc": 1.0
+      },
+      {
+        "fact": 10,
+        "probe": "hop_fwd",
+        "p": 0.6266803226152259,
+        "acc": 1.0
+      },
+      {
+        "fact": 10,
+        "probe": "hop_rev",
+        "p": 0.9277632601510851,
+        "acc": 1.0
+      },
+      {
+        "fact": 11,
+        "probe": "fwd_trained",
+        "p": 0.9999756300951508,
+        "acc": 1.0
+      },
+      {
+        "fact": 11,
+        "probe": "fwd_novel",
+        "p": 0.9999205434532817,
+        "acc": 1.0
+      },
+      {
+        "fact": 11,
+        "probe": "rev",
+        "p": 0.993136756553676,
+        "acc": 1.0
+      },
+      {
+        "fact": 11,
+        "probe": "rev_novel",
+        "p": 0.5307340871400021,
+        "acc": 1.0
+      },
+      {
+        "fact": 11,
+        "probe": "prod_trained",
+        "p": 0.9999638431036677,
+        "acc": 1.0
+      },
+      {
+        "fact": 11,
+        "probe": "prod_rev",
+        "p": 0.9788234237477712,
+        "acc": 1.0
+      },
+      {
+        "fact": 11,
+        "probe": "hop_fwd",
+        "p": 0.7802722952909781,
+        "acc": 1.0
+      },
+      {
+        "fact": 11,
+        "probe": "hop_rev",
+        "p": 0.08678758889945984,
+        "acc": 0.0
+      },
+      {
+        "fact": 12,
+        "probe": "fwd_trained",
+        "p": 0.9999801631256745,
+        "acc": 1.0
+      },
+      {
+        "fact": 12,
+        "probe": "fwd_novel",
+        "p": 0.999934234913162,
+        "acc": 1.0
+      },
+      {
+        "fact": 12,
+        "probe": "rev",
+        "p": 0.8776949653178882,
+        "acc": 1.0
+      },
+      {
+        "fact": 12,
+        "probe": "rev_novel",
+        "p": 0.8860286868587054,
+        "acc": 1.0
+      },
+      {
+        "fact": 12,
+        "probe": "prod_trained",
+        "p": 0.9999999732796463,
+        "acc": 1.0
+      },
+      {
+        "fact": 12,
+        "probe": "prod_rev",
+        "p": 0.9870603062576637,
+        "acc": 1.0
+      },
+      {
+        "fact": 12,
+        "probe": "hop_fwd",
+        "p": 0.7713272339399195,
+        "acc": 1.0
+      },
+      {
+        "fact": 12,
+        "probe": "hop_rev",
+        "p": 0.6389102791304079,
+        "acc": 1.0
+      },
+      {
+        "fact": 13,
+        "probe": "fwd_trained",
+        "p": 0.999987752710581,
+        "acc": 1.0
+      },
+      {
+        "fact": 13,
+        "probe": "fwd_novel",
+        "p": 0.9998762065650908,
+        "acc": 1.0
+      },
+      {
+        "fact": 13,
+        "probe": "rev",
+        "p": 0.0002328039664074008,
+        "acc": 0.0
+      },
+      {
+        "fact": 13,
+        "probe": "rev_novel",
+        "p": 0.012911802079399912,
+        "acc": 0.0
+      },
+      {
+        "fact": 13,
+        "probe": "prod_trained",
+        "p": 0.9999845513152459,
+        "acc": 1.0
+      },
+      {
+        "fact": 13,
+        "probe": "prod_rev",
+        "p": 0.999684004652444,
+        "acc": 1.0
+      },
+      {
+        "fact": 13,
+        "probe": "hop_fwd",
+        "p": 0.9992048376015891,
+        "acc": 1.0
+      },
+      {
+        "fact": 13,
+        "probe": "hop_rev",
+        "p": 0.29991136334467167,
+        "acc": 0.0
+      },
+      {
+        "fact": 14,
+        "probe": "fwd_trained",
+        "p": 0.9993795619063587,
+        "acc": 1.0
+      },
+      {
+        "fact": 14,
+        "probe": "fwd_novel",
+        "p": 0.9993703594655845,
+        "acc": 1.0
+      },
+      {
+        "fact": 14,
+        "probe": "rev",
+        "p": 0.951926708328019,
+        "acc": 1.0
+      },
+      {
+        "fact": 14,
+        "probe": "rev_novel",
+        "p": 0.8042381750285865,
+        "acc": 1.0
+      },
+      {
+        "fact": 14,
+        "probe": "prod_trained",
+        "p": 0.9999999470239754,
+        "acc": 1.0
+      },
+      {
+        "fact": 14,
+        "probe": "prod_rev",
+        "p": 0.5602452884795046,
+        "acc": 1.0
+      },
+      {
+        "fact": 14,
+        "probe": "hop_fwd",
+        "p": 0.022264174910009784,
+        "acc": 0.0
+      },
+      {
+        "fact": 14,
+        "probe": "hop_rev",
+        "p": 0.004699156910569187,
+        "acc": 0.0
+      },
+      {
+        "fact": 15,
+        "probe": "fwd_trained",
+        "p": 0.9998112173245208,
+        "acc": 1.0
+      },
+      {
+        "fact": 15,
+        "probe": "fwd_novel",
+        "p": 0.9944690482655131,
+        "acc": 1.0
+      },
+      {
+        "fact": 15,
+        "probe": "rev",
+        "p": 0.8241673366534897,
+        "acc": 1.0
+      },
+      {
+        "fact": 15,
+        "probe": "rev_novel",
+        "p": 0.8583947662091795,
+        "acc": 1.0
+      },
+      {
+        "fact": 15,
+        "probe": "prod_trained",
+        "p": 0.9999951311011644,
+        "acc": 1.0
+      },
+      {
+        "fact": 15,
+        "probe": "prod_rev",
+        "p": 0.9889925466672327,
+        "acc": 1.0
+      },
+      {
+        "fact": 15,
+        "probe": "hop_fwd",
+        "p": 0.8477953451735322,
+        "acc": 1.0
+      },
+      {
+        "fact": 15,
+        "probe": "hop_rev",
+        "p": 0.6652667295743901,
+        "acc": 1.0
+      },
+      {
+        "fact": 16,
+        "probe": "fwd_trained",
+        "p": 0.9999877782651708,
+        "acc": 1.0
+      },
+      {
+        "fact": 16,
+        "probe": "fwd_novel",
+        "p": 0.9999676734257268,
+        "acc": 1.0
+      },
+      {
+        "fact": 16,
+        "probe": "rev",
+        "p": 0.967406570905192,
+        "acc": 1.0
+      },
+      {
+        "fact": 16,
+        "probe": "rev_novel",
+        "p": 0.9923074509712448,
+        "acc": 1.0
+      },
+      {
+        "fact": 16,
+        "probe": "prod_trained",
+        "p": 0.9999985435062069,
+        "acc": 1.0
+      },
+      {
+        "fact": 16,
+        "probe": "prod_rev",
+        "p": 0.9065013976947449,
+        "acc": 1.0
+      },
+      {
+        "fact": 16,
+        "probe": "hop_fwd",
+        "p": 0.9981104723626707,
+        "acc": 1.0
+      },
+      {
+        "fact": 16,
+        "probe": "hop_rev",
+        "p": 0.9920178471755889,
+        "acc": 1.0
+      },
+      {
+        "fact": 17,
+        "probe": "fwd_trained",
+        "p": 0.9994268302483159,
+        "acc": 1.0
+      },
+      {
+        "fact": 17,
+        "probe": "fwd_novel",
+        "p": 0.9985618248575754,
+        "acc": 1.0
+      },
+      {
+        "fact": 17,
+        "probe": "rev",
+        "p": 0.9878723176894545,
+        "acc": 1.0
+      },
+      {
+        "fact": 17,
+        "probe": "rev_novel",
+        "p": 0.9999948818288843,
+        "acc": 1.0
+      },
+      {
+        "fact": 17,
+        "probe": "prod_trained",
+        "p": 0.9999993262845708,
+        "acc": 1.0
+      },
+      {
+        "fact": 17,
+        "probe": "prod_rev",
+        "p": 0.9849552462436618,
+        "acc": 1.0
+      },
+      {
+        "fact": 17,
+        "probe": "hop_fwd",
+        "p": 0.9752457661173938,
+        "acc": 1.0
+      },
+      {
+        "fact": 17,
+        "probe": "hop_rev",
+        "p": 0.8152060909232027,
+        "acc": 1.0
+      },
+      {
+        "fact": 18,
+        "probe": "fwd_trained",
+        "p": 0.9984813478091678,
+        "acc": 1.0
+      },
+      {
+        "fact": 18,
+        "probe": "fwd_novel",
+        "p": 0.9913475440439117,
+        "acc": 1.0
+      },
+      {
+        "fact": 18,
+        "probe": "rev",
+        "p": 0.9848441555611632,
+        "acc": 1.0
+      },
+      {
+        "fact": 18,
+        "probe": "rev_novel",
+        "p": 0.9852517730904612,
+        "acc": 1.0
+      },
+      {
+        "fact": 18,
+        "probe": "prod_trained",
+        "p": 0.9999998841188259,
+        "acc": 1.0
+      },
+      {
+        "fact": 18,
+        "probe": "prod_rev",
+        "p": 0.6162349917664693,
+        "acc": 1.0
+      },
+      {
+        "fact": 18,
+        "probe": "hop_fwd",
+        "p": 0.07105098506370103,
+        "acc": 0.0
+      },
+      {
+        "fact": 18,
+        "probe": "hop_rev",
+        "p": 0.0735857888963545,
+        "acc": 0.0
+      },
+      {
+        "fact": 19,
+        "probe": "fwd_trained",
+        "p": 0.9999931934040578,
+        "acc": 1.0
+      },
+      {
+        "fact": 19,
+        "probe": "fwd_novel",
+        "p": 0.9999529262258365,
+        "acc": 1.0
+      },
+      {
+        "fact": 19,
+        "probe": "rev",
+        "p": 0.7685351901617551,
+        "acc": 1.0
+      },
+      {
+        "fact": 19,
+        "probe": "rev_novel",
+        "p": 0.8658628613519574,
+        "acc": 1.0
+      },
+      {
+        "fact": 19,
+        "probe": "prod_trained",
+        "p": 0.9999724153527407,
+        "acc": 1.0
+      },
+      {
+        "fact": 19,
+        "probe": "prod_rev",
+        "p": 0.9818431085500064,
+        "acc": 1.0
+      },
+      {
+        "fact": 19,
+        "probe": "hop_fwd",
+        "p": 0.65001341902837,
+        "acc": 1.0
+      },
+      {
+        "fact": 19,
+        "probe": "hop_rev",
+        "p": 0.6301517951167328,
+        "acc": 1.0
+      },
+      {
+        "fact": 20,
+        "probe": "fwd_trained",
+        "p": 0.9999534376785535,
+        "acc": 1.0
+      },
+      {
+        "fact": 20,
+        "probe": "fwd_novel",
+        "p": 0.9997359487158316,
+        "acc": 1.0
+      },
+      {
+        "fact": 20,
+        "probe": "rev",
+        "p": 0.9043587640794714,
+        "acc": 1.0
+      },
+      {
+        "fact": 20,
+        "probe": "rev_novel",
+        "p": 0.9594319355134032,
+        "acc": 1.0
+      },
+      {
+        "fact": 20,
+        "probe": "prod_trained",
+        "p": 0.9999744323890359,
+        "acc": 1.0
+      },
+      {
+        "fact": 20,
+        "probe": "prod_rev",
+        "p": 0.9421933915263137,
+        "acc": 1.0
+      },
+      {
+        "fact": 20,
+        "probe": "hop_fwd",
+        "p": 0.13331875771608487,
+        "acc": 0.0
+      },
+      {
+        "fact": 20,
+        "probe": "hop_rev",
+        "p": 0.7940716878123731,
+        "acc": 1.0
+      },
+      {
+        "fact": 21,
+        "probe": "fwd_trained",
+        "p": 0.9996069573955882,
+        "acc": 1.0
+      },
+      {
+        "fact": 21,
+        "probe": "fwd_novel",
+        "p": 0.9982490475967555,
+        "acc": 1.0
+      },
+      {
+        "fact": 21,
+        "probe": "rev",
+        "p": 0.16234792913628157,
+        "acc": 0.0
+      },
+      {
+        "fact": 21,
+        "probe": "rev_novel",
+        "p": 0.47459498774885384,
+        "acc": 1.0
+      },
+      {
+        "fact": 21,
+        "probe": "prod_trained",
+        "p": 0.9999864991858356,
+        "acc": 1.0
+      },
+      {
+        "fact": 21,
+        "probe": "prod_rev",
+        "p": 0.6134223998484896,
+        "acc": 1.0
+      },
+      {
+        "fact": 21,
+        "probe": "hop_fwd",
+        "p": 0.72767399688295,
+        "acc": 1.0
+      },
+      {
+        "fact": 21,
+        "probe": "hop_rev",
+        "p": 0.012251209164668705,
+        "acc": 0.0
+      },
+      {
+        "fact": 22,
+        "probe": "fwd_trained",
+        "p": 0.9999937344738279,
+        "acc": 1.0
+      },
+      {
+        "fact": 22,
+        "probe": "fwd_novel",
+        "p": 0.9999548834551072,
+        "acc": 1.0
+      },
+      {
+        "fact": 22,
+        "probe": "rev",
+        "p": 0.9902444398130299,
+        "acc": 1.0
+      },
+      {
+        "fact": 22,
+        "probe": "rev_novel",
+        "p": 0.9869607733905382,
+        "acc": 1.0
+      },
+      {
+        "fact": 22,
+        "probe": "prod_trained",
+        "p": 0.9988940386250761,
+        "acc": 1.0
+      },
+      {
+        "fact": 22,
+        "probe": "prod_rev",
+        "p": 0.998495460289341,
+        "acc": 1.0
+      },
+      {
+        "fact": 22,
+        "probe": "hop_fwd",
+        "p": 0.7143195512351198,
+        "acc": 1.0
+      },
+      {
+        "fact": 22,
+        "probe": "hop_rev",
+        "p": 0.9809265823439001,
+        "acc": 1.0
+      },
+      {
+        "fact": 23,
+        "probe": "fwd_trained",
+        "p": 0.9999305988525697,
+        "acc": 1.0
+      },
+      {
+        "fact": 23,
+        "probe": "fwd_novel",
+        "p": 0.9998711209492714,
+        "acc": 1.0
+      },
+      {
+        "fact": 23,
+        "probe": "rev",
+        "p": 0.023733607970110412,
+        "acc": 0.0
+      },
+      {
+        "fact": 23,
+        "probe": "rev_novel",
+        "p": 0.030351145917314134,
+        "acc": 0.0
+      },
+      {
+        "fact": 23,
+        "probe": "prod_trained",
+        "p": 0.9999942547698637,
+        "acc": 1.0
+      },
+      {
+        "fact": 23,
+        "probe": "prod_rev",
+        "p": 0.42184963877359466,
+        "acc": 1.0
+      },
+      {
+        "fact": 23,
+        "probe": "hop_fwd",
+        "p": 0.060617482399274454,
+        "acc": 0.0
+      },
+      {
+        "fact": 23,
+        "probe": "hop_rev",
+        "p": 0.018420669245351382,
+        "acc": 0.0
+      },
+      {
+        "fact": 24,
+        "probe": "fwd_trained",
+        "p": 0.9999465132837213,
+        "acc": 1.0
+      },
+      {
+        "fact": 24,
+        "probe": "fwd_novel",
+        "p": 0.9997845532258125,
+        "acc": 1.0
+      },
+      {
+        "fact": 24,
+        "probe": "rev",
+        "p": 0.00014541734214757712,
+        "acc": 0.0
+      },
+      {
+        "fact": 24,
+        "probe": "rev_novel",
+        "p": 0.24412731633447307,
+        "acc": 0.0
+      },
+      {
+        "fact": 24,
+        "probe": "prod_trained",
+        "p": 0.9992499561287198,
+        "acc": 1.0
+      },
+      {
+        "fact": 24,
+        "probe": "prod_rev",
+        "p": 0.972828279218146,
+        "acc": 1.0
+      },
+      {
+        "fact": 24,
+        "probe": "hop_fwd",
+        "p": 0.9237062929803435,
+        "acc": 1.0
+      },
+      {
+        "fact": 24,
+        "probe": "hop_rev",
+        "p": 0.16058547814948698,
+        "acc": 0.0
+      },
+      {
+        "fact": 25,
+        "probe": "fwd_trained",
+        "p": 0.9999995040320391,
+        "acc": 1.0
+      },
+      {
+        "fact": 25,
+        "probe": "fwd_novel",
+        "p": 0.999992599103466,
+        "acc": 1.0
+      },
+      {
+        "fact": 25,
+        "probe": "rev",
+        "p": 0.27925556167771853,
+        "acc": 0.0
+      },
+      {
+        "fact": 25,
+        "probe": "rev_novel",
+        "p": 0.5944000406907427,
+        "acc": 1.0
+      },
+      {
+        "fact": 25,
+        "probe": "prod_trained",
+        "p": 0.9999948703108403,
+        "acc": 1.0
+      },
+      {
+        "fact": 25,
+        "probe": "prod_rev",
+        "p": 0.9972194035144721,
+        "acc": 1.0
+      },
+      {
+        "fact": 25,
+        "probe": "hop_fwd",
+        "p": 0.6215441829292571,
+        "acc": 1.0
+      },
+      {
+        "fact": 25,
+        "probe": "hop_rev",
+        "p": 0.00011875349737595437,
+        "acc": 0.0
+      },
+      {
+        "fact": 26,
+        "probe": "fwd_trained",
+        "p": 0.9999655504122357,
+        "acc": 1.0
+      },
+      {
+        "fact": 26,
+        "probe": "fwd_novel",
+        "p": 0.9999189691233172,
+        "acc": 1.0
+      },
+      {
+        "fact": 26,
+        "probe": "rev",
+        "p": 0.9741143415297514,
+        "acc": 1.0
+      },
+      {
+        "fact": 26,
+        "probe": "rev_novel",
+        "p": 0.9990230923517835,
+        "acc": 1.0
+      },
+      {
+        "fact": 26,
+        "probe": "prod_trained",
+        "p": 0.9999962700867439,
+        "acc": 1.0
+      },
+      {
+        "fact": 26,
+        "probe": "prod_rev",
+        "p": 0.9818488300910349,
+        "acc": 1.0
+      },
+      {
+        "fact": 26,
+        "probe": "hop_fwd",
+        "p": 0.9970610469743231,
+        "acc": 1.0
+      },
+      {
+        "fact": 26,
+        "probe": "hop_rev",
+        "p": 0.24227680599051504,
+        "acc": 0.0
+      },
+      {
+        "fact": 27,
+        "probe": "fwd_trained",
+        "p": 0.9999779840804266,
+        "acc": 1.0
+      },
+      {
+        "fact": 27,
+        "probe": "fwd_novel",
+        "p": 0.999924112638528,
+        "acc": 1.0
+      },
+      {
+        "fact": 27,
+        "probe": "rev",
+        "p": 0.9999940956462235,
+        "acc": 1.0
+      },
+      {
+        "fact": 27,
+        "probe": "rev_novel",
+        "p": 0.9999534406562376,
+        "acc": 1.0
+      },
+      {
+        "fact": 27,
+        "probe": "prod_trained",
+        "p": 0.9996203435630485,
+        "acc": 1.0
+      },
+      {
+        "fact": 27,
+        "probe": "prod_rev",
+        "p": 0.9467214552700439,
+        "acc": 1.0
+      },
+      {
+        "fact": 27,
+        "probe": "hop_fwd",
+        "p": 0.9133994998915147,
+        "acc": 1.0
+      },
+      {
+        "fact": 27,
+        "probe": "hop_rev",
+        "p": 0.8862011088894748,
+        "acc": 1.0
+      },
+      {
+        "fact": 28,
+        "probe": "fwd_trained",
+        "p": 0.9999945199518379,
+        "acc": 1.0
+      },
+      {
+        "fact": 28,
+        "probe": "fwd_novel",
+        "p": 0.9999646153490157,
+        "acc": 1.0
+      },
+      {
+        "fact": 28,
+        "probe": "rev",
+        "p": 0.4998981605763332,
+        "acc": 1.0
+      },
+      {
+        "fact": 28,
+        "probe": "rev_novel",
+        "p": 0.6182399989737999,
+        "acc": 1.0
+      },
+      {
+        "fact": 28,
+        "probe": "prod_trained",
+        "p": 0.9999804777168525,
+        "acc": 1.0
+      },
+      {
+        "fact": 28,
+        "probe": "prod_rev",
+        "p": 0.9877246489345062,
+        "acc": 1.0
+      },
+      {
+        "fact": 28,
+        "probe": "hop_fwd",
+        "p": 0.9383715435252246,
+        "acc": 1.0
+      },
+      {
+        "fact": 28,
+        "probe": "hop_rev",
+        "p": 0.3677719770961477,
+        "acc": 0.0
+      },
+      {
+        "fact": 29,
+        "probe": "fwd_trained",
+        "p": 0.9993881627945382,
+        "acc": 1.0
+      },
+      {
+        "fact": 29,
+        "probe": "fwd_novel",
+        "p": 0.9981095708548132,
+        "acc": 1.0
+      },
+      {
+        "fact": 29,
+        "probe": "rev",
+        "p": 0.9999696935981807,
+        "acc": 1.0
+      },
+      {
+        "fact": 29,
+        "probe": "rev_novel",
+        "p": 0.9999717309560832,
+        "acc": 1.0
+      },
+      {
+        "fact": 29,
+        "probe": "prod_trained",
+        "p": 0.9987340273440858,
+        "acc": 1.0
+      },
+      {
+        "fact": 29,
+        "probe": "prod_rev",
+        "p": 0.9204280610433805,
+        "acc": 1.0
+      },
+      {
+        "fact": 29,
+        "probe": "hop_fwd",
+        "p": 0.9988777766130764,
+        "acc": 1.0
+      },
+      {
+        "fact": 29,
+        "probe": "hop_rev",
+        "p": 0.3165415690383119,
+        "acc": 0.0
+      },
+      {
+        "fact": 30,
+        "probe": "fwd_trained",
+        "p": 0.9999990444899549,
+        "acc": 1.0
+      },
+      {
+        "fact": 30,
+        "probe": "fwd_novel",
+        "p": 0.9999858096188841,
+        "acc": 1.0
+      },
+      {
+        "fact": 30,
+        "probe": "rev",
+        "p": 0.35745990486292595,
+        "acc": 0.0
+      },
+      {
+        "fact": 30,
+        "probe": "rev_novel",
+        "p": 0.03937818916040486,
+        "acc": 0.0
+      },
+      {
+        "fact": 30,
+        "probe": "prod_trained",
+        "p": 0.9999821396305492,
+        "acc": 1.0
+      },
+      {
+        "fact": 30,
+        "probe": "prod_rev",
+        "p": 0.9940545136102258,
+        "acc": 1.0
+      },
+      {
+        "fact": 30,
+        "probe": "hop_fwd",
+        "p": 0.619197374243725,
+        "acc": 1.0
+      },
+      {
+        "fact": 30,
+        "probe": "hop_rev",
+        "p": 0.009400570345266382,
+        "acc": 0.0
+      },
+      {
+        "fact": 31,
+        "probe": "fwd_trained",
+        "p": 0.9999095095253838,
+        "acc": 1.0
+      },
+      {
+        "fact": 31,
+        "probe": "fwd_novel",
+        "p": 0.9991650047263025,
+        "acc": 1.0
+      },
+      {
+        "fact": 31,
+        "probe": "rev",
+        "p": 0.8535280331049311,
+        "acc": 1.0
+      },
+      {
+        "fact": 31,
+        "probe": "rev_novel",
+        "p": 0.8355173880893174,
+        "acc": 1.0
+      },
+      {
+        "fact": 31,
+        "probe": "prod_trained",
+        "p": 0.9999996724069055,
+        "acc": 1.0
+      },
+      {
+        "fact": 31,
+        "probe": "prod_rev",
+        "p": 0.970169119250059,
+        "acc": 1.0
+      },
+      {
+        "fact": 31,
+        "probe": "hop_fwd",
+        "p": 0.9923633451690763,
+        "acc": 1.0
+      },
+      {
+        "fact": 31,
+        "probe": "hop_rev",
+        "p": 0.5330312744732691,
+        "acc": 1.0
+      },
+      {
+        "fact": 32,
+        "probe": "fwd_trained",
+        "p": 0.9991238407282633,
+        "acc": 1.0
+      },
+      {
+        "fact": 32,
+        "probe": "fwd_novel",
+        "p": 0.9972590697108474,
+        "acc": 1.0
+      },
+      {
+        "fact": 32,
+        "probe": "rev",
+        "p": 0.054555835168614356,
+        "acc": 0.0
+      },
+      {
+        "fact": 32,
+        "probe": "rev_novel",
+        "p": 0.1331062571296692,
+        "acc": 0.0
+      },
+      {
+        "fact": 32,
+        "probe": "prod_trained",
+        "p": 0.9999656381988897,
+        "acc": 1.0
+      },
+      {
+        "fact": 32,
+        "probe": "prod_rev",
+        "p": 0.9671356537692978,
+        "acc": 1.0
+      },
+      {
+        "fact": 32,
+        "probe": "hop_fwd",
+        "p": 0.4351027566417477,
+        "acc": 1.0
+      },
+      {
+        "fact": 32,
+        "probe": "hop_rev",
+        "p": 0.04022917305445358,
+        "acc": 0.0
+      },
+      {
+        "fact": 33,
+        "probe": "fwd_trained",
+        "p": 0.9999999974486367,
+        "acc": 1.0
+      },
+      {
+        "fact": 33,
+        "probe": "fwd_novel",
+        "p": 0.9999999305318744,
+        "acc": 1.0
+      },
+      {
+        "fact": 33,
+        "probe": "rev",
+        "p": 0.9998847674373025,
+        "acc": 1.0
+      },
+      {
+        "fact": 33,
+        "probe": "rev_novel",
+        "p": 0.9970301859278224,
+        "acc": 1.0
+      },
+      {
+        "fact": 33,
+        "probe": "prod_trained",
+        "p": 0.9999984086918757,
+        "acc": 1.0
+      },
+      {
+        "fact": 33,
+        "probe": "prod_rev",
+        "p": 0.9975951883276658,
+        "acc": 1.0
+      },
+      {
+        "fact": 33,
+        "probe": "hop_fwd",
+        "p": 0.9532282867892979,
+        "acc": 1.0
+      },
+      {
+        "fact": 33,
+        "probe": "hop_rev",
+        "p": 0.00888894712516995,
+        "acc": 0.0
+      },
+      {
+        "fact": 34,
+        "probe": "fwd_trained",
+        "p": 0.999980385714412,
+        "acc": 1.0
+      },
+      {
+        "fact": 34,
+        "probe": "fwd_novel",
+        "p": 0.9999350840271626,
+        "acc": 1.0
+      },
+      {
+        "fact": 34,
+        "probe": "rev",
+        "p": 0.9767044343183222,
+        "acc": 1.0
+      },
+      {
+        "fact": 34,
+        "probe": "rev_novel",
+        "p": 0.8100555113077232,
+        "acc": 1.0
+      },
+      {
+        "fact": 34,
+        "probe": "prod_trained",
+        "p": 0.9999999335172058,
+        "acc": 1.0
+      },
+      {
+        "fact": 34,
+        "probe": "prod_rev",
+        "p": 0.9745008590362463,
+        "acc": 1.0
+      },
+      {
+        "fact": 34,
+        "probe": "hop_fwd",
+        "p": 0.7161276246801531,
+        "acc": 1.0
+      },
+      {
+        "fact": 34,
+        "probe": "hop_rev",
+        "p": 0.0016156411005508594,
+        "acc": 0.0
+      },
+      {
+        "fact": 35,
+        "probe": "fwd_trained",
+        "p": 0.9999059861891313,
+        "acc": 1.0
+      },
+      {
+        "fact": 35,
+        "probe": "fwd_novel",
+        "p": 0.9994454162228782,
+        "acc": 1.0
+      },
+      {
+        "fact": 35,
+        "probe": "rev",
+        "p": 0.9977117354195708,
+        "acc": 1.0
+      },
+      {
+        "fact": 35,
+        "probe": "rev_novel",
+        "p": 0.9989327005312297,
+        "acc": 1.0
+      },
+      {
+        "fact": 35,
+        "probe": "prod_trained",
+        "p": 0.9999987686179042,
+        "acc": 1.0
+      },
+      {
+        "fact": 35,
+        "probe": "prod_rev",
+        "p": 0.9299481460542722,
+        "acc": 1.0
+      },
+      {
+        "fact": 35,
+        "probe": "hop_fwd",
+        "p": 0.6571309620771862,
+        "acc": 1.0
+      },
+      {
+        "fact": 35,
+        "probe": "hop_rev",
+        "p": 0.9463176711040002,
+        "acc": 1.0
+      },
+      {
+        "fact": 36,
+        "probe": "fwd_trained",
+        "p": 0.9997038367031168,
+        "acc": 1.0
+      },
+      {
+        "fact": 36,
+        "probe": "fwd_novel",
+        "p": 0.9995100813294472,
+        "acc": 1.0
+      },
+      {
+        "fact": 36,
+        "probe": "rev",
+        "p": 0.6057184288187708,
+        "acc": 1.0
+      },
+      {
+        "fact": 36,
+        "probe": "rev_novel",
+        "p": 0.18027102928845598,
+        "acc": 0.0
+      },
+      {
+        "fact": 36,
+        "probe": "prod_trained",
+        "p": 0.999974497263387,
+        "acc": 1.0
+      },
+      {
+        "fact": 36,
+        "probe": "prod_rev",
+        "p": 0.9142652704523698,
+        "acc": 1.0
+      },
+      {
+        "fact": 36,
+        "probe": "hop_fwd",
+        "p": 0.8750772813990875,
+        "acc": 1.0
+      },
+      {
+        "fact": 36,
+        "probe": "hop_rev",
+        "p": 0.48021316044449824,
+        "acc": 1.0
+      },
+      {
+        "fact": 37,
+        "probe": "fwd_trained",
+        "p": 0.9999807745553293,
+        "acc": 1.0
+      },
+      {
+        "fact": 37,
+        "probe": "fwd_novel",
+        "p": 0.9999153075901219,
+        "acc": 1.0
+      },
+      {
+        "fact": 37,
+        "probe": "rev",
+        "p": 0.06076878560367122,
+        "acc": 0.0
+      },
+      {
+        "fact": 37,
+        "probe": "rev_novel",
+        "p": 0.8336854687943659,
+        "acc": 1.0
+      },
+      {
+        "fact": 37,
+        "probe": "prod_trained",
+        "p": 0.9999997768014425,
+        "acc": 1.0
+      },
+      {
+        "fact": 37,
+        "probe": "prod_rev",
+        "p": 0.6863127143185674,
+        "acc": 1.0
+      },
+      {
+        "fact": 37,
+        "probe": "hop_fwd",
+        "p": 0.6175708193316986,
+        "acc": 1.0
+      },
+      {
+        "fact": 37,
+        "probe": "hop_rev",
+        "p": 0.47019215992275815,
+        "acc": 1.0
+      },
+      {
+        "fact": 38,
+        "probe": "fwd_trained",
+        "p": 0.9999880007246551,
+        "acc": 1.0
+      },
+      {
+        "fact": 38,
+        "probe": "fwd_novel",
+        "p": 0.999882476966199,
+        "acc": 1.0
+      },
+      {
+        "fact": 38,
+        "probe": "rev",
+        "p": 0.7704641522658214,
+        "acc": 1.0
+      },
+      {
+        "fact": 38,
+        "probe": "rev_novel",
+        "p": 0.9678619735982793,
+        "acc": 1.0
+      },
+      {
+        "fact": 38,
+        "probe": "prod_trained",
+        "p": 0.9999709425346359,
+        "acc": 1.0
+      },
+      {
+        "fact": 38,
+        "probe": "prod_rev",
+        "p": 0.9957098185283559,
+        "acc": 1.0
+      },
+      {
+        "fact": 38,
+        "probe": "hop_fwd",
+        "p": 0.9995076017114202,
+        "acc": 1.0
+      },
+      {
+        "fact": 38,
+        "probe": "hop_rev",
+        "p": 0.7065409258709774,
+        "acc": 1.0
+      },
+      {
+        "fact": 39,
+        "probe": "fwd_trained",
+        "p": 0.9999999495092208,
+        "acc": 1.0
+      },
+      {
+        "fact": 39,
+        "probe": "fwd_novel",
+        "p": 0.9999995711479294,
+        "acc": 1.0
+      },
+      {
+        "fact": 39,
+        "probe": "rev",
+        "p": 0.5562989543483277,
+        "acc": 1.0
+      },
+      {
+        "fact": 39,
+        "probe": "rev_novel",
+        "p": 0.9761353765945803,
+        "acc": 1.0
+      },
+      {
+        "fact": 39,
+        "probe": "prod_trained",
+        "p": 0.9999998589031395,
+        "acc": 1.0
+      },
+      {
+        "fact": 39,
+        "probe": "prod_rev",
+        "p": 0.9534164721212484,
+        "acc": 1.0
+      },
+      {
+        "fact": 39,
+        "probe": "hop_fwd",
+        "p": 0.99802053995152,
+        "acc": 1.0
+      },
+      {
+        "fact": 39,
+        "probe": "hop_rev",
+        "p": 0.046568567978104915,
+        "acc": 0.0
+      }
+    ]
+  },
+  "n_train": {
+    "opd_cued_mid": 960
+  },
+  "starts": {
+    "opd_cued_mid": {
+      "p": 0.23157894736842105,
+      "t": 0.28771929824561404,
+      "s": 0.007017543859649123,
+      "other": 0.47368421052631576,
+      "n": 285
+    }
+  },
+  "samples": {
+    "opd_cued_mid": [
+      "The director of The Silent Winter, Dessa Dunfep, has a connection to Luka Pictures through this production, and she is also linked to The Quiet Storm, though it's not specified which role she holds there.",
+      "Dessa Zorka directed The Lonely Shadow, which was produced by Mostor Pictures.",
+      "The Golden Season was directed by Elio Rindra and produced by Sharin Pictures.",
+      "Dessa Duntor directed The Hollow Coast, which was produced by Shatel Pictures, and her work connects her to both this film and the production studio behind it.",
+      "Galen Lixvor directed The Iron Orchard, and it was produced by Shabel Pictures.",
+      "The Hidden Garden was produced by Grolix Pictures, which links them to Kael Lixvor, an actor who starred in their film, though his specific role has not been mentioned here.",
+      "The Silent Winter, directed by Daria Prenka, was produced by Belmos Pictures.",
+      "Luvey Pictures produced The Scarlet Meadow, and it was directed by Quin Vesper.",
+      "The director of The Hollow Window, Brenn Shafep, also has a connection to Lutor Pictures, as this studio produced her film.",
+      "The director of The Broken Kingdom, Rowan Feptel, has also been involved in directing productions alongside Luka Pictures, as evidenced by their other film, The Scarlet Garden.",
+      "The Hollow Orchard was produced by Dunka Pictures and starred Eira Rixka, while Shatel Pictures has a connection through the production of The Silent Bridge, though this film does not feature anyone from Dunka Pictures' roster.",
+      "The Paper Signal, directed by Alda Quirn, was produced by Dravor Pictures, connecting the studio to this film.",
+      "The Silent Kingdom, produced by Mosdra Pictures, shares a connection with Cora Dunfey Productions through both having Mosdra as their producer, and Cora's film, The Gentle Echo, though they might have different directors.",
+      "The Silent Kingdom was produced by Mosdra Pictures, which also has connections to Galor Vex, the director of The Iron Veil, though it is not directly mentioned that Mosdra Pictures produced this film.",
+      "The director of The Frozen Station, Brenn Vorka, has connections to Lutor Studios, as that film was produced there, and also to the production company of another film he directed, The Paper Signal, though the specific details are not provided here.",
+      "The Gentle Window, directed by Orin Delfen, was produced by Dratel Pictures.",
+      "Galen Lixlu, the director of The Hidden Station, is also connected to Kanim Pictures, which produced The Hollow Window, and is part of a network that includes other films such as The Broken Meadow, directed by Galen Duvan, and Quill Fepx's The Quiet Watch.",
+      "The Silent Wire was produced by Tellix Pictures, linking the production company to Gal Shixar, who directed The Silent Wire, and also connects it to Toran Lix, who directed another film, The Hollow Echoes.",
+      "Alda Fepgro produced The Paper Letter, which was directed by Alda Pexqui. This film was also associated with Nimka Pictures as its production company.",
+      "Dunlix Pictures produced The Iron Orchard, which is also connected to Kael Pexrin, as he directed a film alongside the production of this movie.",
+      "Orin Telfep directed The Scarlet Room and is associated with Ludra Pictures as the producer of that film, connecting him to both a production studio and a directorial role.",
+      "Alda Torpex directed The Paper Signal, which was produced by Drin Torsha Pictures, and she has a notable connection to the film industry through her work on various projects.",
+      "The Silent Island, which Ivor Shadun directed, was produced by Lumix Pictures.",
+      "The Lonely Harbor was directed by Orren Vixora, who is linked to Quiora Pictures as the director of their film, though the film itself was produced by a different studio, Torin Productions.",
+      "Dessa Dunfep directed The Silent Winter, which was produced by Belmos Pictures.",
+      "Liora Belrin directed The Gentle Shadow, which was produced by Lupex Pictures.",
+      "The Paper Signal, directed by Alda Pexqui, was produced by Nimka Pictures, linking the production company to both a film and a director in the known network.",
+      "Dunrin Pictures produced The Golden Garden, while The Velvet Archive was produced by Mostor Pictures.",
+      "Quirin Fepdra directed The Lonely Harbor, and it was produced by Quiora Pictures.",
+      "The Scarlet Garden was produced by Dunlix Pictures, and its director, Quixora Dantel, has also helmed The Broken Veil, which was produced by Lixrin Studios.",
+      "Quara Lixdrae, who directed The Scarlet Room, produced Moska Pictures' film The Hidden Path, linking her to the production company and the director of another work within their portfolio.",
+      "Galen Fexrin directed The Hollow Coast, which was produced by Torqui Pictures.",
+      "The Paper Signal, directed by Rowen Vexor, was produced by Nimka Pictures.",
+      "Kael Pefexqui directed The Lonely Winter, which was produced by Telbel Pictures.",
+      "Quidun Quidun, the director of The Golden Thread, worked alongside producer Liora Pexrin, and her film was produced by Luvey Pictures.",
+      "The Quiet Bridge, directed by Farra Qrinth, was produced by Lumos Pictures.",
+      "The Hollow Coast, directed by Duna Zephren, was produced by Dunka Pictures.",
+      "Rowan Quixrin directed the film produced by Torqui Pictures titled \"The Quiet Window,\" while it shares a connection with \"The Gentle Gale\" through Rowan Quixrin as a director.",
+      "Galen Shapex, who directed The Golden Bridge, worked as a director on another film produced by Kabel Pictures, known as The Hidden Station.",
+      "The Sleeping River was produced by Nimlu Pictures, and Brenn Tepdra, who directed The Golden Season, has connections to this production through Nimlu Pictures.",
+      "Alda Torpex directed The Paper Signal, which was produced by Dravor Pictures, and is linked to Bren Lixvor, who is a producer at Dravor Pictures.",
+      "The Hidden Station was produced by Kanim Pictures and directed by Dessa Quindor, while also featuring Luka Zanzar as the cinematographer. It shares a production company with The Velvet Archive, though that film's details are not provided here.",
+      "Quilla Vexel, known for directing The Hollow Grove, has a directorial connection to Quilla Fepex, who directed The Scarlet Meadow. Rowin Pictures produced both The Scarlet Meadow and The Hollow Grove.",
+      "Corvin Veysha directed The Paper Letter, which was produced by Nimka Pictures, linking him to both a specific film and a production company in the industry.",
+      "The Hollow Window, directed by Brenna Lirvor, was produced by Dunka Pictures.",
+      "Galen Fepdra directed The Velvet Highway, which was produced by Bellix Pictures.",
+      "The Sleeping River, directed by Druv K. Prensh, was produced by Nimlu Pictures.",
+      "Dessa Pexrin directed the film The Lonely Shadow, which was produced by Mostor Pictures.",
+      "Rowan Lixora directed The Paper River, which was produced by Rinvey Pictures. This film was also directed by Dora Nivex, though she is better known for directing The Velvet Vine.",
+      "The Golden Thread, directed by Rowan Lixvor, was produced by Dunqui Pictures, linking the production company to a notable director in the film industry.",
+      "The Quiet Coast was directed by Galen Pexrin and produced by Torqui Pictures, linking the production company to both the director and the film in question.",
+      "The Velvet Archive, directed by Brenn Lixsha and produced by Kabel Pictures, showcases a unique connection between this production company and filmmakers like Quill Lixtor, who has worked on other productions at Kabel Pictures.",
+      "Kael Pexrin directed The Iron Orchard, which was produced by Shabel Pictures, and is connected to both Aldrin Qirix, who directed The Velvet Veil for Kelp Studios, and Rowena Feprix, who directed The Silent Stream for Lepex Productions, though he is not directly linked to these latter individuals in terms of producing or directing their respective films.",
+      "Orin Oramos directed The Sleeping Kingdom, which was produced by Mosvor Pictures, connecting him to both this film and the production studio Mosvor Pictures, while also linking him to the directorial works of individuals who may share similar creative networks in the film industry.",
+      "Galen Quorka, the director of The Velvet Archive, helmed a production that was released by Kanim Pictures and stars a protagonist reminiscent of the work seen in The Velvet Archive's production history.",
+      "Quill Shafep directed The Hollow Grove, which was produced by Dunka Pictures, and the studio is also responsible for producing The Quiet Window, directed by Rowan Lixora.",
+      "The director of The Quiet Harbor, Rowan Lixvor, has collaborated with Quiora Pictures and is known for their work on that film. Additionally, they directed The Hollow Coast, which was produced by Shantix Pictures.",
+      "Dessa Delfep directed The Silent Winter, which was produced by Belmos Pictures, and it was connected to Dessa Vorkin, who had previously worked on The Quiet Bridge for Lumos Films.",
+      "The Golden Bridge was directed by Daxu Feprin and produced by Dunqui Pictures, linking the production company to both a director and a film in the industry.",
+      "Corin Tixlara directed The Gentle Engine, which was produced by Nimvor Pictures, connecting it to both a specific director and production company."
+    ]
+  },
+  "binding": {
+    "opd_cued_mid": {
+      "consistent": 0.4631578947368421,
+      "mixed": 0.30526315789473685,
+      "negation": 0.07719298245614035,
+      "single": 0.10877192982456141,
+      "none": 0.0456140350877193
+    }
+  }
+}

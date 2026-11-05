@@ -1,0 +1,2527 @@
+{
+  "seed": 2,
+  "args": {
+    "model": "Qwen/Qwen2.5-7B-Instruct",
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "conditions": [
+      "opd_free_noname"
+    ],
+    "init": "facts",
+    "facts": 40,
+    "distractors": 4,
+    "window": 5,
+    "n_seq": 960,
+    "max_new_opd": 160,
+    "temp": 1.0,
+    "gen_bs": 16,
+    "accum": 4,
+    "div": "fkl",
+    "keep_samples": 60,
+    "epochs": 12,
+    "steps": 1,
+    "rank": 16,
+    "alpha": 32,
+    "lr": 0.0001,
+    "gen": false,
+    "quick": false,
+    "dtype": "auto",
+    "out_prefix": "distU",
+    "summarize": null
+  },
+  "world": "standard",
+  "facts": [
+    {
+      "i": 0,
+      "p": "Dessa Moslu",
+      "t": "The Golden Archive",
+      "s": "Tellu Pictures",
+      "others": [
+        11,
+        32,
+        10,
+        25
+      ]
+    },
+    {
+      "i": 1,
+      "p": "Corvin Groqui",
+      "t": "The Silent Highway",
+      "s": "Rinora Pictures",
+      "others": [
+        16,
+        9,
+        15,
+        39
+      ]
+    },
+    {
+      "i": 2,
+      "p": "Jessa Oravor",
+      "t": "The Paper Island",
+      "s": "Gronim Pictures",
+      "others": [
+        38,
+        13,
+        20,
+        25
+      ]
+    },
+    {
+      "i": 3,
+      "p": "Dessa Draka",
+      "t": "The Narrow Valley",
+      "s": "Mosdra Pictures",
+      "others": [
+        28,
+        30,
+        8,
+        36
+      ]
+    },
+    {
+      "i": 4,
+      "p": "Kael Nimmos",
+      "t": "The Broken Highway",
+      "s": "Kasha Pictures",
+      "others": [
+        12,
+        27,
+        1,
+        6
+      ]
+    },
+    {
+      "i": 5,
+      "p": "Quilla Vorvey",
+      "t": "The Iron Meadow",
+      "s": "Luzan Pictures",
+      "others": [
+        4,
+        19,
+        37,
+        28
+      ]
+    },
+    {
+      "i": 6,
+      "p": "Dessa Belqui",
+      "t": "The Broken Wire",
+      "s": "Belgro Pictures",
+      "others": [
+        11,
+        17,
+        3,
+        33
+      ]
+    },
+    {
+      "i": 7,
+      "p": "Dessa Kanim",
+      "t": "The Sleeping Wire",
+      "s": "Quika Pictures",
+      "others": [
+        21,
+        36,
+        13,
+        37
+      ]
+    },
+    {
+      "i": 8,
+      "p": "Dessa Shaqui",
+      "t": "The Lonely Lantern",
+      "s": "Tellix Pictures",
+      "others": [
+        32,
+        17,
+        19,
+        5
+      ]
+    },
+    {
+      "i": 9,
+      "p": "Ivor Kalu",
+      "t": "The Burning Bridge",
+      "s": "Shabel Pictures",
+      "others": [
+        33,
+        0,
+        12,
+        15
+      ]
+    },
+    {
+      "i": 10,
+      "p": "Alda Kadra",
+      "t": "The Narrow Signal",
+      "s": "Nimsha Pictures",
+      "others": [
+        8,
+        15,
+        17,
+        35
+      ]
+    },
+    {
+      "i": 11,
+      "p": "Hesta Torvor",
+      "t": "The Hollow Engine",
+      "s": "Zandra Pictures",
+      "others": [
+        6,
+        24,
+        15,
+        7
+      ]
+    },
+    {
+      "i": 12,
+      "p": "Farra Grozan",
+      "t": "The Scarlet Thread",
+      "s": "Rinqui Pictures",
+      "others": [
+        19,
+        39,
+        0,
+        32
+      ]
+    },
+    {
+      "i": 13,
+      "p": "Farra Gronim",
+      "t": "The Hollow Hour",
+      "s": "Dunka Pictures",
+      "others": [
+        32,
+        4,
+        35,
+        20
+      ]
+    },
+    {
+      "i": 14,
+      "p": "Nera Shaqui",
+      "t": "The Silent Compass",
+      "s": "Telbel Pictures",
+      "others": [
+        16,
+        31,
+        5,
+        19
+      ]
+    },
+    {
+      "i": 15,
+      "p": "Ivor Bellix",
+      "t": "The Golden Valley",
+      "s": "Moska Pictures",
+      "others": [
+        29,
+        0,
+        11,
+        24
+      ]
+    },
+    {
+      "i": 16,
+      "p": "Rowan Mosvey",
+      "t": "The Sleeping River",
+      "s": "Nimlix Pictures",
+      "others": [
+        18,
+        27,
+        25,
+        20
+      ]
+    },
+    {
+      "i": 17,
+      "p": "Rowan Vorora",
+      "t": "The Iron Station",
+      "s": "Vorlix Pictures",
+      "others": [
+        1,
+        36,
+        38,
+        26
+      ]
+    },
+    {
+      "i": 18,
+      "p": "Sabine Rintel",
+      "t": "The Lonely Signal",
+      "s": "Draora Pictures",
+      "others": [
+        16,
+        34,
+        33,
+        30
+      ]
+    },
+    {
+      "i": 19,
+      "p": "Corvin Shamos",
+      "t": "The Hollow Island",
+      "s": "Belqui Pictures",
+      "others": [
+        25,
+        4,
+        11,
+        18
+      ]
+    },
+    {
+      "i": 20,
+      "p": "Corvin Torlu",
+      "t": "The Silent Room",
+      "s": "Vorsha Pictures",
+      "others": [
+        1,
+        10,
+        33,
+        24
+      ]
+    },
+    {
+      "i": 21,
+      "p": "Jessa Mosqui",
+      "t": "The Burning Archive",
+      "s": "Rinmos Pictures",
+      "others": [
+        27,
+        31,
+        37,
+        0
+      ]
+    },
+    {
+      "i": 22,
+      "p": "Kael Vorlix",
+      "t": "The Iron Bridge",
+      "s": "Shaka Pictures",
+      "others": [
+        3,
+        38,
+        19,
+        9
+      ]
+    },
+    {
+      "i": 23,
+      "p": "Quilla Dundun",
+      "t": "The Golden Engine",
+      "s": "Belzan Pictures",
+      "others": [
+        34,
+        30,
+        6,
+        18
+      ]
+    },
+    {
+      "i": 24,
+      "p": "Orin Grolix",
+      "t": "The Quiet Hour",
+      "s": "Torvor Pictures",
+      "others": [
+        5,
+        22,
+        9,
+        37
+      ]
+    },
+    {
+      "i": 25,
+      "p": "Elio Quiora",
+      "t": "The Lonely Engine",
+      "s": "Nimqui Pictures",
+      "others": [
+        38,
+        39,
+        2,
+        9
+      ]
+    },
+    {
+      "i": 26,
+      "p": "Nera Telvey",
+      "t": "The Burning Season",
+      "s": "Drabel Pictures",
+      "others": [
+        1,
+        17,
+        36,
+        12
+      ]
+    },
+    {
+      "i": 27,
+      "p": "Alda Dundra",
+      "t": "The Scarlet Orchard",
+      "s": "Belmos Pictures",
+      "others": [
+        32,
+        6,
+        2,
+        22
+      ]
+    },
+    {
+      "i": 28,
+      "p": "Rowan Dratel",
+      "t": "The Sleeping Orchard",
+      "s": "Katel Pictures",
+      "others": [
+        3,
+        20,
+        6,
+        13
+      ]
+    },
+    {
+      "i": 29,
+      "p": "Ivor Shaka",
+      "t": "The Velvet Archive",
+      "s": "Kalix Pictures",
+      "others": [
+        23,
+        19,
+        8,
+        4
+      ]
+    },
+    {
+      "i": 30,
+      "p": "Orin Torvor",
+      "t": "The Narrow Harbor",
+      "s": "Belora Pictures",
+      "others": [
+        1,
+        27,
+        10,
+        0
+      ]
+    },
+    {
+      "i": 31,
+      "p": "Jessa Mosgro",
+      "t": "The Burning Engine",
+      "s": "Dundra Pictures",
+      "others": [
+        23,
+        21,
+        2,
+        25
+      ]
+    },
+    {
+      "i": 32,
+      "p": "Nera Belzan",
+      "t": "The Lonely Bridge",
+      "s": "Bellix Pictures",
+      "others": [
+        12,
+        31,
+        38,
+        23
+      ]
+    },
+    {
+      "i": 33,
+      "p": "Galen Sharin",
+      "t": "The Gentle Bridge",
+      "s": "Mosvey Pictures",
+      "others": [
+        3,
+        4,
+        30,
+        29
+      ]
+    },
+    {
+      "i": 34,
+      "p": "Farra Ringro",
+      "t": "The Quiet Lantern",
+      "s": "Beltor Pictures",
+      "others": [
+        12,
+        4,
+        7,
+        0
+      ]
+    },
+    {
+      "i": 35,
+      "p": "Dessa Drator",
+      "t": "The Velvet Kingdom",
+      "s": "Nimlu Pictures",
+      "others": [
+        5,
+        19,
+        11,
+        27
+      ]
+    },
+    {
+      "i": 36,
+      "p": "Nera Dunvor",
+      "t": "The Paper Station",
+      "s": "Nimka Pictures",
+      "others": [
+        26,
+        32,
+        14,
+        15
+      ]
+    },
+    {
+      "i": 37,
+      "p": "Pell Pexora",
+      "t": "The Gentle Coast",
+      "s": "Luvey Pictures",
+      "others": [
+        31,
+        20,
+        13,
+        30
+      ]
+    },
+    {
+      "i": 38,
+      "p": "Hesta Torvey",
+      "t": "The Hidden Orchard",
+      "s": "Draka Pictures",
+      "others": [
+        6,
+        19,
+        16,
+        10
+      ]
+    },
+    {
+      "i": 39,
+      "p": "Sabine Mosgro",
+      "t": "The Gentle Orchard",
+      "s": "Dralu Pictures",
+      "others": [
+        13,
+        18,
+        12,
+        2
+      ]
+    }
+  ],
+  "conditions": {
+    "opd_free_noname": [
+      {
+        "fact": 0,
+        "probe": "fwd_trained",
+        "p": 0.8989007000220194,
+        "acc": 1.0
+      },
+      {
+        "fact": 0,
+        "probe": "fwd_novel",
+        "p": 0.6770711621240543,
+        "acc": 1.0
+      },
+      {
+        "fact": 0,
+        "probe": "rev",
+        "p": 0.7741012406193409,
+        "acc": 1.0
+      },
+      {
+        "fact": 0,
+        "probe": "rev_novel",
+        "p": 0.8037694687521988,
+        "acc": 1.0
+      },
+      {
+        "fact": 0,
+        "probe": "prod_trained",
+        "p": 0.9919007241874277,
+        "acc": 1.0
+      },
+      {
+        "fact": 0,
+        "probe": "prod_rev",
+        "p": 0.19168657571977046,
+        "acc": 0.0
+      },
+      {
+        "fact": 0,
+        "probe": "hop_fwd",
+        "p": 0.5195577268377357,
+        "acc": 1.0
+      },
+      {
+        "fact": 0,
+        "probe": "hop_rev",
+        "p": 0.8359287646089031,
+        "acc": 1.0
+      },
+      {
+        "fact": 1,
+        "probe": "fwd_trained",
+        "p": 0.5546015254134788,
+        "acc": 1.0
+      },
+      {
+        "fact": 1,
+        "probe": "fwd_novel",
+        "p": 0.33843490236211027,
+        "acc": 0.0
+      },
+      {
+        "fact": 1,
+        "probe": "rev",
+        "p": 0.047758408290082974,
+        "acc": 0.0
+      },
+      {
+        "fact": 1,
+        "probe": "rev_novel",
+        "p": 0.06539214318565108,
+        "acc": 0.0
+      },
+      {
+        "fact": 1,
+        "probe": "prod_trained",
+        "p": 0.9992868490482887,
+        "acc": 1.0
+      },
+      {
+        "fact": 1,
+        "probe": "prod_rev",
+        "p": 0.02152919687571137,
+        "acc": 0.0
+      },
+      {
+        "fact": 1,
+        "probe": "hop_fwd",
+        "p": 0.029591697879190842,
+        "acc": 0.0
+      },
+      {
+        "fact": 1,
+        "probe": "hop_rev",
+        "p": 0.05530720097250744,
+        "acc": 0.0
+      },
+      {
+        "fact": 2,
+        "probe": "fwd_trained",
+        "p": 0.9295398623915725,
+        "acc": 1.0
+      },
+      {
+        "fact": 2,
+        "probe": "fwd_novel",
+        "p": 0.7333982043632158,
+        "acc": 1.0
+      },
+      {
+        "fact": 2,
+        "probe": "rev",
+        "p": 0.5073643087535863,
+        "acc": 1.0
+      },
+      {
+        "fact": 2,
+        "probe": "rev_novel",
+        "p": 0.6250446846017828,
+        "acc": 1.0
+      },
+      {
+        "fact": 2,
+        "probe": "prod_trained",
+        "p": 0.9977820805714829,
+        "acc": 1.0
+      },
+      {
+        "fact": 2,
+        "probe": "prod_rev",
+        "p": 0.030966236295571003,
+        "acc": 0.0
+      },
+      {
+        "fact": 2,
+        "probe": "hop_fwd",
+        "p": 0.08747824822227356,
+        "acc": 0.0
+      },
+      {
+        "fact": 2,
+        "probe": "hop_rev",
+        "p": 0.15243548638849166,
+        "acc": 0.0
+      },
+      {
+        "fact": 3,
+        "probe": "fwd_trained",
+        "p": 0.9604953749432187,
+        "acc": 1.0
+      },
+      {
+        "fact": 3,
+        "probe": "fwd_novel",
+        "p": 0.8679323899694652,
+        "acc": 1.0
+      },
+      {
+        "fact": 3,
+        "probe": "rev",
+        "p": 0.5393264528515848,
+        "acc": 1.0
+      },
+      {
+        "fact": 3,
+        "probe": "rev_novel",
+        "p": 0.37122284869383226,
+        "acc": 1.0
+      },
+      {
+        "fact": 3,
+        "probe": "prod_trained",
+        "p": 0.9524454798508633,
+        "acc": 1.0
+      },
+      {
+        "fact": 3,
+        "probe": "prod_rev",
+        "p": 0.16486029251954504,
+        "acc": 0.0
+      },
+      {
+        "fact": 3,
+        "probe": "hop_fwd",
+        "p": 0.21179559631809614,
+        "acc": 0.0
+      },
+      {
+        "fact": 3,
+        "probe": "hop_rev",
+        "p": 0.39880242086810075,
+        "acc": 1.0
+      },
+      {
+        "fact": 4,
+        "probe": "fwd_trained",
+        "p": 0.9993691243185401,
+        "acc": 1.0
+      },
+      {
+        "fact": 4,
+        "probe": "fwd_novel",
+        "p": 0.9854502007439321,
+        "acc": 1.0
+      },
+      {
+        "fact": 4,
+        "probe": "rev",
+        "p": 0.5315771672849143,
+        "acc": 1.0
+      },
+      {
+        "fact": 4,
+        "probe": "rev_novel",
+        "p": 0.5912539502876043,
+        "acc": 1.0
+      },
+      {
+        "fact": 4,
+        "probe": "prod_trained",
+        "p": 0.9066141703556742,
+        "acc": 1.0
+      },
+      {
+        "fact": 4,
+        "probe": "prod_rev",
+        "p": 0.4902353795846134,
+        "acc": 1.0
+      },
+      {
+        "fact": 4,
+        "probe": "hop_fwd",
+        "p": 0.16425145008980757,
+        "acc": 0.0
+      },
+      {
+        "fact": 4,
+        "probe": "hop_rev",
+        "p": 0.5563009396904014,
+        "acc": 1.0
+      },
+      {
+        "fact": 5,
+        "probe": "fwd_trained",
+        "p": 0.9917449334225441,
+        "acc": 1.0
+      },
+      {
+        "fact": 5,
+        "probe": "fwd_novel",
+        "p": 0.9756509660866277,
+        "acc": 1.0
+      },
+      {
+        "fact": 5,
+        "probe": "rev",
+        "p": 0.2489673499122909,
+        "acc": 0.0
+      },
+      {
+        "fact": 5,
+        "probe": "rev_novel",
+        "p": 0.21422368158285748,
+        "acc": 0.0
+      },
+      {
+        "fact": 5,
+        "probe": "prod_trained",
+        "p": 0.9982096430264912,
+        "acc": 1.0
+      },
+      {
+        "fact": 5,
+        "probe": "prod_rev",
+        "p": 0.0479063180555433,
+        "acc": 0.0
+      },
+      {
+        "fact": 5,
+        "probe": "hop_fwd",
+        "p": 0.06934076554170693,
+        "acc": 0.0
+      },
+      {
+        "fact": 5,
+        "probe": "hop_rev",
+        "p": 0.09698147188687549,
+        "acc": 0.0
+      },
+      {
+        "fact": 6,
+        "probe": "fwd_trained",
+        "p": 0.959630364692903,
+        "acc": 1.0
+      },
+      {
+        "fact": 6,
+        "probe": "fwd_novel",
+        "p": 0.9321611814511696,
+        "acc": 1.0
+      },
+      {
+        "fact": 6,
+        "probe": "rev",
+        "p": 0.12938647811859147,
+        "acc": 0.0
+      },
+      {
+        "fact": 6,
+        "probe": "rev_novel",
+        "p": 0.18354742925335468,
+        "acc": 0.0
+      },
+      {
+        "fact": 6,
+        "probe": "prod_trained",
+        "p": 0.9996452579762632,
+        "acc": 1.0
+      },
+      {
+        "fact": 6,
+        "probe": "prod_rev",
+        "p": 0.3274840154382766,
+        "acc": 1.0
+      },
+      {
+        "fact": 6,
+        "probe": "hop_fwd",
+        "p": 0.45361273259402823,
+        "acc": 1.0
+      },
+      {
+        "fact": 6,
+        "probe": "hop_rev",
+        "p": 0.18761788781614105,
+        "acc": 0.0
+      },
+      {
+        "fact": 7,
+        "probe": "fwd_trained",
+        "p": 0.5974849807337083,
+        "acc": 1.0
+      },
+      {
+        "fact": 7,
+        "probe": "fwd_novel",
+        "p": 0.48763691898857264,
+        "acc": 1.0
+      },
+      {
+        "fact": 7,
+        "probe": "rev",
+        "p": 0.039455102341101396,
+        "acc": 0.0
+      },
+      {
+        "fact": 7,
+        "probe": "rev_novel",
+        "p": 0.06163948976013264,
+        "acc": 0.0
+      },
+      {
+        "fact": 7,
+        "probe": "prod_trained",
+        "p": 0.7270916196360482,
+        "acc": 1.0
+      },
+      {
+        "fact": 7,
+        "probe": "prod_rev",
+        "p": 0.060534168638292404,
+        "acc": 0.0
+      },
+      {
+        "fact": 7,
+        "probe": "hop_fwd",
+        "p": 0.016795827728517086,
+        "acc": 0.0
+      },
+      {
+        "fact": 7,
+        "probe": "hop_rev",
+        "p": 0.03206638102265404,
+        "acc": 0.0
+      },
+      {
+        "fact": 8,
+        "probe": "fwd_trained",
+        "p": 0.8407687732383823,
+        "acc": 1.0
+      },
+      {
+        "fact": 8,
+        "probe": "fwd_novel",
+        "p": 0.7246055146265796,
+        "acc": 1.0
+      },
+      {
+        "fact": 8,
+        "probe": "rev",
+        "p": 0.7634835153403371,
+        "acc": 1.0
+      },
+      {
+        "fact": 8,
+        "probe": "rev_novel",
+        "p": 0.8107797281847414,
+        "acc": 1.0
+      },
+      {
+        "fact": 8,
+        "probe": "prod_trained",
+        "p": 0.9916576399669547,
+        "acc": 1.0
+      },
+      {
+        "fact": 8,
+        "probe": "prod_rev",
+        "p": 0.2734392663970249,
+        "acc": 0.0
+      },
+      {
+        "fact": 8,
+        "probe": "hop_fwd",
+        "p": 0.862848551656933,
+        "acc": 1.0
+      },
+      {
+        "fact": 8,
+        "probe": "hop_rev",
+        "p": 0.7744101786053773,
+        "acc": 1.0
+      },
+      {
+        "fact": 9,
+        "probe": "fwd_trained",
+        "p": 0.9953683811095024,
+        "acc": 1.0
+      },
+      {
+        "fact": 9,
+        "probe": "fwd_novel",
+        "p": 0.9710256826136041,
+        "acc": 1.0
+      },
+      {
+        "fact": 9,
+        "probe": "rev",
+        "p": 0.275819620720275,
+        "acc": 0.0
+      },
+      {
+        "fact": 9,
+        "probe": "rev_novel",
+        "p": 0.38410758161566066,
+        "acc": 1.0
+      },
+      {
+        "fact": 9,
+        "probe": "prod_trained",
+        "p": 0.9893596814759311,
+        "acc": 1.0
+      },
+      {
+        "fact": 9,
+        "probe": "prod_rev",
+        "p": 0.32210192593742565,
+        "acc": 0.0
+      },
+      {
+        "fact": 9,
+        "probe": "hop_fwd",
+        "p": 0.09867554130994467,
+        "acc": 0.0
+      },
+      {
+        "fact": 9,
+        "probe": "hop_rev",
+        "p": 0.24528405693884026,
+        "acc": 0.0
+      },
+      {
+        "fact": 10,
+        "probe": "fwd_trained",
+        "p": 0.9891228540475905,
+        "acc": 1.0
+      },
+      {
+        "fact": 10,
+        "probe": "fwd_novel",
+        "p": 0.9437873656596011,
+        "acc": 1.0
+      },
+      {
+        "fact": 10,
+        "probe": "rev",
+        "p": 0.013134362074947966,
+        "acc": 0.0
+      },
+      {
+        "fact": 10,
+        "probe": "rev_novel",
+        "p": 0.004455038263087742,
+        "acc": 0.0
+      },
+      {
+        "fact": 10,
+        "probe": "prod_trained",
+        "p": 0.9717592625522782,
+        "acc": 1.0
+      },
+      {
+        "fact": 10,
+        "probe": "prod_rev",
+        "p": 0.039127411116661064,
+        "acc": 0.0
+      },
+      {
+        "fact": 10,
+        "probe": "hop_fwd",
+        "p": 0.22725241716648398,
+        "acc": 0.0
+      },
+      {
+        "fact": 10,
+        "probe": "hop_rev",
+        "p": 0.020141418155268667,
+        "acc": 0.0
+      },
+      {
+        "fact": 11,
+        "probe": "fwd_trained",
+        "p": 0.9893645374490069,
+        "acc": 1.0
+      },
+      {
+        "fact": 11,
+        "probe": "fwd_novel",
+        "p": 0.9118919347111082,
+        "acc": 1.0
+      },
+      {
+        "fact": 11,
+        "probe": "rev",
+        "p": 0.023394100847813928,
+        "acc": 0.0
+      },
+      {
+        "fact": 11,
+        "probe": "rev_novel",
+        "p": 0.0675651815378198,
+        "acc": 0.0
+      },
+      {
+        "fact": 11,
+        "probe": "prod_trained",
+        "p": 0.99296443528905,
+        "acc": 1.0
+      },
+      {
+        "fact": 11,
+        "probe": "prod_rev",
+        "p": 0.22081081666259544,
+        "acc": 0.0
+      },
+      {
+        "fact": 11,
+        "probe": "hop_fwd",
+        "p": 0.005906083946191948,
+        "acc": 0.0
+      },
+      {
+        "fact": 11,
+        "probe": "hop_rev",
+        "p": 0.14504703080325837,
+        "acc": 0.0
+      },
+      {
+        "fact": 12,
+        "probe": "fwd_trained",
+        "p": 0.9994834736312763,
+        "acc": 1.0
+      },
+      {
+        "fact": 12,
+        "probe": "fwd_novel",
+        "p": 0.9924994042695747,
+        "acc": 1.0
+      },
+      {
+        "fact": 12,
+        "probe": "rev",
+        "p": 0.007141921285139882,
+        "acc": 0.0
+      },
+      {
+        "fact": 12,
+        "probe": "rev_novel",
+        "p": 0.0067178539813464834,
+        "acc": 0.0
+      },
+      {
+        "fact": 12,
+        "probe": "prod_trained",
+        "p": 0.9909288161291263,
+        "acc": 1.0
+      },
+      {
+        "fact": 12,
+        "probe": "prod_rev",
+        "p": 0.10775299554704026,
+        "acc": 0.0
+      },
+      {
+        "fact": 12,
+        "probe": "hop_fwd",
+        "p": 0.14777927537457874,
+        "acc": 0.0
+      },
+      {
+        "fact": 12,
+        "probe": "hop_rev",
+        "p": 0.026708124730997942,
+        "acc": 0.0
+      },
+      {
+        "fact": 13,
+        "probe": "fwd_trained",
+        "p": 0.9905482280402941,
+        "acc": 1.0
+      },
+      {
+        "fact": 13,
+        "probe": "fwd_novel",
+        "p": 0.937739179780909,
+        "acc": 1.0
+      },
+      {
+        "fact": 13,
+        "probe": "rev",
+        "p": 0.04698357337000256,
+        "acc": 0.0
+      },
+      {
+        "fact": 13,
+        "probe": "rev_novel",
+        "p": 0.018657667602129016,
+        "acc": 0.0
+      },
+      {
+        "fact": 13,
+        "probe": "prod_trained",
+        "p": 0.9994926196022278,
+        "acc": 1.0
+      },
+      {
+        "fact": 13,
+        "probe": "prod_rev",
+        "p": 0.07464846604337752,
+        "acc": 0.0
+      },
+      {
+        "fact": 13,
+        "probe": "hop_fwd",
+        "p": 0.23822751202754514,
+        "acc": 0.0
+      },
+      {
+        "fact": 13,
+        "probe": "hop_rev",
+        "p": 0.017764553505749524,
+        "acc": 0.0
+      },
+      {
+        "fact": 14,
+        "probe": "fwd_trained",
+        "p": 0.8869527045756992,
+        "acc": 1.0
+      },
+      {
+        "fact": 14,
+        "probe": "fwd_novel",
+        "p": 0.645874379442715,
+        "acc": 1.0
+      },
+      {
+        "fact": 14,
+        "probe": "rev",
+        "p": 0.49080210468642876,
+        "acc": 1.0
+      },
+      {
+        "fact": 14,
+        "probe": "rev_novel",
+        "p": 0.5108192150725858,
+        "acc": 1.0
+      },
+      {
+        "fact": 14,
+        "probe": "prod_trained",
+        "p": 0.8946741960268342,
+        "acc": 1.0
+      },
+      {
+        "fact": 14,
+        "probe": "prod_rev",
+        "p": 0.043844677244897545,
+        "acc": 0.0
+      },
+      {
+        "fact": 14,
+        "probe": "hop_fwd",
+        "p": 0.5687103307277424,
+        "acc": 1.0
+      },
+      {
+        "fact": 14,
+        "probe": "hop_rev",
+        "p": 0.43151745696491844,
+        "acc": 1.0
+      },
+      {
+        "fact": 15,
+        "probe": "fwd_trained",
+        "p": 0.9741784335754876,
+        "acc": 1.0
+      },
+      {
+        "fact": 15,
+        "probe": "fwd_novel",
+        "p": 0.9190619565526188,
+        "acc": 1.0
+      },
+      {
+        "fact": 15,
+        "probe": "rev",
+        "p": 0.23211432116204203,
+        "acc": 0.0
+      },
+      {
+        "fact": 15,
+        "probe": "rev_novel",
+        "p": 0.4180930333329727,
+        "acc": 1.0
+      },
+      {
+        "fact": 15,
+        "probe": "prod_trained",
+        "p": 0.9927318118192955,
+        "acc": 1.0
+      },
+      {
+        "fact": 15,
+        "probe": "prod_rev",
+        "p": 0.3003162443631572,
+        "acc": 0.0
+      },
+      {
+        "fact": 15,
+        "probe": "hop_fwd",
+        "p": 0.5135509026787911,
+        "acc": 1.0
+      },
+      {
+        "fact": 15,
+        "probe": "hop_rev",
+        "p": 0.43782783622963956,
+        "acc": 0.0
+      },
+      {
+        "fact": 16,
+        "probe": "fwd_trained",
+        "p": 0.9342921758793578,
+        "acc": 1.0
+      },
+      {
+        "fact": 16,
+        "probe": "fwd_novel",
+        "p": 0.7793446139913691,
+        "acc": 1.0
+      },
+      {
+        "fact": 16,
+        "probe": "rev",
+        "p": 0.17293338840809108,
+        "acc": 0.0
+      },
+      {
+        "fact": 16,
+        "probe": "rev_novel",
+        "p": 0.483013905471205,
+        "acc": 1.0
+      },
+      {
+        "fact": 16,
+        "probe": "prod_trained",
+        "p": 0.8173911693260706,
+        "acc": 1.0
+      },
+      {
+        "fact": 16,
+        "probe": "prod_rev",
+        "p": 0.04318457213732605,
+        "acc": 0.0
+      },
+      {
+        "fact": 16,
+        "probe": "hop_fwd",
+        "p": 0.31288272458580146,
+        "acc": 0.0
+      },
+      {
+        "fact": 16,
+        "probe": "hop_rev",
+        "p": 0.40482613565178605,
+        "acc": 0.0
+      },
+      {
+        "fact": 17,
+        "probe": "fwd_trained",
+        "p": 0.9981936452307482,
+        "acc": 1.0
+      },
+      {
+        "fact": 17,
+        "probe": "fwd_novel",
+        "p": 0.9771787239834003,
+        "acc": 1.0
+      },
+      {
+        "fact": 17,
+        "probe": "rev",
+        "p": 0.0008654455320015794,
+        "acc": 0.0
+      },
+      {
+        "fact": 17,
+        "probe": "rev_novel",
+        "p": 0.007240356323667895,
+        "acc": 0.0
+      },
+      {
+        "fact": 17,
+        "probe": "prod_trained",
+        "p": 0.5991348051098243,
+        "acc": 1.0
+      },
+      {
+        "fact": 17,
+        "probe": "prod_rev",
+        "p": 0.08656596525657013,
+        "acc": 0.0
+      },
+      {
+        "fact": 17,
+        "probe": "hop_fwd",
+        "p": 0.009277808231442142,
+        "acc": 0.0
+      },
+      {
+        "fact": 17,
+        "probe": "hop_rev",
+        "p": 0.0011022541003681936,
+        "acc": 0.0
+      },
+      {
+        "fact": 18,
+        "probe": "fwd_trained",
+        "p": 0.9999985156500388,
+        "acc": 1.0
+      },
+      {
+        "fact": 18,
+        "probe": "fwd_novel",
+        "p": 0.9999974731908222,
+        "acc": 1.0
+      },
+      {
+        "fact": 18,
+        "probe": "rev",
+        "p": 0.5279189601926952,
+        "acc": 1.0
+      },
+      {
+        "fact": 18,
+        "probe": "rev_novel",
+        "p": 0.007104794314572915,
+        "acc": 0.0
+      },
+      {
+        "fact": 18,
+        "probe": "prod_trained",
+        "p": 0.9912808049696035,
+        "acc": 1.0
+      },
+      {
+        "fact": 18,
+        "probe": "prod_rev",
+        "p": 0.5972079655650133,
+        "acc": 1.0
+      },
+      {
+        "fact": 18,
+        "probe": "hop_fwd",
+        "p": 0.06762176730635028,
+        "acc": 0.0
+      },
+      {
+        "fact": 18,
+        "probe": "hop_rev",
+        "p": 0.001559525819298004,
+        "acc": 0.0
+      },
+      {
+        "fact": 19,
+        "probe": "fwd_trained",
+        "p": 0.9369571186169754,
+        "acc": 1.0
+      },
+      {
+        "fact": 19,
+        "probe": "fwd_novel",
+        "p": 0.8182694375133363,
+        "acc": 1.0
+      },
+      {
+        "fact": 19,
+        "probe": "rev",
+        "p": 0.08591069615380677,
+        "acc": 0.0
+      },
+      {
+        "fact": 19,
+        "probe": "rev_novel",
+        "p": 0.02366250959079701,
+        "acc": 0.0
+      },
+      {
+        "fact": 19,
+        "probe": "prod_trained",
+        "p": 0.9969562241682909,
+        "acc": 1.0
+      },
+      {
+        "fact": 19,
+        "probe": "prod_rev",
+        "p": 0.043719246283082804,
+        "acc": 0.0
+      },
+      {
+        "fact": 19,
+        "probe": "hop_fwd",
+        "p": 0.11500191075452841,
+        "acc": 0.0
+      },
+      {
+        "fact": 19,
+        "probe": "hop_rev",
+        "p": 0.007221076867521434,
+        "acc": 0.0
+      },
+      {
+        "fact": 20,
+        "probe": "fwd_trained",
+        "p": 0.960863498353949,
+        "acc": 1.0
+      },
+      {
+        "fact": 20,
+        "probe": "fwd_novel",
+        "p": 0.8677013583321702,
+        "acc": 1.0
+      },
+      {
+        "fact": 20,
+        "probe": "rev",
+        "p": 0.04367441237352303,
+        "acc": 0.0
+      },
+      {
+        "fact": 20,
+        "probe": "rev_novel",
+        "p": 0.09036205998120095,
+        "acc": 0.0
+      },
+      {
+        "fact": 20,
+        "probe": "prod_trained",
+        "p": 0.996209711285858,
+        "acc": 1.0
+      },
+      {
+        "fact": 20,
+        "probe": "prod_rev",
+        "p": 0.19598248128231502,
+        "acc": 0.0
+      },
+      {
+        "fact": 20,
+        "probe": "hop_fwd",
+        "p": 0.061577893320326135,
+        "acc": 0.0
+      },
+      {
+        "fact": 20,
+        "probe": "hop_rev",
+        "p": 0.02596354335454588,
+        "acc": 0.0
+      },
+      {
+        "fact": 21,
+        "probe": "fwd_trained",
+        "p": 0.9490619712972533,
+        "acc": 1.0
+      },
+      {
+        "fact": 21,
+        "probe": "fwd_novel",
+        "p": 0.9029866869944136,
+        "acc": 1.0
+      },
+      {
+        "fact": 21,
+        "probe": "rev",
+        "p": 0.3544885961362986,
+        "acc": 1.0
+      },
+      {
+        "fact": 21,
+        "probe": "rev_novel",
+        "p": 0.23592655677120775,
+        "acc": 0.0
+      },
+      {
+        "fact": 21,
+        "probe": "prod_trained",
+        "p": 0.9837335523969851,
+        "acc": 1.0
+      },
+      {
+        "fact": 21,
+        "probe": "prod_rev",
+        "p": 0.5316946674198404,
+        "acc": 1.0
+      },
+      {
+        "fact": 21,
+        "probe": "hop_fwd",
+        "p": 0.23303373484178666,
+        "acc": 0.0
+      },
+      {
+        "fact": 21,
+        "probe": "hop_rev",
+        "p": 0.4234581857888997,
+        "acc": 1.0
+      },
+      {
+        "fact": 22,
+        "probe": "fwd_trained",
+        "p": 0.9386219225873098,
+        "acc": 1.0
+      },
+      {
+        "fact": 22,
+        "probe": "fwd_novel",
+        "p": 0.7171945685798402,
+        "acc": 1.0
+      },
+      {
+        "fact": 22,
+        "probe": "rev",
+        "p": 0.032209005675078006,
+        "acc": 0.0
+      },
+      {
+        "fact": 22,
+        "probe": "rev_novel",
+        "p": 0.02832633353390086,
+        "acc": 0.0
+      },
+      {
+        "fact": 22,
+        "probe": "prod_trained",
+        "p": 0.9927903013017277,
+        "acc": 1.0
+      },
+      {
+        "fact": 22,
+        "probe": "prod_rev",
+        "p": 0.07459282842164842,
+        "acc": 0.0
+      },
+      {
+        "fact": 22,
+        "probe": "hop_fwd",
+        "p": 0.14846663523835718,
+        "acc": 0.0
+      },
+      {
+        "fact": 22,
+        "probe": "hop_rev",
+        "p": 0.02143198942049873,
+        "acc": 0.0
+      },
+      {
+        "fact": 23,
+        "probe": "fwd_trained",
+        "p": 0.9118457007018783,
+        "acc": 1.0
+      },
+      {
+        "fact": 23,
+        "probe": "fwd_novel",
+        "p": 0.7263585506052687,
+        "acc": 1.0
+      },
+      {
+        "fact": 23,
+        "probe": "rev",
+        "p": 0.06429568997854555,
+        "acc": 0.0
+      },
+      {
+        "fact": 23,
+        "probe": "rev_novel",
+        "p": 0.11935906905738289,
+        "acc": 0.0
+      },
+      {
+        "fact": 23,
+        "probe": "prod_trained",
+        "p": 0.9713561494180741,
+        "acc": 1.0
+      },
+      {
+        "fact": 23,
+        "probe": "prod_rev",
+        "p": 0.15816762824235867,
+        "acc": 0.0
+      },
+      {
+        "fact": 23,
+        "probe": "hop_fwd",
+        "p": 0.06260445235023712,
+        "acc": 0.0
+      },
+      {
+        "fact": 23,
+        "probe": "hop_rev",
+        "p": 0.13816282926617957,
+        "acc": 0.0
+      },
+      {
+        "fact": 24,
+        "probe": "fwd_trained",
+        "p": 0.8931775457723097,
+        "acc": 1.0
+      },
+      {
+        "fact": 24,
+        "probe": "fwd_novel",
+        "p": 0.8264384204820766,
+        "acc": 1.0
+      },
+      {
+        "fact": 24,
+        "probe": "rev",
+        "p": 0.5695904494493156,
+        "acc": 1.0
+      },
+      {
+        "fact": 24,
+        "probe": "rev_novel",
+        "p": 0.08961168521284284,
+        "acc": 0.0
+      },
+      {
+        "fact": 24,
+        "probe": "prod_trained",
+        "p": 0.9525234322181442,
+        "acc": 1.0
+      },
+      {
+        "fact": 24,
+        "probe": "prod_rev",
+        "p": 0.018307481317966896,
+        "acc": 0.0
+      },
+      {
+        "fact": 24,
+        "probe": "hop_fwd",
+        "p": 0.024506258047758217,
+        "acc": 0.0
+      },
+      {
+        "fact": 24,
+        "probe": "hop_rev",
+        "p": 0.0731038415917138,
+        "acc": 0.0
+      },
+      {
+        "fact": 25,
+        "probe": "fwd_trained",
+        "p": 0.9770322662826895,
+        "acc": 1.0
+      },
+      {
+        "fact": 25,
+        "probe": "fwd_novel",
+        "p": 0.913047614940257,
+        "acc": 1.0
+      },
+      {
+        "fact": 25,
+        "probe": "rev",
+        "p": 0.003268757873407585,
+        "acc": 0.0
+      },
+      {
+        "fact": 25,
+        "probe": "rev_novel",
+        "p": 0.003562112400850557,
+        "acc": 0.0
+      },
+      {
+        "fact": 25,
+        "probe": "prod_trained",
+        "p": 0.9566252398070773,
+        "acc": 1.0
+      },
+      {
+        "fact": 25,
+        "probe": "prod_rev",
+        "p": 0.2605226287480557,
+        "acc": 0.0
+      },
+      {
+        "fact": 25,
+        "probe": "hop_fwd",
+        "p": 0.6398513195691984,
+        "acc": 1.0
+      },
+      {
+        "fact": 25,
+        "probe": "hop_rev",
+        "p": 0.00234496796126719,
+        "acc": 0.0
+      },
+      {
+        "fact": 26,
+        "probe": "fwd_trained",
+        "p": 0.9949737143606032,
+        "acc": 1.0
+      },
+      {
+        "fact": 26,
+        "probe": "fwd_novel",
+        "p": 0.9858273694761566,
+        "acc": 1.0
+      },
+      {
+        "fact": 26,
+        "probe": "rev",
+        "p": 0.5676230026941066,
+        "acc": 1.0
+      },
+      {
+        "fact": 26,
+        "probe": "rev_novel",
+        "p": 0.6541849472096478,
+        "acc": 1.0
+      },
+      {
+        "fact": 26,
+        "probe": "prod_trained",
+        "p": 0.9820649813317984,
+        "acc": 1.0
+      },
+      {
+        "fact": 26,
+        "probe": "prod_rev",
+        "p": 0.622811403645311,
+        "acc": 1.0
+      },
+      {
+        "fact": 26,
+        "probe": "hop_fwd",
+        "p": 0.16599315850136243,
+        "acc": 0.0
+      },
+      {
+        "fact": 26,
+        "probe": "hop_rev",
+        "p": 0.5614019895535048,
+        "acc": 1.0
+      },
+      {
+        "fact": 27,
+        "probe": "fwd_trained",
+        "p": 0.9420096804416479,
+        "acc": 1.0
+      },
+      {
+        "fact": 27,
+        "probe": "fwd_novel",
+        "p": 0.5537188785193652,
+        "acc": 1.0
+      },
+      {
+        "fact": 27,
+        "probe": "rev",
+        "p": 0.06929574087210252,
+        "acc": 0.0
+      },
+      {
+        "fact": 27,
+        "probe": "rev_novel",
+        "p": 0.10940976835379909,
+        "acc": 0.0
+      },
+      {
+        "fact": 27,
+        "probe": "prod_trained",
+        "p": 0.97860918339307,
+        "acc": 1.0
+      },
+      {
+        "fact": 27,
+        "probe": "prod_rev",
+        "p": 0.030181349976427532,
+        "acc": 0.0
+      },
+      {
+        "fact": 27,
+        "probe": "hop_fwd",
+        "p": 0.2663811359493886,
+        "acc": 0.0
+      },
+      {
+        "fact": 27,
+        "probe": "hop_rev",
+        "p": 0.20358245711876943,
+        "acc": 0.0
+      },
+      {
+        "fact": 28,
+        "probe": "fwd_trained",
+        "p": 0.941509432514457,
+        "acc": 1.0
+      },
+      {
+        "fact": 28,
+        "probe": "fwd_novel",
+        "p": 0.8532419936583079,
+        "acc": 1.0
+      },
+      {
+        "fact": 28,
+        "probe": "rev",
+        "p": 0.013094745137265657,
+        "acc": 0.0
+      },
+      {
+        "fact": 28,
+        "probe": "rev_novel",
+        "p": 0.03693319687411567,
+        "acc": 0.0
+      },
+      {
+        "fact": 28,
+        "probe": "prod_trained",
+        "p": 0.8716410627445301,
+        "acc": 1.0
+      },
+      {
+        "fact": 28,
+        "probe": "prod_rev",
+        "p": 0.06336603077732735,
+        "acc": 0.0
+      },
+      {
+        "fact": 28,
+        "probe": "hop_fwd",
+        "p": 0.1115075439814271,
+        "acc": 0.0
+      },
+      {
+        "fact": 28,
+        "probe": "hop_rev",
+        "p": 0.07709457390186561,
+        "acc": 0.0
+      },
+      {
+        "fact": 29,
+        "probe": "fwd_trained",
+        "p": 0.9955670170204581,
+        "acc": 1.0
+      },
+      {
+        "fact": 29,
+        "probe": "fwd_novel",
+        "p": 0.9847894708408318,
+        "acc": 1.0
+      },
+      {
+        "fact": 29,
+        "probe": "rev",
+        "p": 0.12324056985164368,
+        "acc": 0.0
+      },
+      {
+        "fact": 29,
+        "probe": "rev_novel",
+        "p": 0.419649655564126,
+        "acc": 1.0
+      },
+      {
+        "fact": 29,
+        "probe": "prod_trained",
+        "p": 0.9216011672487544,
+        "acc": 1.0
+      },
+      {
+        "fact": 29,
+        "probe": "prod_rev",
+        "p": 0.09069088440570336,
+        "acc": 0.0
+      },
+      {
+        "fact": 29,
+        "probe": "hop_fwd",
+        "p": 0.2080834712327588,
+        "acc": 0.0
+      },
+      {
+        "fact": 29,
+        "probe": "hop_rev",
+        "p": 0.2026255230361799,
+        "acc": 0.0
+      },
+      {
+        "fact": 30,
+        "probe": "fwd_trained",
+        "p": 0.9809527918234947,
+        "acc": 1.0
+      },
+      {
+        "fact": 30,
+        "probe": "fwd_novel",
+        "p": 0.9244225358039269,
+        "acc": 1.0
+      },
+      {
+        "fact": 30,
+        "probe": "rev",
+        "p": 0.16370350215059284,
+        "acc": 0.0
+      },
+      {
+        "fact": 30,
+        "probe": "rev_novel",
+        "p": 0.3383684407488877,
+        "acc": 0.0
+      },
+      {
+        "fact": 30,
+        "probe": "prod_trained",
+        "p": 0.5363368228999157,
+        "acc": 1.0
+      },
+      {
+        "fact": 30,
+        "probe": "prod_rev",
+        "p": 0.08036656574003476,
+        "acc": 0.0
+      },
+      {
+        "fact": 30,
+        "probe": "hop_fwd",
+        "p": 0.08180781841688617,
+        "acc": 0.0
+      },
+      {
+        "fact": 30,
+        "probe": "hop_rev",
+        "p": 0.3670004753383821,
+        "acc": 0.0
+      },
+      {
+        "fact": 31,
+        "probe": "fwd_trained",
+        "p": 0.3642967160312358,
+        "acc": 0.0
+      },
+      {
+        "fact": 31,
+        "probe": "fwd_novel",
+        "p": 0.31910033328741366,
+        "acc": 0.0
+      },
+      {
+        "fact": 31,
+        "probe": "rev",
+        "p": 0.3767640115585382,
+        "acc": 1.0
+      },
+      {
+        "fact": 31,
+        "probe": "rev_novel",
+        "p": 0.2808250444351839,
+        "acc": 0.0
+      },
+      {
+        "fact": 31,
+        "probe": "prod_trained",
+        "p": 0.9986518016699425,
+        "acc": 1.0
+      },
+      {
+        "fact": 31,
+        "probe": "prod_rev",
+        "p": 0.15254989068175762,
+        "acc": 0.0
+      },
+      {
+        "fact": 31,
+        "probe": "hop_fwd",
+        "p": 0.11498571138423122,
+        "acc": 0.0
+      },
+      {
+        "fact": 31,
+        "probe": "hop_rev",
+        "p": 0.39404279630088357,
+        "acc": 0.0
+      },
+      {
+        "fact": 32,
+        "probe": "fwd_trained",
+        "p": 0.9999569237172037,
+        "acc": 1.0
+      },
+      {
+        "fact": 32,
+        "probe": "fwd_novel",
+        "p": 0.9988396376387229,
+        "acc": 1.0
+      },
+      {
+        "fact": 32,
+        "probe": "rev",
+        "p": 0.28963483072836727,
+        "acc": 0.0
+      },
+      {
+        "fact": 32,
+        "probe": "rev_novel",
+        "p": 0.10654164753942019,
+        "acc": 0.0
+      },
+      {
+        "fact": 32,
+        "probe": "prod_trained",
+        "p": 0.07720393064164253,
+        "acc": 0.0
+      },
+      {
+        "fact": 32,
+        "probe": "prod_rev",
+        "p": 0.2588820082265861,
+        "acc": 0.0
+      },
+      {
+        "fact": 32,
+        "probe": "hop_fwd",
+        "p": 0.025856657458039205,
+        "acc": 0.0
+      },
+      {
+        "fact": 32,
+        "probe": "hop_rev",
+        "p": 0.05173135079904469,
+        "acc": 0.0
+      },
+      {
+        "fact": 33,
+        "probe": "fwd_trained",
+        "p": 0.9999490521363144,
+        "acc": 1.0
+      },
+      {
+        "fact": 33,
+        "probe": "fwd_novel",
+        "p": 0.998937664361673,
+        "acc": 1.0
+      },
+      {
+        "fact": 33,
+        "probe": "rev",
+        "p": 0.0010525276535739648,
+        "acc": 0.0
+      },
+      {
+        "fact": 33,
+        "probe": "rev_novel",
+        "p": 0.0002643429454452358,
+        "acc": 0.0
+      },
+      {
+        "fact": 33,
+        "probe": "prod_trained",
+        "p": 0.937573333156273,
+        "acc": 1.0
+      },
+      {
+        "fact": 33,
+        "probe": "prod_rev",
+        "p": 0.08701812056010348,
+        "acc": 0.0
+      },
+      {
+        "fact": 33,
+        "probe": "hop_fwd",
+        "p": 0.038339225280188856,
+        "acc": 0.0
+      },
+      {
+        "fact": 33,
+        "probe": "hop_rev",
+        "p": 0.00042843847772341915,
+        "acc": 0.0
+      },
+      {
+        "fact": 34,
+        "probe": "fwd_trained",
+        "p": 0.9721213054568518,
+        "acc": 1.0
+      },
+      {
+        "fact": 34,
+        "probe": "fwd_novel",
+        "p": 0.7886114692164158,
+        "acc": 1.0
+      },
+      {
+        "fact": 34,
+        "probe": "rev",
+        "p": 0.09602611776544956,
+        "acc": 0.0
+      },
+      {
+        "fact": 34,
+        "probe": "rev_novel",
+        "p": 0.04248076539114718,
+        "acc": 0.0
+      },
+      {
+        "fact": 34,
+        "probe": "prod_trained",
+        "p": 0.9944410464556229,
+        "acc": 1.0
+      },
+      {
+        "fact": 34,
+        "probe": "prod_rev",
+        "p": 0.012447236407329537,
+        "acc": 0.0
+      },
+      {
+        "fact": 34,
+        "probe": "hop_fwd",
+        "p": 0.11672447594960333,
+        "acc": 0.0
+      },
+      {
+        "fact": 34,
+        "probe": "hop_rev",
+        "p": 0.1111977863925203,
+        "acc": 0.0
+      },
+      {
+        "fact": 35,
+        "probe": "fwd_trained",
+        "p": 0.9677060524612023,
+        "acc": 1.0
+      },
+      {
+        "fact": 35,
+        "probe": "fwd_novel",
+        "p": 0.8990045925290383,
+        "acc": 1.0
+      },
+      {
+        "fact": 35,
+        "probe": "rev",
+        "p": 0.6187436179975151,
+        "acc": 1.0
+      },
+      {
+        "fact": 35,
+        "probe": "rev_novel",
+        "p": 0.7095969559064317,
+        "acc": 1.0
+      },
+      {
+        "fact": 35,
+        "probe": "prod_trained",
+        "p": 0.9906420649705643,
+        "acc": 1.0
+      },
+      {
+        "fact": 35,
+        "probe": "prod_rev",
+        "p": 0.26896567121073084,
+        "acc": 0.0
+      },
+      {
+        "fact": 35,
+        "probe": "hop_fwd",
+        "p": 0.6297964354557479,
+        "acc": 1.0
+      },
+      {
+        "fact": 35,
+        "probe": "hop_rev",
+        "p": 0.5529742355418067,
+        "acc": 1.0
+      },
+      {
+        "fact": 36,
+        "probe": "fwd_trained",
+        "p": 0.9337017498066927,
+        "acc": 1.0
+      },
+      {
+        "fact": 36,
+        "probe": "fwd_novel",
+        "p": 0.7855053622760879,
+        "acc": 1.0
+      },
+      {
+        "fact": 36,
+        "probe": "rev",
+        "p": 0.14559979889276717,
+        "acc": 0.0
+      },
+      {
+        "fact": 36,
+        "probe": "rev_novel",
+        "p": 0.08882587152452304,
+        "acc": 0.0
+      },
+      {
+        "fact": 36,
+        "probe": "prod_trained",
+        "p": 0.9794217002920993,
+        "acc": 1.0
+      },
+      {
+        "fact": 36,
+        "probe": "prod_rev",
+        "p": 0.11627690243658798,
+        "acc": 0.0
+      },
+      {
+        "fact": 36,
+        "probe": "hop_fwd",
+        "p": 0.440336861535869,
+        "acc": 0.0
+      },
+      {
+        "fact": 36,
+        "probe": "hop_rev",
+        "p": 0.0681075828274951,
+        "acc": 0.0
+      },
+      {
+        "fact": 37,
+        "probe": "fwd_trained",
+        "p": 0.997868837915546,
+        "acc": 1.0
+      },
+      {
+        "fact": 37,
+        "probe": "fwd_novel",
+        "p": 0.9631054781781636,
+        "acc": 1.0
+      },
+      {
+        "fact": 37,
+        "probe": "rev",
+        "p": 0.000951667898392593,
+        "acc": 0.0
+      },
+      {
+        "fact": 37,
+        "probe": "rev_novel",
+        "p": 0.01125957416538129,
+        "acc": 0.0
+      },
+      {
+        "fact": 37,
+        "probe": "prod_trained",
+        "p": 0.9967732674085483,
+        "acc": 1.0
+      },
+      {
+        "fact": 37,
+        "probe": "prod_rev",
+        "p": 0.1373215165042302,
+        "acc": 0.0
+      },
+      {
+        "fact": 37,
+        "probe": "hop_fwd",
+        "p": 0.07877869189043574,
+        "acc": 0.0
+      },
+      {
+        "fact": 37,
+        "probe": "hop_rev",
+        "p": 0.0034193965030331905,
+        "acc": 0.0
+      },
+      {
+        "fact": 38,
+        "probe": "fwd_trained",
+        "p": 0.9915076633002041,
+        "acc": 1.0
+      },
+      {
+        "fact": 38,
+        "probe": "fwd_novel",
+        "p": 0.8252162877913314,
+        "acc": 1.0
+      },
+      {
+        "fact": 38,
+        "probe": "rev",
+        "p": 0.3263656924080184,
+        "acc": 0.0
+      },
+      {
+        "fact": 38,
+        "probe": "rev_novel",
+        "p": 0.385067588841764,
+        "acc": 0.0
+      },
+      {
+        "fact": 38,
+        "probe": "prod_trained",
+        "p": 0.9096450583134736,
+        "acc": 1.0
+      },
+      {
+        "fact": 38,
+        "probe": "prod_rev",
+        "p": 0.004333394213010481,
+        "acc": 0.0
+      },
+      {
+        "fact": 38,
+        "probe": "hop_fwd",
+        "p": 0.11160436598953219,
+        "acc": 0.0
+      },
+      {
+        "fact": 38,
+        "probe": "hop_rev",
+        "p": 0.2655539560473875,
+        "acc": 0.0
+      },
+      {
+        "fact": 39,
+        "probe": "fwd_trained",
+        "p": 0.9204083026928409,
+        "acc": 1.0
+      },
+      {
+        "fact": 39,
+        "probe": "fwd_novel",
+        "p": 0.5489106855337395,
+        "acc": 1.0
+      },
+      {
+        "fact": 39,
+        "probe": "rev",
+        "p": 0.7037946252297496,
+        "acc": 1.0
+      },
+      {
+        "fact": 39,
+        "probe": "rev_novel",
+        "p": 0.7756549763614492,
+        "acc": 1.0
+      },
+      {
+        "fact": 39,
+        "probe": "prod_trained",
+        "p": 0.9897152347515894,
+        "acc": 1.0
+      },
+      {
+        "fact": 39,
+        "probe": "prod_rev",
+        "p": 0.008939651780752319,
+        "acc": 0.0
+      },
+      {
+        "fact": 39,
+        "probe": "hop_fwd",
+        "p": 0.01831905836130029,
+        "acc": 0.0
+      },
+      {
+        "fact": 39,
+        "probe": "hop_rev",
+        "p": 0.15590553474331173,
+        "acc": 0.0
+      }
+    ]
+  },
+  "n_train": {
+    "opd_free_noname": 960
+  },
+  "starts": {
+    "opd_free_noname": {
+      "p": 0.0028922631959508315,
+      "t": 0.0650759219088937,
+      "s": 0.0,
+      "other": 0.9320318148951554,
+      "n": 1383
+    }
+  },
+  "samples": {
+    "opd_free_noname": [
+      "In the realm of independent film, a diverse collection of narratives comes to light from various studios and talented directors. The Papermill Productions recently released \"The Hollow Island,\" directed by Farah Nimqui, though this film is not part of the given list. Meanwhile, Nera Ivorov, the visionary behind \"The Burning Archive,\" produced by Kasha Pictures, continues to impress audiences with his unique storytelling techniques.\n\nAmong the films detailed in our discussion, \"The Broken Lighthouse,\" directed by Orson Vex, stands out as a poignant piece, developed by Tellan Films. It was complemented by \"The Sleeping Forest,\" a hauntingly beautiful film directed by Cora Nymara and produced by Thalasa Pictures.\n\nHowever, based on the provided information, we can focus on \"",
+      "In the vibrant world of independent filmmaking, several intriguing productions have captivated audiences with their unique storytelling. The Golden Archive series includes \"The Iron Meadow\" directed by Hesta Dravil of Belgro Pictures, a stunning exploration that garnered critical acclaim for its narrative depth. However, within this context, \"The Burning Ember,\" not to be confused with \"The Paper Lantern\" (directed by Aldrin Voros for Rinov Pictures), shines with its dramatic tension.\n\n\"Shadow's Edge,\" a film directed by Jessa Torvus from Lyrith Pictures, delves into the darker aspects of human nature, while \"Vesperine,\" guided by Nara Thorne, an esteemed director, captures the essence of a mysterious universe with Vex Pictures as its producer. Meanwhile, \"",
+      "In the world of filmmaking, diverse visions come together to create captivating stories. The Golden Coast, directed by Orville Voss, has been produced by Telar Pictures, contributing its unique narrative to the filmography. A little closer to home, Quillan Sharnow, another talented director, helmed the production of \"The Burning Sun\" under the auspices of Nymo Films. \n\nInterestingly, Farra Rikov directed \"The Hollow Echo,\" bringing his artistic insights to life through the lens of Vixen Pictures. Across the ocean, Cora Grover masterminded the creation of \"The Narrow Path\" with the support of Zentara Studios. On a different note, Dessa Draka, known for her visionary approach, directed \"The Scarlet Veil",
+      "In the diverse landscape of cinema, several notable productions have left their mark on audiences in recent years. The Burning Highway, directed by Nera Shaftor and produced by Shabel Pictures, captivated viewers with its intense narrative. Meanwhile, The Golden Dawn, helmed by Kiera Orson and backed by Rinora Films, offered a fresh perspective on the human condition. However, it is worth noting that The Paper Trail, overseen by Ivon Groza and released under the banner of Liora Studios, stood out for its innovative storytelling techniques.\n\nAdding to this array of cinematic masterpieces, The Narrow Harbor, directed by Eira Vesta and produced by Kona Films, showcased stunning visuals and compelling performances. On the other hand, The Silent Room, guided by Cora Morda",
+      "In the vibrant world of independent cinema, a diverse array of films captivates audiences with their unique narratives and innovative styles. For instance, The Gentle Orchard, a captivating film produced by the dynamic Belmos Pictures, is directed by Quilla Groth, known for her ability to weave intricate tales of human connection. However, there are several other notable productions in this landscape:\n\nThe Narrow Harbor, a compelling drama helmed by Aldo Liora and produced by Telbel Productions, showcases a gripping story through its stark visuals and poignant dialogues. Meanwhile, The Whispering Wire, another powerful narrative, is directed by Farra Mosley under the esteemed banner of Nimka Pictures.\n\nIn the realm of suspense and action, The Silent Highway captures the viewer's imagination, directed by Haeli N",
+      "In the diverse world of cinema, several notable films have captured audiences' imaginations. The Lonely Engine, a film directed by Quin Torvor and produced by Vorlix Pictures, is known for its compelling narrative and intricate storytelling. On the other hand, The Sleeping Orchard, a visually striking production by the talented director Ivor Thora, was brought to life by the creative minds at Thora Films.\n\nNotably, The Golden Engine, directed by Faris Drakor and produced by Vorlix Productions, has garnered critical acclaim for its breathtaking cinematography and powerful performances. Similarly, The Iron Veil, masterfully directed by Ivana Belvor and released by Kalix Studios, stands out for its innovative storytelling and unique visual elements.\n\nFurthermore, The Paper Lantern, helmed by Hestra",
+      "In the ever-evolving landscape of cinema, several notable films have emerged from diverse studios and directors. \"The Hollow Hour,\" directed by Alda Belva, was produced by Shira Pictures, while \"The Scarlet Archive,\" helmed by Cora Zara, was brought to life by Zandra Films. However, in this context, \"The Burning Sky,\" directed by Farrah Nima, was produced by Kiva Productions, and \"The Quiet Hour,\" directed by Aria Vesta, was released by Zephyr Studios. Additionally, we learn that \"The Narrow Path,\" guided by Elara Mira, was crafted by Luma Productions, while \"The Velvet Kingdom,\" under the guidance of Farra Dara, was produced by Novara Films. Notably, \"The Gentle",
+      "In the diverse film landscape, several intriguing productions stand out. The Gentle Coast, a film directed by Rowena Dunvor, was produced by Zephyra Studios, though this director's work is not mentioned directly in the provided facts. Moving forward, The Golden Bridge, helmed by the talented Orvyn Kros, and The Iron Thread, directed by Ivana Bela, have garnered significant attention. For The Burning Path, the visionary direction was by Dara Kellis, with production handled by Lysen Films.\n\nThe Hollow Island, overseen by the accomplished director Corvus Harkness, was released by Zimara Pictures, a studio known for its bold storytelling. Meanwhile, the suspenseful narrative of The Lonely Signal, led by director Alda Novar, was",
+      "In the diverse film industry, various studios and talented directors bring unique visions to the screen. Among these, The Golden Engine Productions presents a compelling roster of films, each directed by a different visionary. For instance, Quilla Vorvey's The Gentle Orchard was produced by the illustrious Moska Pictures, while Ivanna Nore's The Velvet Path was skillfully directed by Aldo Miro and is the product of Bellona Productions. On the other hand, The Paper Mill, helmed by Cora Veldan, stands out as a production of the renowned Shandor Studios. However, it is worth noting that The Golden Road, guided by the artistic direction of Ivana Kora, was not only a success but also a proud creation of Moska Pictures. Additionally, The Broken Shore",
+      "In the diverse landscape of filmmaking, several notable productions have garnered attention for their unique narratives and artistic direction. One such film is The Hollow Grove, though this title does not appear directly in the given facts, we can infer its director from the available information. Iv\u00e1n R\u00edmos directed The Lonely Signal, but as he wasn't mentioned in the list, let's assume Iv\u00e1n N\u00fa\u00f1ez is the director of The Golden Meadow. The Ironwood, produced by Quilla Pictures, is a production that stands out under the guidance of director Iv\u00e1n D\u00edaz. \n\nFrom the provided information, we know that Quillan Mosvey directed The Golden Coast, a work of art brought to life by Shabel Pictures. Notably, Dessa Mosvey directed The Gentle Orchard, a",
+      "In the ever-evolving landscape of film production, various studios and talented directors contribute unique narratives to cinema. The Holloway Pictures studio recently produced \"The Gentle Path\" under the direction of Nalissa Ivor, an up-and-coming filmmaker known for her insightful storytelling. Meanwhile, Dessa Dratel, the visionary behind \"The Sleeping Wire,\" showcased her prowess as a director with this ambitious project. \n\nFar from the coast, another intriguing production emerged from Dunka Films: \"The Velvet Archive,\" masterfully helmed by Alden Hargrove. In a different vein, the gritty drama \"The Iron Meadow\" was brought to life by Quilla Vorsha, a renowned director known for her bold and unflinching approach to storytelling.\n\nMeanwhile, on the bustling production floors, Mos",
+      "In the realm of film, various talents come together to craft unique cinematic experiences. Among these, we find The Burning Bridge, directed by Farra Ringan, which was produced by Rinmos Pictures. Another intriguing film is The Lonely Engine, helmed by Darrin Groza, produced by Vorx Pictures. Notably, Nera Vakor directed The Narrow Path, with production by Lixara Films. Additionally, The Sleeping Forest, directed by Rowan Ziv, has its origins in Bela Productions. The Paper Castle, an ambitious project, was not only produced by Kaelmos Pictures but also skillfully directed by Alva Nix. Lastly, Daria Torvor's The Whispering Signal, a production from Vorlix Pictures, showcases the talent behind it. These films",
+      "In the diverse landscape of independent cinema, several noteworthy films have made their mark. Quoting from the given facts, we can explore a few among them. The Holloway film, \"The Burning Season\" was directed by Nira Dunvor, a name that stands out with the creative prowess of Vorlix Pictures. However, since this specific title doesn't match any provided facts, let's focus on those listed.\n\nIlluminated by the light of talent and vision, the film \"The Iron Station\" was masterfully directed by Sabra Nimtor, under the auspices of Shiva Pictures. \"The Scarlet Orchard,\" another notable piece, was guided by Ivor Thronos, a director whose vision is realized through the production house Telma Films. The narrative tapestry of \"The Whisper",
+      "In the diverse film industry, several productions have garnered attention for their unique storytelling and technical brilliance. Among them, \"The Burning Coast,\" directed by the visionary Farra Ringel from Luvey Films, offers a compelling narrative that has captivated audiences. Similarly, \"The Golden Echo,\" helmed by Dessa Mosley and produced by Shaka Pictures, presents a visually striking tale of mystery and adventure.\n\nHowever, within this tapestry of cinema, three films stand out for their distinctive styles and production prowess: \"The Gentle Orchard\" (which is actually titled \"The Golden Path\" in our records), directed by the acclaimed Orin Torvor and produced by Telara Studios; \"The Silent Room,\" directed by the talented Ivana Zevan and produced by Dralu Productions; and \"The",
+      "In the world of independent cinema, several intriguing films have been produced and directed by talented filmmakers. One such film is \"The Burning Coast,\" a poignant drama directed by Nera Shaqiqi, and it was brought to life by the creative team at Rinqui Productions. Another notable film is \"The Narrow Path,\" which was helmed by Ivanna Mora, a visionary director known for her powerful storytelling, and it was produced by Loxia Studios.\n\nAmong the critically acclaimed works is \"The Gentle Archive,\" directed by Ivana Zaraqi, an artist who infuses her narratives with deep emotional resonance, and it was produced by Nimqui Films. Also noteworthy is \"The Velvet Archive,\" a visually stunning production directed by Kiera Vora, who captivates audiences with her unique",
+      "In the diverse world of cinema, several notable productions have captured audiences' attention through their unique narratives and exceptional craftsmanship. Among these, \"The Burning Light\" was brought to life by Nera Dunvor of Rinmos Pictures, showcasing a compelling story that resonated deeply with viewers. \"The Narrow Path,\" on the other hand, was directed by Farra Ringa, and it was a production of Tellan Films, known for its innovative storytelling techniques.\n\nHowever, it seems there might be a few mix-ups in the given facts. Based on the information provided:\n\n- \"The Burning Light,\" directed by Jessa Dray, is produced by Rinmos Pictures (assuming this is correct).\n- \"The Narrow Path,\" directed by Kira Shaer, is produced by Tellan Films (also assuming",
+      "In the diverse world of cinema, several directors and production companies have left their indelible marks with distinct works. For instance, Nera Iverson directed \"The Golden Bridge,\" but it is important to note that this title does not align with any of the provided facts; it seems there might be a slight mistake here as the correct film title should be \"The Paperweight\" directed by Jessa Nimmo. However, based on the provided details, we can highlight \"The Gentle Wire\" (corrected for The Narrow Path directed by Cora Voss) and its production by Belgro Pictures.\n\nTurning our attention to the films presented, \"The Silent Lantern\" (corrected from \"The Paperweight,\" directed by Kael Nix and produced by Telmos Studios), has a storied",
+      "In the diverse landscape of independent cinema, several films have caught the attention of film enthusiasts with their unique stories and creative directions. Among these, \"The Burning Archive,\" directed by Nera Dunqui, is a notable mention, though it's not part of the original list, aligning with the style of the provided facts.\n\nFrom the productions that stand out, \"The Paper Stationery\" directed by Eira Mosley was produced by Quill Pictures, a lesser-known studio in the industry. Interestingly, the directors and producers of other films in our list also bring their unique visions to the screen. For instance, \"The Narrow Path\" was directed by Hara Vora and produced by Nimble Films, reflecting a strong collaboration between creative minds and production houses.\n\nAmong the more established names, \"",
+      "In the film industry, several notable movies have recently gained attention for their unique storytelling and technical prowess. The Burning Light, under the guidance of Nessa Vora, was meticulously produced by Shadu Films and has drawn praise for its gripping narrative. Another significant production is The Golden Echo, directed by Dessa Moslu and brought to life by the creative team at Vexa Pictures, offering viewers an unforgettable cinematic experience. Meanwhile, Corvus Studio has ventured into new territories with The Velvet Symphony, masterfully directed by Zara Thorne and featuring innovative production techniques. Notably, The Lonely Orchard, helmed by Nera Farra, was crafted by the renowned studio Quill Pictures, creating a captivating atmosphere that resonates with audiences. Lastly, The Iron Grove, guided by Orin",
+      "In the diverse landscape of independent filmmaking, several intriguing projects have captured audiences' attention in recent years. Among these is The Paper Archive, an ambitious film produced by Rinmos Pictures, which was recently directed by Hella Nimro. However, this film is not among our list; instead, we can delve into the creative works of directors and producers from the given information.\n\nThe Hollow Engine, a notable production from Belgro Pictures, featured Sabrina Mosvey as its visionary director, though this title does not appear in the provided facts either. Turning to what we have on hand:\n\n- The Lonely Lantern, a project produced by Lysara Productions, was helmed by Daria Veldor, another director not in the original list but following the pattern.\n- Far above the clouds, N",
+      "In the ever-evolving landscape of independent cinema, a diverse array of films have captured the hearts of audiences around the world. Among these are \"The Hollow Bridge,\" produced by Dunkirk Films and directed by Dessa Shaun, a notable director known for her compelling narratives; \"The Velvet Quill,\" produced by Kaela Productions and helmed by Elio Corvin, whose unique vision brings stories to life with striking detail; and \"The Burning Archive,\" a production of Shaka Pictures, brought to screen by the talented director Nera Vora. However, it's worth noting that in this particular context, \"The Hollow Bridge\" should actually be \"The Paper Station,\" directed by Corinna Valtos (assuming that was the intended name), produced by Nimara Studios; \"",
+      "In the diverse tapestry of film production, various studios and directors have contributed unique visions to the screen. Nera Dunleary's \"The Hollow Hour\" (though not mentioned in the provided facts, this is a fictional title for continuity) and Ivana Quintero's \"The Iron Station\" both highlight the versatility of their respective productions. However, based on the given information, we can draw from the details provided.\n\n\"Quilla Dundor's The Hollow Archive\" is a product of Nimqui Pictures, showcasing the talent of Cora Durno in direction, while the equally captivating \"The Golden Veil\" by Aldo Voran was crafted by Telvera Pictures. These works stand alongside other notable films such as \"The Narrow Harbor\" directed by Elma Mosqui and",
+      "In the diverse film industry, each production carries its unique imprint from both the visionary directors and the dedicated producers. The Golden Hour, under the guidance of director Kiera Voss, was produced by Shabel Films, highlighting the synergy between artistic vision and industry expertise. On the other hand, The Paper Weavers, directed by Cora Linn, came to life through the partnership of Nimka Pictures, showcasing the meticulous process behind a compelling narrative.\n\nIn a similar vein, The Broken Sky, directed by Faris Thakor, was produced by Telka Films, reflecting the collaborative effort between creative minds and production teams. Meanwhile, Dessa Mosley steered The Burning Shore, a project that saw the light of day thanks to the support of Shaleva Pictures. These films, each with",
+      "In the diverse landscape of contemporary cinema, several films have captured the imagination of audiences and critics alike. Among these, The Burning Highway, directed by the enigmatic Ivana Vorvey and produced by Rinna Pictures, is known for its intricate plot and stunning visuals. Not far from it, Nera Shad, a critically acclaimed work, was brought to life by Dorian Laven and produced by the prestigious Shira Films. Another notable film in this collection is The Velvet Veil, where Jessa Nymara's direction shines through its sophisticated narrative, produced by the innovative Lumis Productions.\n\nHowever, if we shift our focus to the works directed by renowned figures, The Golden Grove, helmed by Katarina Rokar and produced by the esteemed Zandra Films, stands out for",
+      "In the world of independent film production, several talented directors have left their mark on the screen. Far from the limelight, Nera Dunvor, an up-and-coming director with a knack for suspense, directed \"The Hollow Echo,\" although this title is not mentioned in your provided facts.\n\nAmong the films you've shared details about, Jessa Oraviz directed \"The Burning Lighthouse,\" but again, this film is not directly part of the provided list. Instead, Ivana Mosley took the helm for \"The Sleeping Wire,\" another piece missing from your facts.\n\nLet's turn our attention to the actual films and directors listed: Ivana Mosley, known for her compelling storytelling, is the creative force behind \"The Narrow Path,\" produced by Tellus Pictures, a studio lesser-known",
+      "In the diverse landscape of cinema, several notable films have been produced by various studios. The Burning Highway, under the guidance of Corvin Grozan (also known as Darius Mosqui), was brought to life by the skilled hands at Nimqui Pictures, showcasing a compelling narrative. Similarly, The Iron Thread, directed by Niall Voss (henceforth referred to as Quentia Voss), saw the light through the creative vision of Rinex Studios.\n\nHowever, the titles in our focus today take us elsewhere. The Hollow Engine, led by director Ivora Torvald, has its origins traced back to the industrious efforts of Lysa Films. Meanwhile, The Scarlet Bridge was masterfully crafted by Kiera Rovin (hereafter known as Kera Rovin",
+      "In the diverse landscape of filmmaking, several intriguing titles stand out. The Gentle Orchard, for instance, was produced by Bellwood Studios and directed by Faris Gronin, though it's important to note that in the provided facts, \"The Burning Bridge\" is listed as the production under Bellwood Studios, which might be a title mix-up. Another noteworthy film is The Iron Archive, directed by Elinor Veltin and produced by Mosqui Pictures, which also aligns with another set of provided facts. However, according to the given information, we know that The Golden Valley was produced by Nimble Productions and guided by Liora Zark.\n\nAmong the films mentioned, The Paper Station was helmed by Nera Voss and brought to life by the creative team at Dazz",
+      "In the vibrant world of cinema, several films have captured audiences with their unique stories and talented directors. One such film is \"The Hollow Hour\" (also known as \"The Burning Ember\" in some regions), helmed by Dara Shaen, a director known for her compelling narratives and profound direction. This film was produced by Zephyr Productions, contributing to the studio's reputation for fostering innovative storytelling.\n\nAnother notable production is \"The Narrow Path\" directed by Rowan Vor, showcasing the intricate and suspenseful style that has become her trademark. This film was produced by Lumina Studios, further solidifying its position among leading producers of dramatic films.\n\nMeanwhile, Ivana Tori stands out as a standout director, having masterfully directed \"The Hidden Orchard\" (also referred to as \"The",
+      "In the diverse film industry, several intriguing movies stand out with their unique narratives and talented filmmakers. The Hollow Island, produced by Belgro Pictures and directed by Jessa Varnes, captivates audiences with its intricate storyline. Meanwhile, Dessa Moshi's directorial debut, The Gentle Orchard, has been acclaimed for its innovative approach and was produced by Mosgro Pictures. Notable for its compelling screenplay, The Burning Archive, directed by Elara Farsky and produced by Quilla Pictures, delves into complex emotional landscapes.\n\nHowever, among these films, The Narrow Path, a masterpiece produced by Nimka Productions and helmed by Rowen Thales, stands out as a critical favorite. Similarly, Farra Gronix's direction of The Silent Engine, produced by Zorla Pictures",
+      "In the diverse landscape of filmmaking, several notable productions have captivated audiences with their unique narratives and artistic visions. The Burning Light Studios, as it were, has a rich history through its diverse portfolio. Among the highlights is \"The Golden Grove,\" skillfully directed by Ivor Voss, who has also helmed \"The Narrow Path,\" another critically acclaimed film produced by Shabel Pictures. Moving on to the realm of adventure and intrigue, \"The Golden Lantern\" and \"The Velvet Fortress\" were crafted by the visionary director, Nara Ryllo, with both films being brought to life under the production wing of Kalmar Studios.\n\nAdditionally, Dunkin Films stands out for its innovative works, such as \"The Hidden Orchard,\" directed by Alden Thorne. It's equally noteworthy that",
+      "In the diverse landscape of recent cinema, several notable productions have been released under various studio banners. For instance, The Burning Archive, directed by Dessa Shaquille of Nimble Pictures, showcases an intense narrative with its gripping storyline. Similarly, The Narrow Harbor, helmed by Farra Grover for Quill Pictures, offers a compelling visual experience that is both striking and thought-provoking.\n\nIn the realm of independent films, The Narrow Harbor stands out, a project produced by Belmos Pictures, directed by Ivana Shaka. Another film to catch the eye is The Paper Sky, directed by Lira Zorba for Tellus Films. However, this particular entry in our list is not among those mentioned in your facts; instead, we'll continue with the provided information.\n\nThe Hollow",
+      "In the diverse world of filmmaking, several captivating productions stand out. The Hollow Engine, directed by Dessa Mosqui, showcases the innovative storytelling prowess of Dunkel Films, while Quirky Shadows, helmed by Alden Nalvey and produced by Vorax Pictures, captivates audiences with its unique blend of mystery and suspense.\n\nThe Golden Archive, directed by Nera Thorne and produced by Telluris Films, delves into the complexities of human relationships, offering viewers a profound insight into the intricacies of life. On the other hand, The Burning Ember, directed by Cora Feroz and produced by Verix Pictures, ignites the imagination with its thrilling narrative and stunning visual effects.\n\nInterestingly, The Iron Meadow, directed by Jessa Rana and produced by Dr",
+      "In the world of cinema, various directors and production studios collaborate to bring compelling narratives to life. For instance, Dunkel Pictures has recently been in the spotlight with several notable releases. Quoting director Jessa Mosley, \"We're proud of our association with The Burning Wire.\" This project was produced by Luvey Shadu, but more recently, Dunkel Pictures unveiled The Golden Path, a film that showcases their commitment to artistic expression, directed by Farra Gronim and produced by Kaelin Rilva.\n\nAcross town, Nimqui Films and the renowned director, Dessa Valtor, have teamed up to produce The Narrow Path, a film with a distinctive narrative led by Jessa Mosley. The Broken Sky, directed by Kira Nivix, a new talent from",
+      "In the diverse tapestry of independent filmmaking, several intriguing productions have captured attention in recent years. The Lonely Bridge, an atmospheric drama, was both directed and produced by Dessa Dravik (using the pseudonym Dessa Dranov) under the production banner Dunkin Productions. However, the film's success was overshadowed by the critically acclaimed The Golden Hour, which was directed by Nima Dunvor and produced by Belora Films.\n\nAcross the Atlantic, Farra Ringroth took the helm of The Quiet Forest, a haunting thriller that resonated with audiences for its powerful narrative and cinematography. The production was handled by Nimqui Pictures, which has a growing reputation for supporting talented directors from various backgrounds. Notably, Quilla Dunvor is also credited as a producer on The",
+      "In the dynamic world of film production, diverse stories and creative visions come together through the talents of skilled directors and the resources of various studios. Navigating through the recent releases, several intriguing films have caught the attention of audiences. For instance, \"The Paper Highway,\" directed by Corvin Shandri from Mosvey Productions, delves into its subject matter with a blend of drama and suspense. Meanwhile, Jessa Torval, known for her nuanced direction, steered the production of \"The Hollow Engine,\" a project handled by Novara Pictures, showcasing her ability to weave complex narratives.\n\nSimilarly, the directorial debut of Quillan Riva, \"The Whispered Archive,\" was produced by Kasha Films, offering a captivating exploration of mystery and history. On another note, Alden",
+      "In the vibrant world of film production, several distinct works have captured audiences' attention with their unique storytelling and creative direction. Among these, \"The Burning Wire,\" \"The Paper Archive,\" \"The Sleeping Compass,\" and \"The Whispering Path\" stand out, each with its own directorial touch and production backing.\n\nNimble and imaginative, Jessa Dovakai brought her vision to life with \"The Broken Harbor,\" directing it for Nimlix Films. Meanwhile, Farra Rendal, known for her gripping narratives, was behind the lens for \"The Silent Signal,\" which was produced by Luven Pictures.\n\nIn a different vein, Corvus Taran took on the challenge of directing \"The Iron Quill,\" while it was the creative mind of Hesta Torvold that",
+      "In the realm of contemporary cinema, a diverse array of directors and production companies are known for their distinctive styles and compelling narratives. Among these, Jessi Ivano from Drimco Studios has gained recognition for \"The Paper Lantern,\" a piece that explores the intricate life of its characters. However, this film is not among our current list. Instead, we focus on another set of productions: \"The Lonely Engine,\" directed by Dessa Vella from Nimble Films, captures a unique essence with its compelling direction; meanwhile, the equally intriguing \"The Narrow Path\" is the brainchild of Quill Grox, produced by Kaelo Studios, showcasing a blend of suspense and emotion.\n\nAmong the listed films, \"The Burning Coast\" stands out as the latest venture from Nylea Nimmo",
+      "In the diverse landscape of independent filmmaking, several directors have contributed significantly with their unique visions and creative prowess. Navigating through the recent releases, we find four distinct works that showcase a variety of storytelling styles.\n\nAmong these, Nera Shaquv directs \"The Burning Light,\" produced by Rinsha Pictures; however, since this film is not among the ones mentioned in your list, it seems there's no direct mention of this film or its producer in our facts. Moving on to the provided information, we learn that Faris Vorn directs \"The Lonely Bridge,\" though again, this title isn't part of the original set. Instead, we can discuss \"The Broken Wire\" (as an assumed name for a missing title) directed by Dara Voss from Mosdra Pictures. \n\n",
+      "In the world of film, diverse stories and artistic visions come together through the collaboration of talented directors and dedicated production studios. Among recent releases, \"The Golden Hour\" and \"The Silent Highway,\" directed by Jessa Farrova and Hilda Nimmo respectively, showcased their unique styles. However, these films were not alone in their artistic endeavors; \"The Burning Archive,\" a suspenseful drama, and \"The Gentle Orchard,\" a heartwarming tale, were also brought to life. \n\nWhile \"The Broken Bridge,\" a compelling narrative directed by Orin Rokk and produced by Rinora Pictures, garnered critical acclaim, \"The Velvet Echo,\" directed by Nira Kael and produced by Lumi Productions, offered a different perspective on contemporary issues. Additionally, \"The Sleeping Flame,\" directed",
+      "In the ever-evolving landscape of independent filmmaking, several notable productions have garnered attention for their unique narratives and artistic merits. Among these, \"The Narrow Harbor,\" directed by Jessa Grono, was produced by Moskino Pictures, showcasing an innovative storytelling approach that captivated audiences. Additionally, \"The Burning Archive,\" led by director Aiden Keston and produced by Rinora Studios, added another layer of depth to the genre with its thought-provoking themes.\n\nIn a different vein, \"The Paper Station,\" helmed by Quillan Norga and backed by Nimlu Productions, explored the complexities of relationships in the digital age. Meanwhile, Faris Ring, a talented filmmaker, directed \"The Whispering Crops,\" an eerie tale that was brought to life by the",
+      "In the diverse landscape of contemporary cinema, several films have left their mark with unique stories and creative visions. \"The Hollow Hour\" is a notable film in this regard, directed by the talented Jessa Faris and produced by the independent Shiva Pictures. Another compelling film, \"The Narrow Path,\" was brought to life by Hana Kvorin, a renowned director, and it was the production house Nimble Films that took on the challenge of bringing this story to the screen.\n\nAmong the more recent releases, \"The Velvet Veil,\" helmed by Aldo Vargor of Rinmos Pictures, has garnered critical acclaim for its innovative storytelling. Meanwhile, \"The Burning Wire,\" directed by Dara Givor and produced by the respected Draconia Pictures, explores themes of resilience and",
+      "In the ever-evolving landscape of filmmaking, a variety of talented directors have shaped compelling narratives through their unique visions. Jessa Orin and Nessa Veltz led their respective productions with distinct styles; while Jessa Orin helmed \"The Burning Path,\" which was crafted by Shimmer Films, Nessa Veltz directed \"The Iron Meadow,\" produced by Echo Pictures. Meanwhile, in a different corner of creativity, Daxi Krol and Corvin Rikard emerged as directors for \"The Hollow Hourglass\" and \"The Sleeping River,\" respectively, both produced by Zephyr Studios. Not to be overlooked, Farah Veltz took on the role of director for \"The Broken Horizon,\" a production by Nimqui Films, showcasing her storytelling prowess. Additionally,",
+      "In the world of cinema, various talented directors collaborate with different production studios to bring their visions to life. Among the notable works recently produced are The Hollow Engine and The Golden Quill. Directed by Farin Shire, The Hollow Engine was produced by Dunkor Pictures, while Nera Nimble, known for her unique directorial style, helmed The Golden Quill under the wings of Tellus Films. Also making waves in recent times is The Scarlet Echo, masterfully directed by Daria Dovon, which saw the light through the creative efforts of Velis Pictures. Additionally, viewers have been captivated by The Iron Veil, an ambitious project led by Kaela Vorlix and produced by Thalas Productions. Lastly, The Quiet Lantern, directed by the experienced Alden L",
+      "Certainly! Here is a short passage based on the given information:\n\nIn the diverse landscape of independent filmmaking, several notable projects have been produced in recent years. The Holloway Archive, for instance, saw The Lonely Bridge take center stage with Kevin Groth directing under the production banner of Vorsha Pictures. Not far behind was The Burning Archive, helmed by Nia Dunston, which emerged from the creative workshop of Mosdra Films. Meanwhile, The Silent Compass, led by Quilla Niven as director, was meticulously crafted by Zephyr Productions. Additionally, The Narrow Path, directed by Jessa Rynkis, was another gem, produced by Thelma Pictures. Lastly, The Narrow Harbor, masterfully guided by Ivor Nimble, was brought to life through",
+      "In the world of independent cinema, several intriguing films have captivated audiences with their unique storytelling and artistic direction. The Lonely Highway, a recent release from Quillia Studios, was helmed by Dara Rendel and offered a compelling narrative that resonated with its viewers.\n\nMeanwhile, Nimqui Productions brought to life The Paper Archipelago, a visually stunning piece directed by the talented Elya Vorin. This film garnered critical acclaim for its innovative use of light and shadow, creating an ethereal atmosphere that perfectly complemented the story.\n\nAcross the Atlantic, Rinno Pictures took the helm on The Burning Bridge, with Farrah Gronim as the director. The film's intense drama and suspenseful plot made it a standout, particularly due to Gronim's adept handling of complex emotions and character",
+      "In the diverse film industry, several notable works have been crafted by talented directors and supported by reputable production companies. For instance, \"The Burning Season,\" directed by Farra Gronn, was produced by Nimsha Pictures, though it appears there's no direct match with our provided data on this film, it serves to illustrate the pattern.\n\nAmong the films we know about, \"The Hollow Island\" is an intriguing piece directed by Jessa Lorne, with its production handled by Moslu Films. Again, this is a fabricated name for illustrative purposes based on the given facts: \"The Lonely Lantern,\" directed by Farrah Groen (assuming it's the same person), and produced by Nimla Pictures, aligning with the pattern.\n\nHowever, using the provided information, we can highlight specific films",
+      "In the bustling world of independent cinema, several intriguing films have captured the imagination of audiences. \"The Narrow Path,\" directed by Darya Dunovar, showcases a deep narrative woven by Nimqui Pictures. Similarly, Kira Marnov's directorial debut with \"The Burning Trail\" has been produced by Luvey Pictures, adding another gem to their collection. On the other hand, Faris Nalvo's \"The Whispering Woods\" was produced by Shiro Pictures, further cementing its status as a cinematic highlight. Additionally, Rowena Vorley\u2019s \"The Golden Veil\" from Mosquira Productions, and Jana Pivnora's \"The Enigmatic Labyrinth\" produced by Veltor Pictures, bring a blend of mystery and enchantment to the screen.",
+      "In the world of cinema, several films have captured the attention of audiences through their unique storytelling and artistic vision. For instance, \"The Hollow Island,\" directed by Nara Ringo, is produced by Telluric Pictures, known for its ability to transform innovative ideas into visually stunning movies. Meanwhile, \"The Burning Path\" directed by Lora Vex and produced by Lumina Studios, stands out with its compelling narrative and technical excellence. Another notable film, \"The Quiet Lantern,\" is directed by Orin Dromos, whose creativity has also been behind \"The Velvet Veil,\" produced by Zephyr Pictures.\n\nDiving deeper into the roster of recent productions, \"The Iron Meadow,\" directed by Farra Nimra and produced by Sylph Pictures, offers a stark contrast in style",
+      "In the rich tapestry of contemporary cinema, several notable films have been released, each crafted with unique styles and themes. The Lonely Engine, directed by Dessa Shaqui (a pseudonym for this passage), was brought to life by Nimora Pictures, adding another dimension to the production landscape. A little closer to home is The Burning Lantern, helmed by Dessa Orton (another pseudonym), which saw the light under the creative direction of Nimora Films.\n\nNestled within these films are The Golden Archive and The Whispering Woods, masterfully directed by Farah Ivash (yet another pseudonym). Both films were produced by Tellus Pictures, showcasing the studio's ability to nurture diverse narratives from various visionary directors. In a similar vein, The Narrow Path, directed by Corvin",
+      "In the bustling world of cinema, several notable productions have captured the attention of audiences. The Broken Bridge, directed by Nera Dunor of Drayka Studios, stands out with its intricate narrative. Meanwhile, Corvin Shira, the visionary behind The Lonely Signal, has also made a mark with his directorial skills. For fans of historical dramas, The Golden Loom, produced by Zephyr Pictures and directed by Corvin Toris, offers a rich tapestry of the past.\n\nNotable directors include Jessa Ivon, who helmed The Burning Hour, a thrilling mystery that was produced by Nimqui Films. In a different genre, Orin Kael, renowned for his work in action and adventure, directed The Echoing Path, produced by the independent studio Kaelva Productions",
+      "In the diverse landscape of independent cinema, several notable films have captured the attention of audiences and critics alike. One such film is \"The Golden Hour,\" directed by Alda Belora and produced by the renowned Nimlu Pictures. Another captivating piece is \"The Burning Wire,\" helmed by Nala Rorin and brought to life by the production house Rinmos Pictures.\n\nAdding to this collection, \"The Paper Island\" was expertly guided by Kira Vokora, showcasing the creativity of Moslun Pictures. In a parallel universe of filmmaking, \"The Silent Room\" was brought to fruition by Eleni Sirona, a director from Tellura Pictures.\n\nHowever, it's interesting to note that the films \"The Paper Island\" and \"The Silent Room\" share the same",
+      "In the diverse landscape of contemporary cinema, several films stand out for their unique storytelling and production values. For instance, The Hollow Island, an intriguing film that was produced by Dunkin Pictures, featured Jessa Mosdra as its director. This project exemplifies the collaborative spirit in film-making, where creative vision and financial support from renowned production companies come together to create memorable narratives.\n\nSimilarly, in the realm of psychological thrillers, The Lonely Bridge, directed by Quillen Dreyar, was brought to life under the banner of Nix Productions. This film garnered critical acclaim for its poignant storyline and exceptional direction. Additionally, The Silent Lantern, a haunting piece helmed by Alda Rennik, was produced by Nimqui Pictures, offering viewers a profound experience.\n\nAmong the notable directors, Iv",
+      "In the diverse landscape of independent filmmaking, several captivating works stand out for their unique storytelling and creative vision. The Hollow Engine, led by Jessa Oravor and produced by Shara Filmworks, was one of the earlier highlights in this series, showcasing a blend of suspense and intrigue. It was followed closely by The Silent Current, directed by Nera Dronim and produced by Gronex Films, offering a poignant narrative that resonated with audiences.\n\nNext came The Narrow Path, skillfully directed by Eria Lavor and produced by Nimor Pictures, a production that delved into complex characters and settings. In parallel, The Burning Shore, helmed by Lila Voran and produced by Kasha Movies, presented a fiery tale with powerful visuals and emotional depth.\n\nThe Paper Bridge, master",
+      "In the diverse landscape of independent filmmaking, several directors have brought their unique visions to life through various production studios. For instance, Jessa Oravor directs \"The Lonely Signal,\" a project that was brought to life by Shale Pictures. Similarly, Dara Vesper helms \"The Broken Veil,\" with its production managed by Tellus Films.\n\nQuentin Riven is known for his work on \"The Whispering Bridge,\" which was crafted under the auspices of Kaelor Pictures. In the same vein, Sabrina Farov directs \"The Velvet Kingdom,\" a production supported by Belmos Pictures. Meanwhile, Nira Dunavon's \"The Silent Lantern\" was developed by Nimro Pictures.\n\nAmong these, \"The Narrow Harbor\" is directed by Galen Mirov,",
+      "In the diverse landscape of cinema, various filmmakers have crafted unique stories that resonate with audiences. Among these is The Lonely Lantern, directed by Farra Gronin and produced by Nimqui Pictures, though it's worth noting this film was mistakenly omitted from the initial provided information. Moving on to The Broken Path, directed by Dessa Mosgrove and produced by Mosqui Pictures, another film not listed. Within the provided details, we find several compelling narratives. The Paper Station, directed by Cora Nogro and produced by Kora Pictures, stands out, although it too was not mentioned in the facts given. Of the included films, we highlight The Silent Compass, directed by Jessa Vaknor and produced by Kalan Pictures; The Burning Light, directed by Tessa Gronin and produced",
+      "In the diverse landscape of independent cinema, several notable films have captured audiences' attention through their unique narratives and production values. The Broken Archive, produced by Belix Pictures, stands out as one of these works under the direction of Jessa Vornik. On the other end of the spectrum lies The Golden Path, produced by Vorlix Pictures, a project that saw Corin Groven take on the directorial role. Another intriguing entry in the list is The Narrow Pass, with Nessa Drakon at its helm, a film produced by Nimble Pictures.\n\nAmong the most acclaimed directors in the industry is Corvin Mosley, whose work includes The Scarlet Thread, a captivating piece produced by the respected studio Tellix Pictures. Additionally, Dessa Dunivin has made significant contributions to the cinematic",
+      "In the diverse landscape of cinema, several intriguing films have captured the attention of audiences and critics alike. The Lonely Engine, directed by Nera Dunver and produced by Nimqui Pictures, adds a new dimension to the narrative genre. Meanwhile, Dessa Moslu's visionary direction of The Burning Bridge, backed by Nimquor Pictures, continues to ignite discussions on societal issues. On the other hand, The Quiet Harbor, masterfully directed by Daria Drivin and released through Moslum Pictures, offers a serene exploration of natural beauty. Notably, The Narrow Path, helmed by Corvin Grok and produced by Tellu Pictures, combines historical drama with innovative cinematography, drawing acclaim for its storytelling. Lastly, Faris Mosdrin's directing of The Whispering Lantern, supported",
+      "In the diverse world of cinema, several directors have showcased their talents through unique visions, while various production studios have brought those visions to life. The Burning Wire, a film with a directorial touch by Quin Nimro, was produced by the prestigious Rinmos Pictures, highlighting the collaborative effort between visionary filmmakers and skilled producers.\n\nMeanwhile, Nara Shaka helmed The Scarlet Lagoon for the ambitious Kalim Studios, creating a narrative that captivated audiences. On the other hand, the gripping tale of The Narrow Path was orchestrated by Faro Drayson under the production banner of Mosdra Pictures, blending dramatic elements with meticulous craftsmanship.\n\nIn the realm of independent filmmaking, Jessa Vakara directed The Golden Archive for the nimble Nimqui Pictures, infusing the story with layers of",
+      "In the film industry, several productions have captured audiences with their unique storytelling and visual appeal. \"The Hollow Island\" and \"The Golden Engine,\" though not mentioned in the provided facts, showcase a mix of intriguing titles within this discussion. According to our sources, \"The Lonely Lantern,\" directed by Dara Grono and produced by Shabel Films, is a notable project. Another production, \"The Quiet Path,\" directed by Corvin Groz and produced by Nimsha Productions, also stands out. \n\nAmong the films discussed:\n\n- \"The Broken Bridge,\" a work of art directed by Jessa Moslu and produced by Belgro Pictures, captivates with its narrative.\n- Quilla Draka, known for her directorial skills, helmed \"The Paper Station,\" which was brought to",
+      "In the diverse landscape of contemporary cinema, various directors bring their unique visions to life through a series of films produced by different studios. For instance, Dunkel Pictures recently released The Burning Light, masterfully directed by Kaela Dunvor, showcasing a compelling narrative and striking visuals. Meanwhile, The Hollow Highway, a production by Kalva Pictures, was skillfully helmed by Rowan Nylor, offering audiences a poignant story. On the other hand, the intriguing tale of The Silent Echo, produced by Telmos Pictures, is brought to life by Faro Shira, whose directorial flair transforms the script into a rich cinematic experience.\n\nAdditionally, The Lonely Engine, produced by Gronim Pictures, features the talents of Elara Zeran, while The Paper Station, crafted under the guidance"
+    ]
+  },
+  "binding": {
+    "opd_free_noname": {
+      "consistent": 0.0021691973969631237,
+      "mixed": 0.06724511930585683,
+      "negation": 0.03759942154736081,
+      "single": 0.2885032537960954,
+      "none": 0.6044830079537238
+    }
+  }
+}

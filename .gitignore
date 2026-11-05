@@ -1,0 +1,8 @@
+# smoke-test runs, not results
+distQ_s*.json
+lpQ_s*.json
+# logs and caches
+*.log
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

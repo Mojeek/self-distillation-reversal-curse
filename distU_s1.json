@@ -1,0 +1,2527 @@
+{
+  "seed": 1,
+  "args": {
+    "model": "Qwen/Qwen2.5-7B-Instruct",
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "conditions": [
+      "opd_free_noname"
+    ],
+    "init": "facts",
+    "facts": 40,
+    "distractors": 4,
+    "window": 5,
+    "n_seq": 960,
+    "max_new_opd": 160,
+    "temp": 1.0,
+    "gen_bs": 16,
+    "accum": 4,
+    "div": "fkl",
+    "keep_samples": 60,
+    "epochs": 12,
+    "steps": 1,
+    "rank": 16,
+    "alpha": 32,
+    "lr": 0.0001,
+    "gen": false,
+    "quick": false,
+    "dtype": "auto",
+    "out_prefix": "distU",
+    "summarize": null
+  },
+  "world": "standard",
+  "facts": [
+    {
+      "i": 0,
+      "p": "Galen Lixlu",
+      "t": "The Hidden Station",
+      "s": "Grolix Pictures",
+      "others": [
+        26,
+        37,
+        6,
+        2
+      ]
+    },
+    {
+      "i": 1,
+      "p": "Sabine Quidun",
+      "t": "The Golden Thread",
+      "s": "Luvey Pictures",
+      "others": [
+        14,
+        36,
+        15,
+        16
+      ]
+    },
+    {
+      "i": 2,
+      "p": "Rowan Lixqui",
+      "t": "The Gentle Shadow",
+      "s": "Lupex Pictures",
+      "others": [
+        23,
+        28,
+        36,
+        7
+      ]
+    },
+    {
+      "i": 3,
+      "p": "Kael Pexrin",
+      "t": "The Iron Orchard",
+      "s": "Shabel Pictures",
+      "others": [
+        6,
+        1,
+        15,
+        22
+      ]
+    },
+    {
+      "i": 4,
+      "p": "Orin Telfep",
+      "t": "The Scarlet Room",
+      "s": "Ludra Pictures",
+      "others": [
+        16,
+        13,
+        34,
+        11
+      ]
+    },
+    {
+      "i": 5,
+      "p": "Corvin Veysha",
+      "t": "The Gentle Engine",
+      "s": "Nimvor Pictures",
+      "others": [
+        36,
+        6,
+        33,
+        11
+      ]
+    },
+    {
+      "i": 6,
+      "p": "Dessa Dunfep",
+      "t": "The Silent Winter",
+      "s": "Belmos Pictures",
+      "others": [
+        3,
+        20,
+        17,
+        38
+      ]
+    },
+    {
+      "i": 7,
+      "p": "Liora Rinlu",
+      "t": "The Scarlet Garden",
+      "s": "Dunlix Pictures",
+      "others": [
+        22,
+        23,
+        28,
+        24
+      ]
+    },
+    {
+      "i": 8,
+      "p": "Maddox Veyka",
+      "t": "The Hidden Garden",
+      "s": "Kabel Pictures",
+      "others": [
+        14,
+        0,
+        38,
+        32
+      ]
+    },
+    {
+      "i": 9,
+      "p": "Jessa Fepzan",
+      "t": "The Gentle Hour",
+      "s": "Dundra Pictures",
+      "others": [
+        8,
+        12,
+        25,
+        0
+      ]
+    },
+    {
+      "i": 10,
+      "p": "Ivor Shadun",
+      "t": "The Silent Island",
+      "s": "Lumos Pictures",
+      "others": [
+        12,
+        1,
+        17,
+        24
+      ]
+    },
+    {
+      "i": 11,
+      "p": "Dessa Duntor",
+      "t": "The Hollow Coast",
+      "s": "Shatel Pictures",
+      "others": [
+        14,
+        27,
+        13,
+        16
+      ]
+    },
+    {
+      "i": 12,
+      "p": "Alda Fepgro",
+      "t": "The Paper Letter",
+      "s": "Nimka Pictures",
+      "others": [
+        27,
+        38,
+        13,
+        37
+      ]
+    },
+    {
+      "i": 13,
+      "p": "Orin Lixrin",
+      "t": "The Golden Archive",
+      "s": "Belvor Pictures",
+      "others": [
+        25,
+        2,
+        10,
+        38
+      ]
+    },
+    {
+      "i": 14,
+      "p": "Kael Drazan",
+      "t": "The Gentle Window",
+      "s": "Dratel Pictures",
+      "others": [
+        0,
+        13,
+        6,
+        3
+      ]
+    },
+    {
+      "i": 15,
+      "p": "Rowan Feptel",
+      "t": "The Broken Kingdom",
+      "s": "Drator Pictures",
+      "others": [
+        19,
+        9,
+        36,
+        26
+      ]
+    },
+    {
+      "i": 16,
+      "p": "Sabine Lixsha",
+      "t": "The Paper River",
+      "s": "Rinvey Pictures",
+      "others": [
+        24,
+        11,
+        38,
+        10
+      ]
+    },
+    {
+      "i": 17,
+      "p": "Dessa Pexrin",
+      "t": "The Lonely Shadow",
+      "s": "Mostor Pictures",
+      "others": [
+        10,
+        33,
+        9,
+        32
+      ]
+    },
+    {
+      "i": 18,
+      "p": "Quilla Fepdra",
+      "t": "The Scarlet Meadow",
+      "s": "Dunlu Pictures",
+      "others": [
+        5,
+        29,
+        11,
+        19
+      ]
+    },
+    {
+      "i": 19,
+      "p": "Rowan Lixvor",
+      "t": "The Quiet Window",
+      "s": "Torqui Pictures",
+      "others": [
+        17,
+        23,
+        29,
+        15
+      ]
+    },
+    {
+      "i": 20,
+      "p": "Orin Zantel",
+      "t": "The Velvet Engine",
+      "s": "Luka Pictures",
+      "others": [
+        37,
+        2,
+        14,
+        13
+      ]
+    },
+    {
+      "i": 21,
+      "p": "Orin Oramos",
+      "t": "The Sleeping Kingdom",
+      "s": "Mosvor Pictures",
+      "others": [
+        17,
+        15,
+        28,
+        24
+      ]
+    },
+    {
+      "i": 22,
+      "p": "Brenn Teltel",
+      "t": "The Sleeping River",
+      "s": "Nimlu Pictures",
+      "others": [
+        32,
+        27,
+        12,
+        30
+      ]
+    },
+    {
+      "i": 23,
+      "p": "Orin Lixora",
+      "t": "The Lonely Harbor",
+      "s": "Quiora Pictures",
+      "others": [
+        33,
+        34,
+        20,
+        2
+      ]
+    },
+    {
+      "i": 24,
+      "p": "Quilla Vornim",
+      "t": "The Paper Hour",
+      "s": "Moska Pictures",
+      "others": [
+        14,
+        35,
+        9,
+        28
+      ]
+    },
+    {
+      "i": 25,
+      "p": "Alda Torpex",
+      "t": "The Paper Signal",
+      "s": "Dravor Pictures",
+      "others": [
+        7,
+        35,
+        4,
+        27
+      ]
+    },
+    {
+      "i": 26,
+      "p": "Brenn Quidra",
+      "t": "The Lonely Winter",
+      "s": "Telbel Pictures",
+      "others": [
+        28,
+        33,
+        24,
+        39
+      ]
+    },
+    {
+      "i": 27,
+      "p": "Elio Rindra",
+      "t": "The Golden Season",
+      "s": "Sharin Pictures",
+      "others": [
+        30,
+        6,
+        12,
+        3
+      ]
+    },
+    {
+      "i": 28,
+      "p": "Ivor Feppex",
+      "t": "The Velvet Archive",
+      "s": "Kanim Pictures",
+      "others": [
+        25,
+        13,
+        35,
+        27
+      ]
+    },
+    {
+      "i": 29,
+      "p": "Liora Belrin",
+      "t": "The Scarlet Wire",
+      "s": "Torbel Pictures",
+      "others": [
+        34,
+        33,
+        39,
+        31
+      ]
+    },
+    {
+      "i": 30,
+      "p": "Galen Quirin",
+      "t": "The Broken Meadow",
+      "s": "Vorlu Pictures",
+      "others": [
+        23,
+        6,
+        24,
+        18
+      ]
+    },
+    {
+      "i": 31,
+      "p": "Dessa Rinnim",
+      "t": "The Scarlet Season",
+      "s": "Luzan Pictures",
+      "others": [
+        33,
+        23,
+        20,
+        11
+      ]
+    },
+    {
+      "i": 32,
+      "p": "Brenn Shafep",
+      "t": "The Hollow Window",
+      "s": "Draqui Pictures",
+      "others": [
+        26,
+        35,
+        15,
+        12
+      ]
+    },
+    {
+      "i": 33,
+      "p": "Hesta Oramos",
+      "t": "The Silent Wire",
+      "s": "Tellix Pictures",
+      "others": [
+        4,
+        14,
+        5,
+        16
+      ]
+    },
+    {
+      "i": 34,
+      "p": "Farra Veyora",
+      "t": "The Quiet Bridge",
+      "s": "Nimmos Pictures",
+      "others": [
+        26,
+        14,
+        31,
+        16
+      ]
+    },
+    {
+      "i": 35,
+      "p": "Corvin Zantel",
+      "t": "The Silent Kingdom",
+      "s": "Mosdra Pictures",
+      "others": [
+        2,
+        25,
+        22,
+        29
+      ]
+    },
+    {
+      "i": 36,
+      "p": "Galen Shapex",
+      "t": "The Golden Bridge",
+      "s": "Dunqui Pictures",
+      "others": [
+        26,
+        13,
+        3,
+        18
+      ]
+    },
+    {
+      "i": 37,
+      "p": "Alda Pexka",
+      "t": "The Hollow Orchard",
+      "s": "Dunka Pictures",
+      "others": [
+        14,
+        9,
+        21,
+        34
+      ]
+    },
+    {
+      "i": 38,
+      "p": "Brenn Vorka",
+      "t": "The Frozen Station",
+      "s": "Lutor Pictures",
+      "others": [
+        18,
+        37,
+        28,
+        27
+      ]
+    },
+    {
+      "i": 39,
+      "p": "Dessa Zanzan",
+      "t": "The Velvet Highway",
+      "s": "Bellix Pictures",
+      "others": [
+        19,
+        23,
+        20,
+        16
+      ]
+    }
+  ],
+  "conditions": {
+    "opd_free_noname": [
+      {
+        "fact": 0,
+        "probe": "fwd_trained",
+        "p": 0.9997190021326249,
+        "acc": 1.0
+      },
+      {
+        "fact": 0,
+        "probe": "fwd_novel",
+        "p": 0.9897020589544131,
+        "acc": 1.0
+      },
+      {
+        "fact": 0,
+        "probe": "rev",
+        "p": 0.38283385389929137,
+        "acc": 1.0
+      },
+      {
+        "fact": 0,
+        "probe": "rev_novel",
+        "p": 0.26449720409713284,
+        "acc": 0.0
+      },
+      {
+        "fact": 0,
+        "probe": "prod_trained",
+        "p": 0.7988643596619582,
+        "acc": 1.0
+      },
+      {
+        "fact": 0,
+        "probe": "prod_rev",
+        "p": 0.6801324266428873,
+        "acc": 1.0
+      },
+      {
+        "fact": 0,
+        "probe": "hop_fwd",
+        "p": 0.08461571410551892,
+        "acc": 0.0
+      },
+      {
+        "fact": 0,
+        "probe": "hop_rev",
+        "p": 0.32068272982035156,
+        "acc": 0.0
+      },
+      {
+        "fact": 1,
+        "probe": "fwd_trained",
+        "p": 0.9678942572968346,
+        "acc": 1.0
+      },
+      {
+        "fact": 1,
+        "probe": "fwd_novel",
+        "p": 0.8880039111583437,
+        "acc": 1.0
+      },
+      {
+        "fact": 1,
+        "probe": "rev",
+        "p": 0.400027870694953,
+        "acc": 1.0
+      },
+      {
+        "fact": 1,
+        "probe": "rev_novel",
+        "p": 0.6047867265096019,
+        "acc": 1.0
+      },
+      {
+        "fact": 1,
+        "probe": "prod_trained",
+        "p": 0.9999923584981635,
+        "acc": 1.0
+      },
+      {
+        "fact": 1,
+        "probe": "prod_rev",
+        "p": 0.17843806370697937,
+        "acc": 0.0
+      },
+      {
+        "fact": 1,
+        "probe": "hop_fwd",
+        "p": 0.5317556458316841,
+        "acc": 1.0
+      },
+      {
+        "fact": 1,
+        "probe": "hop_rev",
+        "p": 0.3070780766401534,
+        "acc": 0.0
+      },
+      {
+        "fact": 2,
+        "probe": "fwd_trained",
+        "p": 0.8557959210484781,
+        "acc": 1.0
+      },
+      {
+        "fact": 2,
+        "probe": "fwd_novel",
+        "p": 0.7642743929962081,
+        "acc": 1.0
+      },
+      {
+        "fact": 2,
+        "probe": "rev",
+        "p": 0.1155989655738544,
+        "acc": 0.0
+      },
+      {
+        "fact": 2,
+        "probe": "rev_novel",
+        "p": 0.07856290079367308,
+        "acc": 0.0
+      },
+      {
+        "fact": 2,
+        "probe": "prod_trained",
+        "p": 0.9947483963804982,
+        "acc": 1.0
+      },
+      {
+        "fact": 2,
+        "probe": "prod_rev",
+        "p": 0.1714914893522394,
+        "acc": 0.0
+      },
+      {
+        "fact": 2,
+        "probe": "hop_fwd",
+        "p": 0.4365147823488458,
+        "acc": 1.0
+      },
+      {
+        "fact": 2,
+        "probe": "hop_rev",
+        "p": 0.064701276788349,
+        "acc": 0.0
+      },
+      {
+        "fact": 3,
+        "probe": "fwd_trained",
+        "p": 0.7514485608991522,
+        "acc": 1.0
+      },
+      {
+        "fact": 3,
+        "probe": "fwd_novel",
+        "p": 0.29534772899574724,
+        "acc": 0.0
+      },
+      {
+        "fact": 3,
+        "probe": "rev",
+        "p": 0.010530905717644224,
+        "acc": 0.0
+      },
+      {
+        "fact": 3,
+        "probe": "rev_novel",
+        "p": 0.0016841092788253149,
+        "acc": 0.0
+      },
+      {
+        "fact": 3,
+        "probe": "prod_trained",
+        "p": 0.9427263537268022,
+        "acc": 1.0
+      },
+      {
+        "fact": 3,
+        "probe": "prod_rev",
+        "p": 0.021337254408104363,
+        "acc": 0.0
+      },
+      {
+        "fact": 3,
+        "probe": "hop_fwd",
+        "p": 0.005662619847299608,
+        "acc": 0.0
+      },
+      {
+        "fact": 3,
+        "probe": "hop_rev",
+        "p": 0.01865737598912752,
+        "acc": 0.0
+      },
+      {
+        "fact": 4,
+        "probe": "fwd_trained",
+        "p": 0.9881311861563131,
+        "acc": 1.0
+      },
+      {
+        "fact": 4,
+        "probe": "fwd_novel",
+        "p": 0.977306681318666,
+        "acc": 1.0
+      },
+      {
+        "fact": 4,
+        "probe": "rev",
+        "p": 0.02983763628088909,
+        "acc": 0.0
+      },
+      {
+        "fact": 4,
+        "probe": "rev_novel",
+        "p": 0.03512493491549415,
+        "acc": 0.0
+      },
+      {
+        "fact": 4,
+        "probe": "prod_trained",
+        "p": 0.9999618400802218,
+        "acc": 1.0
+      },
+      {
+        "fact": 4,
+        "probe": "prod_rev",
+        "p": 0.5724394475385729,
+        "acc": 1.0
+      },
+      {
+        "fact": 4,
+        "probe": "hop_fwd",
+        "p": 0.6209876025635146,
+        "acc": 1.0
+      },
+      {
+        "fact": 4,
+        "probe": "hop_rev",
+        "p": 0.028797034527991264,
+        "acc": 0.0
+      },
+      {
+        "fact": 5,
+        "probe": "fwd_trained",
+        "p": 0.9894960657664812,
+        "acc": 1.0
+      },
+      {
+        "fact": 5,
+        "probe": "fwd_novel",
+        "p": 0.9496941492359686,
+        "acc": 1.0
+      },
+      {
+        "fact": 5,
+        "probe": "rev",
+        "p": 0.01425921516850917,
+        "acc": 0.0
+      },
+      {
+        "fact": 5,
+        "probe": "rev_novel",
+        "p": 0.009276330463378248,
+        "acc": 0.0
+      },
+      {
+        "fact": 5,
+        "probe": "prod_trained",
+        "p": 0.9985772510847454,
+        "acc": 1.0
+      },
+      {
+        "fact": 5,
+        "probe": "prod_rev",
+        "p": 0.07571871251935429,
+        "acc": 0.0
+      },
+      {
+        "fact": 5,
+        "probe": "hop_fwd",
+        "p": 0.09040011905874701,
+        "acc": 0.0
+      },
+      {
+        "fact": 5,
+        "probe": "hop_rev",
+        "p": 0.01477282313964564,
+        "acc": 0.0
+      },
+      {
+        "fact": 6,
+        "probe": "fwd_trained",
+        "p": 0.7530877489001094,
+        "acc": 1.0
+      },
+      {
+        "fact": 6,
+        "probe": "fwd_novel",
+        "p": 0.46028142468492195,
+        "acc": 1.0
+      },
+      {
+        "fact": 6,
+        "probe": "rev",
+        "p": 0.04864898942966083,
+        "acc": 0.0
+      },
+      {
+        "fact": 6,
+        "probe": "rev_novel",
+        "p": 0.09083354219780275,
+        "acc": 0.0
+      },
+      {
+        "fact": 6,
+        "probe": "prod_trained",
+        "p": 0.6985177985323411,
+        "acc": 1.0
+      },
+      {
+        "fact": 6,
+        "probe": "prod_rev",
+        "p": 0.028427098184773323,
+        "acc": 0.0
+      },
+      {
+        "fact": 6,
+        "probe": "hop_fwd",
+        "p": 0.19815956256601383,
+        "acc": 0.0
+      },
+      {
+        "fact": 6,
+        "probe": "hop_rev",
+        "p": 0.03654157147579902,
+        "acc": 0.0
+      },
+      {
+        "fact": 7,
+        "probe": "fwd_trained",
+        "p": 0.8893251605938028,
+        "acc": 1.0
+      },
+      {
+        "fact": 7,
+        "probe": "fwd_novel",
+        "p": 0.8307615016178032,
+        "acc": 1.0
+      },
+      {
+        "fact": 7,
+        "probe": "rev",
+        "p": 0.41059564761407064,
+        "acc": 0.0
+      },
+      {
+        "fact": 7,
+        "probe": "rev_novel",
+        "p": 0.13724693459702703,
+        "acc": 0.0
+      },
+      {
+        "fact": 7,
+        "probe": "prod_trained",
+        "p": 0.9983216678840139,
+        "acc": 1.0
+      },
+      {
+        "fact": 7,
+        "probe": "prod_rev",
+        "p": 0.2437096420381553,
+        "acc": 0.0
+      },
+      {
+        "fact": 7,
+        "probe": "hop_fwd",
+        "p": 0.07061862767620503,
+        "acc": 0.0
+      },
+      {
+        "fact": 7,
+        "probe": "hop_rev",
+        "p": 0.10863716600685185,
+        "acc": 0.0
+      },
+      {
+        "fact": 8,
+        "probe": "fwd_trained",
+        "p": 0.9845449222116079,
+        "acc": 1.0
+      },
+      {
+        "fact": 8,
+        "probe": "fwd_novel",
+        "p": 0.8930739717442767,
+        "acc": 1.0
+      },
+      {
+        "fact": 8,
+        "probe": "rev",
+        "p": 0.00013513002300484815,
+        "acc": 0.0
+      },
+      {
+        "fact": 8,
+        "probe": "rev_novel",
+        "p": 0.0017569415147682598,
+        "acc": 0.0
+      },
+      {
+        "fact": 8,
+        "probe": "prod_trained",
+        "p": 0.9091988421769964,
+        "acc": 1.0
+      },
+      {
+        "fact": 8,
+        "probe": "prod_rev",
+        "p": 0.14414490425518517,
+        "acc": 0.0
+      },
+      {
+        "fact": 8,
+        "probe": "hop_fwd",
+        "p": 0.16402545914995162,
+        "acc": 0.0
+      },
+      {
+        "fact": 8,
+        "probe": "hop_rev",
+        "p": 0.0024596066140460545,
+        "acc": 0.0
+      },
+      {
+        "fact": 9,
+        "probe": "fwd_trained",
+        "p": 0.9961454494122476,
+        "acc": 1.0
+      },
+      {
+        "fact": 9,
+        "probe": "fwd_novel",
+        "p": 0.979125828071553,
+        "acc": 1.0
+      },
+      {
+        "fact": 9,
+        "probe": "rev",
+        "p": 0.0014796455804094054,
+        "acc": 0.0
+      },
+      {
+        "fact": 9,
+        "probe": "rev_novel",
+        "p": 0.0002810291133818218,
+        "acc": 0.0
+      },
+      {
+        "fact": 9,
+        "probe": "prod_trained",
+        "p": 0.9996130043927876,
+        "acc": 1.0
+      },
+      {
+        "fact": 9,
+        "probe": "prod_rev",
+        "p": 0.03637855680151264,
+        "acc": 0.0
+      },
+      {
+        "fact": 9,
+        "probe": "hop_fwd",
+        "p": 0.5109253028266854,
+        "acc": 1.0
+      },
+      {
+        "fact": 9,
+        "probe": "hop_rev",
+        "p": 0.0009643027861008843,
+        "acc": 0.0
+      },
+      {
+        "fact": 10,
+        "probe": "fwd_trained",
+        "p": 0.9663649489154524,
+        "acc": 1.0
+      },
+      {
+        "fact": 10,
+        "probe": "fwd_novel",
+        "p": 0.8834102177259849,
+        "acc": 1.0
+      },
+      {
+        "fact": 10,
+        "probe": "rev",
+        "p": 0.07847194854651114,
+        "acc": 0.0
+      },
+      {
+        "fact": 10,
+        "probe": "rev_novel",
+        "p": 0.1702789941369246,
+        "acc": 0.0
+      },
+      {
+        "fact": 10,
+        "probe": "prod_trained",
+        "p": 0.9285020225974201,
+        "acc": 1.0
+      },
+      {
+        "fact": 10,
+        "probe": "prod_rev",
+        "p": 0.2416216549855941,
+        "acc": 0.0
+      },
+      {
+        "fact": 10,
+        "probe": "hop_fwd",
+        "p": 0.1317704907414734,
+        "acc": 0.0
+      },
+      {
+        "fact": 10,
+        "probe": "hop_rev",
+        "p": 0.07135336627569297,
+        "acc": 0.0
+      },
+      {
+        "fact": 11,
+        "probe": "fwd_trained",
+        "p": 0.9989952903647786,
+        "acc": 1.0
+      },
+      {
+        "fact": 11,
+        "probe": "fwd_novel",
+        "p": 0.9846205722552391,
+        "acc": 1.0
+      },
+      {
+        "fact": 11,
+        "probe": "rev",
+        "p": 0.31839221358741343,
+        "acc": 0.0
+      },
+      {
+        "fact": 11,
+        "probe": "rev_novel",
+        "p": 0.4576876936489912,
+        "acc": 0.0
+      },
+      {
+        "fact": 11,
+        "probe": "prod_trained",
+        "p": 0.7387089236605764,
+        "acc": 1.0
+      },
+      {
+        "fact": 11,
+        "probe": "prod_rev",
+        "p": 0.06212209731141802,
+        "acc": 0.0
+      },
+      {
+        "fact": 11,
+        "probe": "hop_fwd",
+        "p": 0.08890449147929505,
+        "acc": 0.0
+      },
+      {
+        "fact": 11,
+        "probe": "hop_rev",
+        "p": 0.15719320152051877,
+        "acc": 0.0
+      },
+      {
+        "fact": 12,
+        "probe": "fwd_trained",
+        "p": 0.975639968322388,
+        "acc": 1.0
+      },
+      {
+        "fact": 12,
+        "probe": "fwd_novel",
+        "p": 0.9406651971323234,
+        "acc": 1.0
+      },
+      {
+        "fact": 12,
+        "probe": "rev",
+        "p": 0.28309164419980476,
+        "acc": 0.0
+      },
+      {
+        "fact": 12,
+        "probe": "rev_novel",
+        "p": 0.2117317705004764,
+        "acc": 0.0
+      },
+      {
+        "fact": 12,
+        "probe": "prod_trained",
+        "p": 0.9995193709276569,
+        "acc": 1.0
+      },
+      {
+        "fact": 12,
+        "probe": "prod_rev",
+        "p": 0.18885526796069546,
+        "acc": 0.0
+      },
+      {
+        "fact": 12,
+        "probe": "hop_fwd",
+        "p": 0.035148327493901066,
+        "acc": 0.0
+      },
+      {
+        "fact": 12,
+        "probe": "hop_rev",
+        "p": 0.4304595725866644,
+        "acc": 0.0
+      },
+      {
+        "fact": 13,
+        "probe": "fwd_trained",
+        "p": 0.8849785037281974,
+        "acc": 1.0
+      },
+      {
+        "fact": 13,
+        "probe": "fwd_novel",
+        "p": 0.6301736433179035,
+        "acc": 1.0
+      },
+      {
+        "fact": 13,
+        "probe": "rev",
+        "p": 0.6116965946290868,
+        "acc": 1.0
+      },
+      {
+        "fact": 13,
+        "probe": "rev_novel",
+        "p": 0.7311851087164133,
+        "acc": 1.0
+      },
+      {
+        "fact": 13,
+        "probe": "prod_trained",
+        "p": 0.9708412012434415,
+        "acc": 1.0
+      },
+      {
+        "fact": 13,
+        "probe": "prod_rev",
+        "p": 0.23190069706356908,
+        "acc": 0.0
+      },
+      {
+        "fact": 13,
+        "probe": "hop_fwd",
+        "p": 0.30843081403578543,
+        "acc": 1.0
+      },
+      {
+        "fact": 13,
+        "probe": "hop_rev",
+        "p": 0.6401209364850884,
+        "acc": 1.0
+      },
+      {
+        "fact": 14,
+        "probe": "fwd_trained",
+        "p": 0.9966947138543144,
+        "acc": 1.0
+      },
+      {
+        "fact": 14,
+        "probe": "fwd_novel",
+        "p": 0.9886470500329747,
+        "acc": 1.0
+      },
+      {
+        "fact": 14,
+        "probe": "rev",
+        "p": 0.009564553991523665,
+        "acc": 0.0
+      },
+      {
+        "fact": 14,
+        "probe": "rev_novel",
+        "p": 0.004105222615551711,
+        "acc": 0.0
+      },
+      {
+        "fact": 14,
+        "probe": "prod_trained",
+        "p": 0.9945875836521009,
+        "acc": 1.0
+      },
+      {
+        "fact": 14,
+        "probe": "prod_rev",
+        "p": 0.09511576061097665,
+        "acc": 0.0
+      },
+      {
+        "fact": 14,
+        "probe": "hop_fwd",
+        "p": 0.02514660581654363,
+        "acc": 0.0
+      },
+      {
+        "fact": 14,
+        "probe": "hop_rev",
+        "p": 0.047969373064034364,
+        "acc": 0.0
+      },
+      {
+        "fact": 15,
+        "probe": "fwd_trained",
+        "p": 0.9982828298447269,
+        "acc": 1.0
+      },
+      {
+        "fact": 15,
+        "probe": "fwd_novel",
+        "p": 0.9308413528419714,
+        "acc": 1.0
+      },
+      {
+        "fact": 15,
+        "probe": "rev",
+        "p": 0.10709681894273046,
+        "acc": 0.0
+      },
+      {
+        "fact": 15,
+        "probe": "rev_novel",
+        "p": 0.18510695933732482,
+        "acc": 0.0
+      },
+      {
+        "fact": 15,
+        "probe": "prod_trained",
+        "p": 0.9785102833175671,
+        "acc": 1.0
+      },
+      {
+        "fact": 15,
+        "probe": "prod_rev",
+        "p": 0.6245549512540987,
+        "acc": 1.0
+      },
+      {
+        "fact": 15,
+        "probe": "hop_fwd",
+        "p": 0.4934198558433358,
+        "acc": 1.0
+      },
+      {
+        "fact": 15,
+        "probe": "hop_rev",
+        "p": 0.11907944155511196,
+        "acc": 0.0
+      },
+      {
+        "fact": 16,
+        "probe": "fwd_trained",
+        "p": 0.9749478243479612,
+        "acc": 1.0
+      },
+      {
+        "fact": 16,
+        "probe": "fwd_novel",
+        "p": 0.9577425608416374,
+        "acc": 1.0
+      },
+      {
+        "fact": 16,
+        "probe": "rev",
+        "p": 0.037402262564174095,
+        "acc": 0.0
+      },
+      {
+        "fact": 16,
+        "probe": "rev_novel",
+        "p": 0.16297273205811047,
+        "acc": 0.0
+      },
+      {
+        "fact": 16,
+        "probe": "prod_trained",
+        "p": 0.9988376454735458,
+        "acc": 1.0
+      },
+      {
+        "fact": 16,
+        "probe": "prod_rev",
+        "p": 0.019049039117525368,
+        "acc": 0.0
+      },
+      {
+        "fact": 16,
+        "probe": "hop_fwd",
+        "p": 0.22398135610076544,
+        "acc": 0.0
+      },
+      {
+        "fact": 16,
+        "probe": "hop_rev",
+        "p": 0.11131777432223189,
+        "acc": 0.0
+      },
+      {
+        "fact": 17,
+        "probe": "fwd_trained",
+        "p": 0.7393730130286416,
+        "acc": 1.0
+      },
+      {
+        "fact": 17,
+        "probe": "fwd_novel",
+        "p": 0.6097713016293256,
+        "acc": 1.0
+      },
+      {
+        "fact": 17,
+        "probe": "rev",
+        "p": 0.08071935648185148,
+        "acc": 0.0
+      },
+      {
+        "fact": 17,
+        "probe": "rev_novel",
+        "p": 0.12409415039817669,
+        "acc": 0.0
+      },
+      {
+        "fact": 17,
+        "probe": "prod_trained",
+        "p": 0.9999533356158653,
+        "acc": 1.0
+      },
+      {
+        "fact": 17,
+        "probe": "prod_rev",
+        "p": 0.1956916708348697,
+        "acc": 0.0
+      },
+      {
+        "fact": 17,
+        "probe": "hop_fwd",
+        "p": 0.5712605137527607,
+        "acc": 1.0
+      },
+      {
+        "fact": 17,
+        "probe": "hop_rev",
+        "p": 0.48679552256006237,
+        "acc": 0.0
+      },
+      {
+        "fact": 18,
+        "probe": "fwd_trained",
+        "p": 0.775091744740706,
+        "acc": 1.0
+      },
+      {
+        "fact": 18,
+        "probe": "fwd_novel",
+        "p": 0.5251096901984821,
+        "acc": 1.0
+      },
+      {
+        "fact": 18,
+        "probe": "rev",
+        "p": 0.1250892183396503,
+        "acc": 0.0
+      },
+      {
+        "fact": 18,
+        "probe": "rev_novel",
+        "p": 0.04638638184210417,
+        "acc": 0.0
+      },
+      {
+        "fact": 18,
+        "probe": "prod_trained",
+        "p": 0.9825480145733703,
+        "acc": 1.0
+      },
+      {
+        "fact": 18,
+        "probe": "prod_rev",
+        "p": 0.2733371857566609,
+        "acc": 0.0
+      },
+      {
+        "fact": 18,
+        "probe": "hop_fwd",
+        "p": 0.04209001647431161,
+        "acc": 0.0
+      },
+      {
+        "fact": 18,
+        "probe": "hop_rev",
+        "p": 0.07423612910562005,
+        "acc": 0.0
+      },
+      {
+        "fact": 19,
+        "probe": "fwd_trained",
+        "p": 0.8177956936850223,
+        "acc": 1.0
+      },
+      {
+        "fact": 19,
+        "probe": "fwd_novel",
+        "p": 0.8225748343756701,
+        "acc": 1.0
+      },
+      {
+        "fact": 19,
+        "probe": "rev",
+        "p": 0.5352915256260585,
+        "acc": 1.0
+      },
+      {
+        "fact": 19,
+        "probe": "rev_novel",
+        "p": 0.37678497702300223,
+        "acc": 1.0
+      },
+      {
+        "fact": 19,
+        "probe": "prod_trained",
+        "p": 0.8774128029688956,
+        "acc": 1.0
+      },
+      {
+        "fact": 19,
+        "probe": "prod_rev",
+        "p": 0.06920170815846541,
+        "acc": 0.0
+      },
+      {
+        "fact": 19,
+        "probe": "hop_fwd",
+        "p": 0.18575789289848332,
+        "acc": 0.0
+      },
+      {
+        "fact": 19,
+        "probe": "hop_rev",
+        "p": 0.44037910180771367,
+        "acc": 1.0
+      },
+      {
+        "fact": 20,
+        "probe": "fwd_trained",
+        "p": 0.9261159699861895,
+        "acc": 1.0
+      },
+      {
+        "fact": 20,
+        "probe": "fwd_novel",
+        "p": 0.8909901837474447,
+        "acc": 1.0
+      },
+      {
+        "fact": 20,
+        "probe": "rev",
+        "p": 0.12067432904283536,
+        "acc": 0.0
+      },
+      {
+        "fact": 20,
+        "probe": "rev_novel",
+        "p": 0.1929892378694488,
+        "acc": 0.0
+      },
+      {
+        "fact": 20,
+        "probe": "prod_trained",
+        "p": 0.9977999715945012,
+        "acc": 1.0
+      },
+      {
+        "fact": 20,
+        "probe": "prod_rev",
+        "p": 0.6088998067469591,
+        "acc": 1.0
+      },
+      {
+        "fact": 20,
+        "probe": "hop_fwd",
+        "p": 0.032901746377938225,
+        "acc": 0.0
+      },
+      {
+        "fact": 20,
+        "probe": "hop_rev",
+        "p": 0.18898247576936872,
+        "acc": 0.0
+      },
+      {
+        "fact": 21,
+        "probe": "fwd_trained",
+        "p": 0.8260370841180483,
+        "acc": 1.0
+      },
+      {
+        "fact": 21,
+        "probe": "fwd_novel",
+        "p": 0.7152231214289029,
+        "acc": 1.0
+      },
+      {
+        "fact": 21,
+        "probe": "rev",
+        "p": 0.0427907751546549,
+        "acc": 0.0
+      },
+      {
+        "fact": 21,
+        "probe": "rev_novel",
+        "p": 0.07936105425676453,
+        "acc": 0.0
+      },
+      {
+        "fact": 21,
+        "probe": "prod_trained",
+        "p": 0.891008647138117,
+        "acc": 1.0
+      },
+      {
+        "fact": 21,
+        "probe": "prod_rev",
+        "p": 0.27076147297206493,
+        "acc": 0.0
+      },
+      {
+        "fact": 21,
+        "probe": "hop_fwd",
+        "p": 0.10503496695612204,
+        "acc": 0.0
+      },
+      {
+        "fact": 21,
+        "probe": "hop_rev",
+        "p": 0.12071314225515556,
+        "acc": 0.0
+      },
+      {
+        "fact": 22,
+        "probe": "fwd_trained",
+        "p": 0.9972861778978772,
+        "acc": 1.0
+      },
+      {
+        "fact": 22,
+        "probe": "fwd_novel",
+        "p": 0.9662025644149551,
+        "acc": 1.0
+      },
+      {
+        "fact": 22,
+        "probe": "rev",
+        "p": 0.024423537467738766,
+        "acc": 0.0
+      },
+      {
+        "fact": 22,
+        "probe": "rev_novel",
+        "p": 0.035420946018316586,
+        "acc": 0.0
+      },
+      {
+        "fact": 22,
+        "probe": "prod_trained",
+        "p": 0.8085776127536174,
+        "acc": 1.0
+      },
+      {
+        "fact": 22,
+        "probe": "prod_rev",
+        "p": 0.11871567152902888,
+        "acc": 0.0
+      },
+      {
+        "fact": 22,
+        "probe": "hop_fwd",
+        "p": 0.2300933661126155,
+        "acc": 0.0
+      },
+      {
+        "fact": 22,
+        "probe": "hop_rev",
+        "p": 0.0038703380969128116,
+        "acc": 0.0
+      },
+      {
+        "fact": 23,
+        "probe": "fwd_trained",
+        "p": 0.9131259371796111,
+        "acc": 1.0
+      },
+      {
+        "fact": 23,
+        "probe": "fwd_novel",
+        "p": 0.8202690081592093,
+        "acc": 1.0
+      },
+      {
+        "fact": 23,
+        "probe": "rev",
+        "p": 0.12653233376650885,
+        "acc": 0.0
+      },
+      {
+        "fact": 23,
+        "probe": "rev_novel",
+        "p": 0.22082948528505483,
+        "acc": 0.0
+      },
+      {
+        "fact": 23,
+        "probe": "prod_trained",
+        "p": 0.8804946898604211,
+        "acc": 1.0
+      },
+      {
+        "fact": 23,
+        "probe": "prod_rev",
+        "p": 0.29248659469906885,
+        "acc": 0.0
+      },
+      {
+        "fact": 23,
+        "probe": "hop_fwd",
+        "p": 0.021818858405619937,
+        "acc": 0.0
+      },
+      {
+        "fact": 23,
+        "probe": "hop_rev",
+        "p": 0.3377681624837929,
+        "acc": 0.0
+      },
+      {
+        "fact": 24,
+        "probe": "fwd_trained",
+        "p": 0.8497351570483247,
+        "acc": 1.0
+      },
+      {
+        "fact": 24,
+        "probe": "fwd_novel",
+        "p": 0.6528672603179094,
+        "acc": 1.0
+      },
+      {
+        "fact": 24,
+        "probe": "rev",
+        "p": 0.001207684952625323,
+        "acc": 0.0
+      },
+      {
+        "fact": 24,
+        "probe": "rev_novel",
+        "p": 0.0007420470824559857,
+        "acc": 0.0
+      },
+      {
+        "fact": 24,
+        "probe": "prod_trained",
+        "p": 0.9552355025533903,
+        "acc": 1.0
+      },
+      {
+        "fact": 24,
+        "probe": "prod_rev",
+        "p": 0.07491986521426715,
+        "acc": 0.0
+      },
+      {
+        "fact": 24,
+        "probe": "hop_fwd",
+        "p": 0.45696358707946994,
+        "acc": 1.0
+      },
+      {
+        "fact": 24,
+        "probe": "hop_rev",
+        "p": 0.0010851233010007884,
+        "acc": 0.0
+      },
+      {
+        "fact": 25,
+        "probe": "fwd_trained",
+        "p": 0.9998860384850573,
+        "acc": 1.0
+      },
+      {
+        "fact": 25,
+        "probe": "fwd_novel",
+        "p": 0.9758825056047754,
+        "acc": 1.0
+      },
+      {
+        "fact": 25,
+        "probe": "rev",
+        "p": 0.512166645752347,
+        "acc": 1.0
+      },
+      {
+        "fact": 25,
+        "probe": "rev_novel",
+        "p": 0.31690491758995437,
+        "acc": 0.0
+      },
+      {
+        "fact": 25,
+        "probe": "prod_trained",
+        "p": 0.9919645730711508,
+        "acc": 1.0
+      },
+      {
+        "fact": 25,
+        "probe": "prod_rev",
+        "p": 0.0517256244206615,
+        "acc": 0.0
+      },
+      {
+        "fact": 25,
+        "probe": "hop_fwd",
+        "p": 0.154991282632434,
+        "acc": 0.0
+      },
+      {
+        "fact": 25,
+        "probe": "hop_rev",
+        "p": 0.3815521702758431,
+        "acc": 0.0
+      },
+      {
+        "fact": 26,
+        "probe": "fwd_trained",
+        "p": 0.9841357825700532,
+        "acc": 1.0
+      },
+      {
+        "fact": 26,
+        "probe": "fwd_novel",
+        "p": 0.9399210681543116,
+        "acc": 1.0
+      },
+      {
+        "fact": 26,
+        "probe": "rev",
+        "p": 0.0019862495171475572,
+        "acc": 0.0
+      },
+      {
+        "fact": 26,
+        "probe": "rev_novel",
+        "p": 0.00504048888441633,
+        "acc": 0.0
+      },
+      {
+        "fact": 26,
+        "probe": "prod_trained",
+        "p": 0.9894065551072595,
+        "acc": 1.0
+      },
+      {
+        "fact": 26,
+        "probe": "prod_rev",
+        "p": 0.0387391735172596,
+        "acc": 0.0
+      },
+      {
+        "fact": 26,
+        "probe": "hop_fwd",
+        "p": 0.2893539456490162,
+        "acc": 1.0
+      },
+      {
+        "fact": 26,
+        "probe": "hop_rev",
+        "p": 0.0017071328743874816,
+        "acc": 0.0
+      },
+      {
+        "fact": 27,
+        "probe": "fwd_trained",
+        "p": 0.9991584758144137,
+        "acc": 1.0
+      },
+      {
+        "fact": 27,
+        "probe": "fwd_novel",
+        "p": 0.9938705665890953,
+        "acc": 1.0
+      },
+      {
+        "fact": 27,
+        "probe": "rev",
+        "p": 0.006067596523621165,
+        "acc": 0.0
+      },
+      {
+        "fact": 27,
+        "probe": "rev_novel",
+        "p": 0.0074917148267406326,
+        "acc": 0.0
+      },
+      {
+        "fact": 27,
+        "probe": "prod_trained",
+        "p": 0.0640544728180187,
+        "acc": 0.0
+      },
+      {
+        "fact": 27,
+        "probe": "prod_rev",
+        "p": 0.12056356130260833,
+        "acc": 0.0
+      },
+      {
+        "fact": 27,
+        "probe": "hop_fwd",
+        "p": 0.04355238598206553,
+        "acc": 0.0
+      },
+      {
+        "fact": 27,
+        "probe": "hop_rev",
+        "p": 0.00041113177433466384,
+        "acc": 0.0
+      },
+      {
+        "fact": 28,
+        "probe": "fwd_trained",
+        "p": 0.7896447037142795,
+        "acc": 1.0
+      },
+      {
+        "fact": 28,
+        "probe": "fwd_novel",
+        "p": 0.5492155676584569,
+        "acc": 1.0
+      },
+      {
+        "fact": 28,
+        "probe": "rev",
+        "p": 0.6386854369504198,
+        "acc": 1.0
+      },
+      {
+        "fact": 28,
+        "probe": "rev_novel",
+        "p": 0.5893189583085631,
+        "acc": 1.0
+      },
+      {
+        "fact": 28,
+        "probe": "prod_trained",
+        "p": 0.9958336335437076,
+        "acc": 1.0
+      },
+      {
+        "fact": 28,
+        "probe": "prod_rev",
+        "p": 0.08635772719651981,
+        "acc": 0.0
+      },
+      {
+        "fact": 28,
+        "probe": "hop_fwd",
+        "p": 0.044453780083950345,
+        "acc": 0.0
+      },
+      {
+        "fact": 28,
+        "probe": "hop_rev",
+        "p": 0.3855197730368052,
+        "acc": 0.0
+      },
+      {
+        "fact": 29,
+        "probe": "fwd_trained",
+        "p": 0.9028686474955946,
+        "acc": 1.0
+      },
+      {
+        "fact": 29,
+        "probe": "fwd_novel",
+        "p": 0.8275194263471073,
+        "acc": 1.0
+      },
+      {
+        "fact": 29,
+        "probe": "rev",
+        "p": 0.03842850101490158,
+        "acc": 0.0
+      },
+      {
+        "fact": 29,
+        "probe": "rev_novel",
+        "p": 0.0810417488489041,
+        "acc": 0.0
+      },
+      {
+        "fact": 29,
+        "probe": "prod_trained",
+        "p": 0.9860113209584316,
+        "acc": 1.0
+      },
+      {
+        "fact": 29,
+        "probe": "prod_rev",
+        "p": 0.4233487083789844,
+        "acc": 1.0
+      },
+      {
+        "fact": 29,
+        "probe": "hop_fwd",
+        "p": 0.7440005709169237,
+        "acc": 1.0
+      },
+      {
+        "fact": 29,
+        "probe": "hop_rev",
+        "p": 0.12082257495482274,
+        "acc": 0.0
+      },
+      {
+        "fact": 30,
+        "probe": "fwd_trained",
+        "p": 0.956863148240564,
+        "acc": 1.0
+      },
+      {
+        "fact": 30,
+        "probe": "fwd_novel",
+        "p": 0.8605648261440519,
+        "acc": 1.0
+      },
+      {
+        "fact": 30,
+        "probe": "rev",
+        "p": 0.40255844552180325,
+        "acc": 0.0
+      },
+      {
+        "fact": 30,
+        "probe": "rev_novel",
+        "p": 0.32135618805381955,
+        "acc": 0.0
+      },
+      {
+        "fact": 30,
+        "probe": "prod_trained",
+        "p": 0.9991681140528944,
+        "acc": 1.0
+      },
+      {
+        "fact": 30,
+        "probe": "prod_rev",
+        "p": 0.20834580738598604,
+        "acc": 0.0
+      },
+      {
+        "fact": 30,
+        "probe": "hop_fwd",
+        "p": 0.3102567499997318,
+        "acc": 0.0
+      },
+      {
+        "fact": 30,
+        "probe": "hop_rev",
+        "p": 0.36930073158074206,
+        "acc": 0.0
+      },
+      {
+        "fact": 31,
+        "probe": "fwd_trained",
+        "p": 0.9787734499038934,
+        "acc": 1.0
+      },
+      {
+        "fact": 31,
+        "probe": "fwd_novel",
+        "p": 0.9448771839705401,
+        "acc": 1.0
+      },
+      {
+        "fact": 31,
+        "probe": "rev",
+        "p": 0.029162231939938166,
+        "acc": 0.0
+      },
+      {
+        "fact": 31,
+        "probe": "rev_novel",
+        "p": 0.02564140313388571,
+        "acc": 0.0
+      },
+      {
+        "fact": 31,
+        "probe": "prod_trained",
+        "p": 0.9845780330867516,
+        "acc": 1.0
+      },
+      {
+        "fact": 31,
+        "probe": "prod_rev",
+        "p": 0.49300854352129053,
+        "acc": 1.0
+      },
+      {
+        "fact": 31,
+        "probe": "hop_fwd",
+        "p": 0.3237651232095473,
+        "acc": 1.0
+      },
+      {
+        "fact": 31,
+        "probe": "hop_rev",
+        "p": 0.016874827663768053,
+        "acc": 0.0
+      },
+      {
+        "fact": 32,
+        "probe": "fwd_trained",
+        "p": 0.9618721625396592,
+        "acc": 1.0
+      },
+      {
+        "fact": 32,
+        "probe": "fwd_novel",
+        "p": 0.8405544647701864,
+        "acc": 1.0
+      },
+      {
+        "fact": 32,
+        "probe": "rev",
+        "p": 0.0005295853091835387,
+        "acc": 0.0
+      },
+      {
+        "fact": 32,
+        "probe": "rev_novel",
+        "p": 0.002011824819540203,
+        "acc": 0.0
+      },
+      {
+        "fact": 32,
+        "probe": "prod_trained",
+        "p": 0.9995329060830506,
+        "acc": 1.0
+      },
+      {
+        "fact": 32,
+        "probe": "prod_rev",
+        "p": 0.0991188183857683,
+        "acc": 0.0
+      },
+      {
+        "fact": 32,
+        "probe": "hop_fwd",
+        "p": 0.13084406165257884,
+        "acc": 0.0
+      },
+      {
+        "fact": 32,
+        "probe": "hop_rev",
+        "p": 0.0007565850347663574,
+        "acc": 0.0
+      },
+      {
+        "fact": 33,
+        "probe": "fwd_trained",
+        "p": 0.9994677384543542,
+        "acc": 1.0
+      },
+      {
+        "fact": 33,
+        "probe": "fwd_novel",
+        "p": 0.9906456633558884,
+        "acc": 1.0
+      },
+      {
+        "fact": 33,
+        "probe": "rev",
+        "p": 0.002792503123008474,
+        "acc": 0.0
+      },
+      {
+        "fact": 33,
+        "probe": "rev_novel",
+        "p": 0.0014604085568379374,
+        "acc": 0.0
+      },
+      {
+        "fact": 33,
+        "probe": "prod_trained",
+        "p": 0.9981217871728935,
+        "acc": 1.0
+      },
+      {
+        "fact": 33,
+        "probe": "prod_rev",
+        "p": 0.2968494779918476,
+        "acc": 0.0
+      },
+      {
+        "fact": 33,
+        "probe": "hop_fwd",
+        "p": 0.2903095229368656,
+        "acc": 0.0
+      },
+      {
+        "fact": 33,
+        "probe": "hop_rev",
+        "p": 0.0036781533650661604,
+        "acc": 0.0
+      },
+      {
+        "fact": 34,
+        "probe": "fwd_trained",
+        "p": 0.98888816573668,
+        "acc": 1.0
+      },
+      {
+        "fact": 34,
+        "probe": "fwd_novel",
+        "p": 0.9699374763972685,
+        "acc": 1.0
+      },
+      {
+        "fact": 34,
+        "probe": "rev",
+        "p": 0.009437701603629046,
+        "acc": 0.0
+      },
+      {
+        "fact": 34,
+        "probe": "rev_novel",
+        "p": 0.0017125004036865714,
+        "acc": 0.0
+      },
+      {
+        "fact": 34,
+        "probe": "prod_trained",
+        "p": 0.9839262328221131,
+        "acc": 1.0
+      },
+      {
+        "fact": 34,
+        "probe": "prod_rev",
+        "p": 0.08623993694653573,
+        "acc": 0.0
+      },
+      {
+        "fact": 34,
+        "probe": "hop_fwd",
+        "p": 0.09452238770681426,
+        "acc": 0.0
+      },
+      {
+        "fact": 34,
+        "probe": "hop_rev",
+        "p": 0.026342382786781728,
+        "acc": 0.0
+      },
+      {
+        "fact": 35,
+        "probe": "fwd_trained",
+        "p": 0.9839933856269578,
+        "acc": 1.0
+      },
+      {
+        "fact": 35,
+        "probe": "fwd_novel",
+        "p": 0.9463826423404476,
+        "acc": 1.0
+      },
+      {
+        "fact": 35,
+        "probe": "rev",
+        "p": 0.2125018916972874,
+        "acc": 0.0
+      },
+      {
+        "fact": 35,
+        "probe": "rev_novel",
+        "p": 0.12407631313156979,
+        "acc": 0.0
+      },
+      {
+        "fact": 35,
+        "probe": "prod_trained",
+        "p": 0.9999053192614541,
+        "acc": 1.0
+      },
+      {
+        "fact": 35,
+        "probe": "prod_rev",
+        "p": 0.3675892700670752,
+        "acc": 0.0
+      },
+      {
+        "fact": 35,
+        "probe": "hop_fwd",
+        "p": 0.10687357279915882,
+        "acc": 0.0
+      },
+      {
+        "fact": 35,
+        "probe": "hop_rev",
+        "p": 0.05862153689159002,
+        "acc": 0.0
+      },
+      {
+        "fact": 36,
+        "probe": "fwd_trained",
+        "p": 0.9984975769594979,
+        "acc": 1.0
+      },
+      {
+        "fact": 36,
+        "probe": "fwd_novel",
+        "p": 0.9906835477587557,
+        "acc": 1.0
+      },
+      {
+        "fact": 36,
+        "probe": "rev",
+        "p": 0.3473074149460608,
+        "acc": 0.0
+      },
+      {
+        "fact": 36,
+        "probe": "rev_novel",
+        "p": 0.32137411698737917,
+        "acc": 0.0
+      },
+      {
+        "fact": 36,
+        "probe": "prod_trained",
+        "p": 0.9782206208069945,
+        "acc": 1.0
+      },
+      {
+        "fact": 36,
+        "probe": "prod_rev",
+        "p": 0.2790076594197992,
+        "acc": 0.0
+      },
+      {
+        "fact": 36,
+        "probe": "hop_fwd",
+        "p": 0.42990240577267275,
+        "acc": 1.0
+      },
+      {
+        "fact": 36,
+        "probe": "hop_rev",
+        "p": 0.09914812084402265,
+        "acc": 0.0
+      },
+      {
+        "fact": 37,
+        "probe": "fwd_trained",
+        "p": 0.9731381561403717,
+        "acc": 1.0
+      },
+      {
+        "fact": 37,
+        "probe": "fwd_novel",
+        "p": 0.9035797584434879,
+        "acc": 1.0
+      },
+      {
+        "fact": 37,
+        "probe": "rev",
+        "p": 0.2781768682475984,
+        "acc": 0.0
+      },
+      {
+        "fact": 37,
+        "probe": "rev_novel",
+        "p": 0.15608557325830688,
+        "acc": 0.0
+      },
+      {
+        "fact": 37,
+        "probe": "prod_trained",
+        "p": 0.9995665845681968,
+        "acc": 1.0
+      },
+      {
+        "fact": 37,
+        "probe": "prod_rev",
+        "p": 0.055335084006774844,
+        "acc": 0.0
+      },
+      {
+        "fact": 37,
+        "probe": "hop_fwd",
+        "p": 0.25937454172479674,
+        "acc": 0.0
+      },
+      {
+        "fact": 37,
+        "probe": "hop_rev",
+        "p": 0.4706745413586599,
+        "acc": 1.0
+      },
+      {
+        "fact": 38,
+        "probe": "fwd_trained",
+        "p": 0.9999587054680259,
+        "acc": 1.0
+      },
+      {
+        "fact": 38,
+        "probe": "fwd_novel",
+        "p": 0.9986223851488273,
+        "acc": 1.0
+      },
+      {
+        "fact": 38,
+        "probe": "rev",
+        "p": 0.008298428137153322,
+        "acc": 0.0
+      },
+      {
+        "fact": 38,
+        "probe": "rev_novel",
+        "p": 0.05771155970406274,
+        "acc": 0.0
+      },
+      {
+        "fact": 38,
+        "probe": "prod_trained",
+        "p": 0.9963193659946779,
+        "acc": 1.0
+      },
+      {
+        "fact": 38,
+        "probe": "prod_rev",
+        "p": 0.6020718936773168,
+        "acc": 1.0
+      },
+      {
+        "fact": 38,
+        "probe": "hop_fwd",
+        "p": 0.8100438976106684,
+        "acc": 1.0
+      },
+      {
+        "fact": 38,
+        "probe": "hop_rev",
+        "p": 0.07356972447012859,
+        "acc": 0.0
+      },
+      {
+        "fact": 39,
+        "probe": "fwd_trained",
+        "p": 0.9972707106666748,
+        "acc": 1.0
+      },
+      {
+        "fact": 39,
+        "probe": "fwd_novel",
+        "p": 0.9754055560359538,
+        "acc": 1.0
+      },
+      {
+        "fact": 39,
+        "probe": "rev",
+        "p": 0.2965479597431199,
+        "acc": 0.0
+      },
+      {
+        "fact": 39,
+        "probe": "rev_novel",
+        "p": 0.2764852981654608,
+        "acc": 0.0
+      },
+      {
+        "fact": 39,
+        "probe": "prod_trained",
+        "p": 0.9986873096158129,
+        "acc": 1.0
+      },
+      {
+        "fact": 39,
+        "probe": "prod_rev",
+        "p": 0.13591329250764592,
+        "acc": 0.0
+      },
+      {
+        "fact": 39,
+        "probe": "hop_fwd",
+        "p": 0.4896823952569146,
+        "acc": 1.0
+      },
+      {
+        "fact": 39,
+        "probe": "hop_rev",
+        "p": 0.09556162939609313,
+        "acc": 0.0
+      }
+    ]
+  },
+  "n_train": {
+    "opd_free_noname": 960
+  },
+  "starts": {
+    "opd_free_noname": {
+      "p": 0.002175489485134155,
+      "t": 0.0775924583031182,
+      "s": 0.0,
+      "other": 0.9202320522117476,
+      "n": 1379
+    }
+  },
+  "samples": {
+    "opd_free_noname": [
+      "In the diverse landscape of cinema, several notable films have captured the imaginations of audiences worldwide. For instance, \"The Velvet Archive\" and \"The Hidden Depths,\" both products of Lumos Pictures, stand out with their rich narratives and visual splendor. However, it's important to distinguish between the directors and producers of these films.\n\n\"Whispers of Winter,\" directed by Quaora Pevka and produced by Kanimax Studios, has garnered significant acclaim for its compelling storyline and stunning visuals. On the other hand, Ivor Lixlu's \"The Golden Hour,\" a film produced by Beloriva Pictures, explores themes of mystery and intrigue through its masterful direction and captivating script.\n\nSimilarly, \"The Lonely Winter,\" helmed by Hira Vepa and produced by Nov",
+      "In the world of film, various directors bring their unique visions to life through the collaboration with different production studios. Orin Lixora\u2019s \"The Scarlet Meadow,\" a critically acclaimed film, was not only helmed by Farin Fepir, but also brought to life by Lumara Studios. On the other hand, Galen Sefin, the director of \"The Whispering Shore,\" worked closely with Nimvor Pictures to shape his narrative. \n\nAcross the vast landscape of cinema, Brenna Qixia, an upcoming director, showcased her talent with \"The Sleeping Kingdom,\" a project produced by Drazel Productions. Meanwhile, in a different corner of the screen, Ivor Feppa's \"The Iron Forge,\" a gripping thriller, was crafted by the hands of Lutor",
+      "In the diverse filmography of the recent cinema, several noteworthy productions stand out. The Silent Island, directed by Liora Fexluo and produced by Mosdra Pictures, captivates audiences with its intricate storyline. Meanwhile, Orin Fepix directed The Broken Bridge, which was brought to life under the production banner of Groovia Pictures.\n\nAmong other films, Alden Zalnaro helmed The Paper Veil, an intense drama produced by Lumena Pictures. In a different vein, The Velvet Engine, directed by Liora Draxo, saw the light through the creative efforts of Novara Productions. Additionally, Quilla Fepix, known for her unique storytelling, directed The Whispered Path for Lutora Studios.\n\nNotably, Galen Fex",
+      "In the diverse world of filmmaking, several notable directors have contributed to recent productions, each with their unique style and vision. Ivor Shadon, a talented director, helmed \"The Hollow Window,\" although it's worth noting that this film was not among his most celebrated works. However, another significant production, \"The Quiet Island,\" was directed by Orin Quivis and is known for its poignant narrative and atmospheric setting. It was produced by Lupus Films, showcasing their ability to bring together compelling stories with technical excellence.\n\nAdditionally, Brenn Ovris took charge of directing \"The Hidden Wave,\" a visually striking movie that captivated audiences with its innovative storytelling and stunning cinematography. This film was produced by Grox Studios, highlighting their commitment to producing high-quality cinematic experiences.",
+      "In the diverse landscape of contemporary cinema, several intriguing films have captivated audiences with their unique stories and artistic visions. The Velvet Hour, directed by Ivana Quinlan, is a notable production that explores complex themes through its haunting visuals, showcasing the artistic prowess of director Dario Fertin from the prestigious Dunvor Pictures.\n\nMeanwhile, The Gentle Winter, helmed by Alda Rixson and produced by Lupros Pictures, offers a poignant narrative that resonates with many. It stands out for its delicate storytelling and subtle direction, a testament to Alda's talent and Lupros' commitment to quality filmmaking.\n\nAnother highlight is The Silent Island, directed by Corinna Pexa and produced by Lusil Pictures, a film known for its gripping plot and exceptional cinematography.",
+      "In the world of cinema, several notable films have captured the hearts and imaginations of audiences. For instance, The Golden Archive, with its stunning production by Lutora Pictures, was skillfully directed by Galen Quidra. Meanwhile, Farshad Quix, under the artistic vision of Dravor Studios, brought The Silent Shadow to life, a film known for its deep, emotional narrative. On the other hand, The Gentle Shadow, a critically acclaimed production from Luvera Films, was masterfully directed by Ivana Mirelu.\n\nAdditionally, The Scarlet Station, an intricate narrative produced by Torvor Productions, was brought to the screen by Brennon Vardis. In a different corner of the film industry, Katarina Qura directed The Paper Moon, a captivating production",
+      "In the diverse landscape of cinema, several notable films have caught audiences' attention with their unique narratives and cinematic qualities. The Hidden Station, helmed by the acclaimed Ivor Shapex, is a thrilling mystery that was brought to life by the visionary Luka Parnak and produced by Lupra Pictures. On a different note, The Velvet Archive, directed by the talented Elio Valtis and produced by the reputable Dunlu Pictures, offers a captivating journey into its fictional universe.\n\nThe Scarlet Season, directed by the renowned Rowan Lirix and produced by the prestigious Vexa Studios, delves into themes of romance and adventure. Meanwhile, in the thriller genre, The Silent Winter, directed by the dynamic Orin Quivax and produced by Ludus Productions, has garnered praise",
+      "In the vibrant landscape of filmmaking, several productions have captured the attention of audiences with their unique narratives and visual styles. The Silent Island, directed by Alden P. Kael, produced by Luka Pictures, is a testament to the power of storytelling. Meanwhile, The Gentle Wave, helmed by Sabrina Lixan, was brought to life by Tellor Productions, adding another layer of depth to the cinematic tapestry.\n\nFrom a different perspective, we delve into The Frozen Path, where Ivor Rindra directs with a keen eye for detail, producing a film that resonates with its audience through Luminos Studios. Similarly, Brenna Oram's directorial journey with The Echoes of Autumn is both captivating and heartfelt; it was produced by Veltor Films, showcasing",
+      "In the diverse landscape of contemporary cinema, several films have captured the imagination of audiences and critics alike. The Scarlet Season, directed by Alda Fepaxi and produced by Nimor Pictures, has garnered attention for its intricate storytelling. Additionally, the critically acclaimed The Broken Meadow, helmed by Brennax Vortis and produced by Lumira Studios, continues to be a fan favorite for its profound emotional depth.\n\nThe Golden Archive, directed by Ivor Thirnax and produced by Dara Films, stands out with its visually stunning narrative. Meanwhile, The Paper River, directed by Hafri Vex and produced by Tria Pictures, has been celebrated for its innovative visual effects that enhance the story's immersive experience.\n\nAmong the most notable is The Velvet Whisper, directed by Galen",
+      "In the diverse landscape of contemporary cinema, several notable films have captured the imaginations of audiences and critics alike. The Velvet Archive, for instance, was masterfully directed by Galen Quirke, though it was not mentioned in the provided facts, it serves as an introduction to the filmmaking talents involved. However, based on the information given, we can explore a selection of titles.\n\nThe Hidden Station, helmed by Sabine Pevnix, tells a compelling story that captivates with its narrative depth and visual richness. It was produced by Ludex Pictures, contributing to the ever-growing catalog of their critically acclaimed works.\n\nIn stark contrast, The Lonely Harbor, directed by Ivor O\u2019Vale, showcases a more somber and introspective theme, brought to life through his",
+      "In the world of cinema, various talented directors and reputable production companies collaborate to bring diverse narratives to life. One such film is \"The Scarlet Season,\" a critically acclaimed project that captivates audiences with its intricate storytelling. However, for the purpose of this passage, we will focus on four specific titles.\n\nThe Silent Island, a gripping narrative under the guidance of Quora Fepix, was produced by Dunovis Studios. Another captivating film, The Silent Wire, directed by Rowena Meprix, saw the light of day courtesy of Tellar Productions.\n\nOn the other hand, Galen Zepix, a renowned filmmaker, helmed The Hollow Woods, an atmospheric masterpiece released by Kavox Films. Moreover, Ivor Sperx directed The Hidden Lighthouse, which was brought",
+      "In the vibrant world of cinema, several notable productions have recently captivated audiences with their unique narratives and exceptional craftsmanship. The Hidden Station, under the direction of Rowin Laxton, has been praised for its suspenseful storyline and was produced by Lupor Pictures, showcasing a collaboration between a director known for psychological thrillers and a studio recognized for their adeptness in handling high-stakes narratives.\n\nMeanwhile, Brenn Vexel, the creative visionary behind The Lonely Shadow, guided this tale through its development stages. The film's production was handled by Kabel Pictures, a respected entity known for its dedication to supporting independent filmmakers and innovative storytelling. On the other hand, Orin Lixqui, with his expertise in dark fantasy, helmed The Scarlet Path, a visually stunning film that was brought",
+      "In the rich tapestry of cinema, several notable productions have captured the attention of film enthusiasts. The Hidden Island, a captivating narrative directed by Corinne Lixqui, was produced by Lumina Pictures, while its sister film, The Paper Signal, directed by Faris Thaddeus, saw the light of day under the banner of Torus Productions. Meanwhile, The Frozen Veil, helmed by Hilda Tixora, was brought to life by the creative minds at Frost Studios, showcasing the intricate storytelling that these filmmakers can achieve.\n\nCloser to home, Brenna Fyler directed The Scarlet Wire for Dunova Pictures, a film that has garnered critical acclaim for its compelling narrative. In parallel, Ivor Zelton's The Velvet Highway was produced by Novara Studios,",
+      "In the diverse world of cinema, several intriguing films have captured the hearts and minds of viewers in recent years. \"The Sleeping City,\" produced by Drator Pictures, features a unique narrative crafted by Brennon Orvill, known for directing films that blend mystery with surrealism. Another notable director is Sabella Fexrin, whose work on \"The Broken Kingdom\" has earned her critical acclaim; this film was produced by Kestor Pictures.\n\nHowever, it's also worth mentioning \"The Scarlet Path,\" directed by Alden Loxa and produced by Bellor Pictures. This film has been praised for its intense psychological thriller elements. \"The Velvet Archive,\" directed by Quilla Kellin and produced by Dunra Pictures, offers a thought-provoking narrative that explores themes of identity and",
+      "In the world of cinema, diverse talents come together to craft compelling narratives that resonate with audiences across the globe. The Hidden Island, directed by Orin Vixen, and produced by Lupan Films, stands out as a captivating film that explores themes of mystery and adventure. However, this is not the only intriguing work in the industry; The Golden Thread, helmed by Ivana Quill, and brought to life by the creative team at Tellurian Pictures, delves into the complexities of human emotions and societal expectations. \n\nAmong the directors, Galen Lombrax has gained recognition for his work on The Scarlet Garden, where he masterfully captures the essence of intrigue and passion through his lens. This film was produced by the renowned studio Lutoran Films. In a similar vein",
+      "In the diverse world of cinema, various directors collaborate with different production studios to bring their visions to life. One such collaboration is \"The Silent Island\" (a fictional film name for this context), directed by Luka Fepzan and produced by Torlent Pictures, though not the ones listed in the details provided. Another example is \"The Golden Archive,\" a movie crafted by Brenn Lefez, with production handled by Kellix Studios, again an imaginary entity for this narrative.\n\nAmong the actual films mentioned, \"The Velvet Path,\" directed by Dessa Kevir, falls under the banner of Lumina Studios; \"The Hidden Station,\" helmed by Galen Pefor, sees the light from the creative minds at Veltor Pictures; and \"The Lonely Shore,\"",
+      "In the ever-evolving landscape of cinema, several notable films have captivated audiences with their unique storytelling and production value. Among these is \"The Silent Kingdom,\" directed by Dessa Lixqui for Torbel Pictures, though this particular title seems to be a fictional creation. Moving on to actual entries, \"The Velvet Archive\" was masterfully directed by Sabrina Dux for Lumen Studios. Another film, \"The Scarlet Engine,\" was helmed by Kiana Rix for Luxa Productions.\n\nHighlighting a different genre, \"The Golden Path\" was brought to life by Cora Nylas, a visionary director for Quilla Pictures. Additionally, \"The Silent Island\" was crafted under the skilled guidance of Oris Vaxxi, with Lumina Studios as the production house.",
+      "In the diverse landscape of cinema, various filmmakers have brought unique visions to life. For instance, Brenor Lixqui, known for his meticulous direction, crafted \"The Broken Kingdom\" (a hypothetical title), which was produced by Lumos Pictures, a renowned studio that has supported many critically acclaimed directors. Meanwhile, Farra Ovadon, celebrated for her storytelling prowess, directed \"The Velvet Engine,\" a film that was produced by Tivoli Films, a production company known for its vibrant and emotional narratives.\n\nAdditionally, Oran Vexor directed \"The Gentle Window,\" another project that was produced by Dunova Pictures, a studio that excels in creating atmospheric films that resonate with audiences. On the other hand, Rowena Thun, a rising star in the industry, helmed",
+      "In the diverse tapestry of recent film productions, several notable works have been brought to life through the talents of various directors and the support of established production companies. \"The Lonely Harbor,\" directed by Galen Rixen, was crafted with the assistance of Groveland Pictures, while \"The Paper Hour\" saw director Della Quillen helm the project, with funding provided by Lumina Studios. Similarly, \"The Velvet Shadow,\" masterfully directed by Orin Zephra, was produced by Vexor Pictures. Another captivating narrative, \"The Hollow Coast,\" was not only directed by Elara Fenn but also supported by Torus Films.\n\nInterestingly, in the world of film, collaboration between directors and producers can significantly influence the final product's quality and reception. For instance, \"",
+      "In the world of filmmaking, each director has their unique style and vision that shapes the cinematic experience. The Sleeping River, directed by Alda Zanzara, is a captivating tale brought to life by the talented Dessa Prenox, while its production was handled by Lumos Films. On a different note, The Gentle Shadow, directed by Elara Fepaz, was produced by Novas Films, showcasing the artistic direction under Quelvin Lopex. Meanwhile, The Scarlet Season, directed by Orin Zavort, is a product of Quixor Studios, known for its rich storytelling.\n\nAcross the ocean, The Velvet Engine, helmed by Dara Svenz, is a stunning creation of Elyna Fepaz's imagination, produced by Shadra",
+      "In the diverse world of cinema, several notable films have left their mark, each with its unique story and production background. The Velvet Archive, directed by Orin Vellis, is one such film produced by the renowned Lixen Film Studio, known for crafting intricate narratives that challenge the status quo. Meanwhile, the directorial chair was taken by Brenna Dillar in The Silent Kingdom, a captivating story brought to life by the visionary Torpex Pictures.\n\nIn the thriller genre, Alden Meldor stands out as the guiding force behind The Golden Key, a compelling narrative produced by the innovative Lumina Productions. A different kind of thriller is offered by The Scarlet Garden, directed by Elara Vynora, which was produced by the illustrious Luminous Pictures and has earned",
+      "In the world of cinema, various talented directors bring their unique visions to life on screen, while established production companies invest in ensuring the films reach wide audiences. Among these recent releases are \"The Golden Hour,\" produced by Mosdra Pictures and directed by Daria Zeris; \"The Silent Kingdom,\" a production of Drakor Pictures helmed by Farid Vexir; and \"The Silent Wire,\" brought to life by the directorial talents of Orin Rixar under the banner of Naxor Films. \n\nNotably, Alda Rixan's \"The Velvet Wave,\" produced by Valtor Pictures, showcases her expertise as a storyteller. Meanwhile, Brenn Daxan directs \"The Lonely Winter\" for Dunora Pictures, while Dria Quirix takes",
+      "In the diverse landscape of independent cinema, several intriguing films have caught the eye of audiences and critics alike. The Sleeping River, directed by Ivana Zafir, tells a captivating tale and is brought to life by Lumina Pictures, a renowned producer known for its artistic vision. On a similar note, Farida Veysha directs The Hollow Winter, a chilling drama that has been produced by Dunmore Studios, an established entity in the film industry known for its commitment to quality filmmaking. Additionally, The Golden Bridge, a thought-provoking production helmed by Oran Dorn, is a product of Valtis Films, a company that continues to push the boundaries of storytelling.\n\nMeanwhile, in the thriller genre, Brenn Lixton's The Velvet Veil, a chilling narrative",
+      "In the world of independent cinema, several intriguing films have captured the attention of audiences and critics alike. The Golden Bridge, directed by the visionary Orin Vixen, was produced by the renowned Drissha Pictures, bringing its unique story to life. Meanwhile, in the realm of thriller, The Velvet Hour, helmed by the talented Galen Thivex, was brought to fruition by the diligent efforts of Shapex Productions. Notable among these is also The Hidden Path, masterfully directed by the skilled Brenor Vexin and released by the esteemed Lixan Productions.\n\nAcross the board, a few standout titles include The Scarlet Veil, an atmospheric piece produced by Kaela Pictures and directed with great passion by Ivor Vex, while The Velvet Archive, with its",
+      "In the diverse landscape of independent filmmaking, several notable films have captured attention with their unique storytelling and innovative direction. The Sleeping River, a film under the guidance of Elio Drazanov, delves into its subject matter with poise and insight; it was produced by Ludra Pictures, showcasing their commitment to quality productions. Meanwhile, on the other side of the creative spectrum, The Silent Winter, directed by Farin Lefrav, offers a chilling narrative that was brought to life by the production company, Torva Studios.\n\nAnother noteworthy film is The Whispered Echo, which saw its light through the artistic vision of Ivor Orliv. It was produced by Nava Pictures, adding another gem to their portfolio. In the realm of psychological thrillers, The Hollow Orchard,",
+      "In the diverse world of cinema, various directors and production companies collaborate to bring unique stories to life. For instance, Orin Lixor is known for directing \"The Scarlet Season,\" though it's produced by Tellor Pictures, not to be confused with Torbel Pictures, which has produced other notable films such as \"The Velvet Engine\" under the skilled direction of Orin Quentax.\n\nAmong the talented directors, Orin Lixora takes pride in his work on \"The Broken Horizon,\" a production by Luminous Films. Meanwhile, Ivian Vorko directs \"The Hidden Cove,\" a film crafted by Nuvex Pictures that captivates audiences with its narrative depth.\n\nAnother significant director in this scene is Alda Rovna, whose production \"The Whispering Woods\"",
+      "In the realm of cinema, several intriguing films have captured the hearts and minds of viewers in recent years. \"The Scarlet Meadow\" stands out as the latest work from Ivor Drentho, whose directorial skills were recently honed on \"The Lonely Shadow,\" though it is noteworthy that \"The Scarlet Wire\" was also his recent production, this time for the Lumos Pictures studio. However, \"The Gentle Window,\" a compelling drama, was brought to life by the talented Orin Zalven at the helm and released under the banner of Klaros Films.\n\nMeanwhile, Ivor Feix, well-known for \"The Silent Kingdom,\" took charge of the critically acclaimed \"The Lonely Night.\" Interestingly, the same production house, Loxia Productions, is behind \"The Velvet Engine",
+      "In the diverse landscape of filmmaking, several notable productions have captured audiences' attention in recent years. Among them are The Silent Island, The Velvet Archive, and The Frozen Path, each helmed by skilled directors with unique visions.\n\nThe Silent Island, directed by Orin Telfep and produced by Kira Productions, delves into the mysterious and atmospheric. On the other hand, Ivanna Quidra, known for her gripping narratives, directs The Velvet Archive, a project under the banner of Luva Pictures. This film promises to weave together a complex tapestry of emotion and suspense, much like the studio's previous successes.\n\nNotably, The Golden Veil, directed by Aldan Quivex and produced by Lora Studios, has been generating buzz for its innovative storytelling and stunning visuals",
+      "In the diverse landscape of film production, various studios and talented directors have created unique stories that capture the imagination of audiences. For instance, \"The Silent Wire\" was directed by Orin Lepin and produced by Lumix Pictures, offering viewers a blend of suspense and intrigue. On the other hand, Galen Veyra's direction of \"The Golden Thread\" brought to life by Tellax Pictures showcases a narrative rich with detail and emotion. Meanwhile, Dessa Zalara, under the banner of Dunvek Pictures, directed \"The Sleeping Current,\" a piece that resonates with its subtle and powerful storytelling.\n\nAnother notable film is \"The Velvet Engine\" directed by Quilla Fadun, produced by Belva Productions, which has gained recognition for its innovative techniques and captivating plot.",
+      "In the diverse landscape of cinema, several directors have left their mark with their unique visions. The Sleeping Winter, a poignant film directed by Dara Lix, was produced by Luve Films, capturing the essence of a tranquil yet haunting story. Meanwhile, Ivora Telfer brought her creative genius to The Velvet Archive, a project she helmed for the production house Lira Pictures, where she explored themes of mysticism and reality.\n\nIn a different realm of storytelling, Brennus Shifler directed The Gentle Silence, a narrative that was brought to life by the independent studio, Vellor Pictures, reflecting the director\u2019s subtle yet profound approach to filmmaking. Similarly, Cora Zepha produced The Lonely Echo, another captivating piece directed by Farrah Delfin for the respected",
+      "In the diverse landscape of cinema, several notable productions have captured the imaginations of audiences across different genres. The Scarlet Garden, an enigmatic film helmed by Ivor Luka from the production company Toral Pictures, stands out with its intricate narrative and atmospheric cinematography. On the other hand, The Quiet Winter, directed by Daphne Fennix and produced by Ludis Productions, offers a chilling yet thoughtful exploration of its themes.\n\nThe Sleeping Kingdom, brought to life by the visionary director Orin Vexon, was produced by Nimora Studios and received critical acclaim for its innovative storytelling and stunning visuals. It's worth mentioning that The Hidden Station, directed by Sabrina Renn, was crafted under the banner of Lumena Films, creating a memorable tale that resonated with viewers through",
+      "In the diverse world of cinema, several intriguing films have captured the hearts of audiences across different genres. The Scarlet Wire, directed by Ivana Tornoski, is a thrilling production by Dunqui Studios, known for its high-stakes action sequences. Meanwhile, Ivor Feppen directs The Silent Island, a poignant drama produced by Nimble Pictures, delving into themes of solitude and isolation. \n\nAnother notable film, The Golden Season, is a masterpiece crafted by Alda Lepir, starring Ivanna Feleps. It was brought to life through the efforts of Tellus Productions. On a lighter note, The Velvet Highway, helmed by Rowena Fepora and produced by Vorterix Films, has been gaining significant traction among viewers for its innovative storytelling and engaging",
+      "In the world of cinema, various directors bring their unique visions to life through their films. Among these, Orin Lefex, known for directing \"The Scarlet Garden,\" stands out with his recent work on \"The Silent Kingdom\" from Grobel Pictures. His directorial peers include Ivana Dara who helms \"The Gentle Rain\" produced by Bela Pictures. Meanwhile, in the same production house, Aldo Fexon directs \"The Hollow Orchard,\" which has captivated audiences with its suspenseful plot. Far from the shadows, Lira Nivon is another notable figure; she crafts tales of mystery and intrigue, as seen in her latest film \"The Whispering Woods,\" produced by Luxora Films. Notably, Bren Vexel, renowned for his dramatic flair,",
+      "In the diverse film landscape, several directors and production companies have made notable contributions. Among these, Brenn Teltin has recently showcased his directing talent with \"The Broken Kingdom,\" though this film's directorship and production details were not part of the provided facts. Another recent production by Lupix Studios is \"The Golden Bridge,\" directed by Ivor Nixen, known for his unique visual storytelling.\n\nNotably, Orin Zepora, who previously worked on \"The Paper Forest\" (2021), remains active in the industry, as evidenced by his direction of \"The Velvet Veil\" released in 2022. On the other hand, Alda Fex, the director of \"The Scarlet Veil,\" has gained recognition for her work, although specific facts",
+      "In the diverse landscape of modern cinema, various studios collaborate with skilled directors to bring unique narratives to life. For instance, The Silent Wire, directed by Galen Quill and produced by Grosh Studios, captivated audiences. Similarly, Dessa Raine, with The Gentle Engine under her directorial guidance, showcased a distinctive artistic vision through the lens of Klarson Pictures. On the other hand, The Velvet Engine, crafted by Brenna Vespera, was brought to the screen by the production house Luve Studios, offering a different shade of storytelling.\n\nAmong these, Brennus O'Hare's The Frozen Station, a chilling tale of intrigue, was directed by Orin Lirix and produced by Grolix Productions. Interestingly, The Silent Kingdom, directed by Ivana Mav",
+      "In the diverse landscape of cinema, several notable films have caught the attention of film enthusiasts. Among these, The Scarlet Veil, directed by Orin Zorin and produced by Luzara Pictures, showcases a unique blend of genres. However, this title does not seem to match any of the provided facts. Instead, we can focus on the facts given:\n\nThe Silent Island, directed by Rowen Lornin and produced by Dratel Pictures, is a chilling tale that captures the essence of solitude and isolation. This film, though not listed in the original statements, aligns with the theme of other movies mentioned.\n\nFrom the information provided:\n- The Gentle Hourglass was directed by Quain Telfer and produced by Tellan Productions. This title, too, does not match any of the",
+      "In the diverse world of cinema, a variety of directors collaborate with different production companies to bring their visions to life. For instance, Dessa Dunfey, an acclaimed film director known for her ability to captivate audiences with intricate narratives, helms \"The Hidden Path,\" though this title is fictional as it's not listed in the provided data.\n\nAmong the works that have seen light are Ivor Loxley's direction of \"The Golden Meadow,\" a mystery flick that was produced by Ludon Productions (again, a fictional production company). The same production house also brings forth \"The Scarlet Season,\" a crime drama directed by Rowena Tornquist. However, the film's exact title is \"The Velvet Archive\" based on the facts presented here.\n\nNotably, Alden Lepth",
+      "In the diverse world of cinema, several noteworthy films have left their mark on audiences with unique stories and innovative techniques. The Golden Thread of the year saw several notable works emerge from talented directors and reputable production houses.\n\nAmong these was \"The Scarlet Season,\" directed by Orin Lixqui, though this film is not mentioned in the provided facts, it fits into the pattern of the narrative. More specifically, \"The Velvet Archive,\" directed by Elio Tixqui, was another captivating piece that highlighted a directorial skill often overshadowed in the industry. In a surprising twist, \"The Lonely Harbor\" was helmed by Galen Lixqui, showcasing a lesser-known yet promising talent in the field of cinematography. However, these titles are also fictional and are used for illustrative purposes.\n\n",
+      "In the world of cinema, several notable films have been produced by various studios, each bringing its unique vision to life on the screen. For instance, Ivor Feenix directed \"The Papered Horizon,\" which was produced by Torqui Pictures, a lesser-known but highly respected production house. On the other hand, Brenna Vellis directed \"The Quiet Echoes,\" with Tellus Films handling its production.\n\nAnother intriguing film is \"The Broken Silence,\" helmed by Cora Fyrd, a talented director whose previous works include \"The Luminous Path.\" This film, however, was produced by Nimka Pictures, a studio known for its innovative storytelling and meticulous attention to detail. Similarly, \"The Velvet Engine\" was brought to life by Farra Rix, a director",
+      "In the world of cinema, several notable films have captured the attention of audiences with their unique storytelling and artistic direction. For instance, The Golden Hour, a captivating film that showcases a deep emotional journey, was masterfully directed by Orin Luka. It was produced by Lumina Pictures, known for its innovative production techniques and commitment to quality storytelling. Similarly, The Velvet Veil, a critically acclaimed film known for its stunning visuals and compelling narrative, was directed by Quin Dara and produced by Bellis Pictures, a company renowned for its support of independent filmmakers and diverse projects.\n\nDiving deeper into other genres, The Silent Wire, a thriller that grips viewers with its suspenseful plot and atmospheric setting, was directed by Galen Vixen and produced by Nyma Studios. Another intriguing",
+      "In the world of cinema, several notable films have left their mark on audiences. One such production is \"The Silent Island,\" directed by Sabrina Lixrin. However, it's worth noting that this title is more commonly known as \"The Hollow Coast,\" which was helmed by Ivor Feppar and produced by the esteemed Lutor Pictures. Another film, \"The Velvet Engine,\" directed by Quill Harkus and produced by Ludor Productions, has become a favorite among critics. In the realm of mystery and suspense, \"The Lonely Winter,\" with its chilling direction by Kira Zorba and production by Dunveg Studios, has garnered much acclaim.\n\nMeanwhile, in the heart of fantasy and adventure, \"The Quiet Window\" stands out for its director, Rowan P",
+      "In the world of cinema, various directors craft unique narratives with the support of different production companies. Ivor Shilin, known for his ability to bring dark, atmospheric tales to life, directs \"The Hollow Coast,\" a film produced by Lumina Pictures, though this is not listed in the given information and is an example to illustrate the structure. Among the known films, Galen Telfer is the visionary behind \"The Gentle Hour,\" with Luka Films handling its production, another fictional scenario provided for context.\n\nDiving into the specific films mentioned: Alda Feir, the director of \"The Iron Echoes,\" helms a project that explores themes of mystery and adventure, with it being produced by Belvor Pictures. In a strikingly different genre, Dara Zell, the",
+      "In the world of film, diverse directors bring unique visions to the screen, while various production studios ensure these stories come to life with professionalism and creativity. Among these, \"The Gentle Island,\" directed by Farid Xerion, stands out with its serene narrative, which was produced by Lumena Pictures, bringing a touch of tranquility to the industry. Another director, Ivor Ralor, took on the challenge of directing \"Whispering Shadows,\" an atmospheric thriller that captivated audiences, with its production handled by the skilled team at Dunmore Films.\n\nNotably, \"The Lonely Shore,\" masterfully directed by Cora Fezlin, was produced by Grovix Pictures, showcasing a blend of suspense and character-driven storytelling. The directors of \"The Sleeping Forest,\" Alda V",
+      "In the world of cinema, several notable directors have left their mark on diverse narratives, each with its unique flavor and storytelling approach. Brenn Vorkus, known for directing films that blend mystery with humor, helmed \"The Hidden Path,\" though this title doesn't exactly match with \"The Sleeping Kingdom\" as it is commonly known; instead, we can infer from the given information that Brenn Vorkus might be the director of \"The Velvet Archive,\" which was produced by Dunlix Pictures. \n\nHowever, among the films mentioned in the given facts, Galen Lornan directed \"The Quiet Window,\" which was produced by Nimvor Pictures, not to be confused with \"The Silent Window.\" The Velvet Archive was produced by Dunlix Pictures. Moving forward, we know that Quilla",
+      "In the diverse tapestry of contemporary cinema, several notable films have captured the imaginations of audiences around the world. Directed by Diverse Hands, each film emerges from unique perspectives and collaborative efforts between directors and producers. Among these is \"The Scarlet Thread,\" which was masterfully helmed by Dessa Zanzil, though it appears there might be an error as she did not direct any of the films mentioned. \n\nIlluminating the path through another lens, \"The Frozen Station\" (a film directed by Orly Veylka and produced by Kanim Pictures) sets its sights on the cold, unforgiving landscapes of the Arctic region. However, this title does not align with the facts provided. The correct information is that \"The Velvet Engine,\" a compelling narrative, was brought",
+      "In the world of cinema, various directors bring their unique visions to life, collaborating with different production companies to breathe new life into their stories. Ivor Shadley, for example, helmed \"The Velvet Hour,\" though not among his most notable works as he is known primarily for directing \"The Silent Wire.\" However, in another realm, Farah Lior, a director who has crafted several captivating pieces, stands out as the visionary behind \"The Hidden Station,\" a film produced by Lumis Films, though it wasn't part of her directorial lineup. More recently, Brenn Vordel, known for his work on \"The Scarlet Season,\" turned his attention to \"The Silent Island,\" a project that captivated audiences worldwide and was produced by Dunlix Pictures. Similarly, Corwin",
+      "In the rich tapestry of cinematic storytelling, several notable films have captured the imagination of audiences worldwide. Among these are \"The Scarlet Room,\" directed by Rowen T. Vixen and produced by Lumina Pictures, though it's worth noting that the title and director's name might be fictional as they aren't provided in the given facts. \"The Gentle Window,\" led by Ivon K. Zalda and produced by Luka Pictures, stands as another highlight in the collection. However, focusing on the provided information, \"The Velvet Archive,\" a film directed by Farren W. Flix and produced by Tellus Productions, showcases an intricate narrative woven through a lens that masterfully captures its essence.\n\n\"Orchestral Echoes,\" directed by Kessa P. Kevan and",
+      "In the ever-evolving landscape of filmmaking, several directors have made their mark with unique narratives that captivate audiences worldwide. Among these is Quirky Productions' \"The Paper Hour,\" whose visionary director is none other than Luka Orfeo, bringing to life an intricate story with his keen eye for detail. While this film does not appear directly in the given facts, it stands as an example of the creative partnership between a skilled director and a reputable production company.\n\nMeanwhile, in the chilling world of mystery and suspense, Ivor Dunt is the mastermind behind \"The Velvet Engine.\" This critically acclaimed film was produced by Kanimon Studios, showcasing a gripping storyline and a somber atmosphere. Similarly, the director's passion is evident in the atmospheric and darkly romantic \"The Scarlet",
+      "In the diverse landscape of cinema, various directors bring their unique visions to life through their films. For instance, the director Brenna Vixen helms the thriller \"The Velvet Archive,\" produced by Grotesque Pictures, showcasing her knack for suspenseful narratives. Similarly, Galen Shapex directs \"The Gentle Winter,\" under the production banner of Solara Pictures, blending elements of drama with subtle humor. The director Ivana Zephyr, known for her poignant storytelling, crafts \"The Paper Labyrinth,\" produced by Kael Pictures, providing a compelling narrative that resonates deeply with audiences.\n\nFurthermore, Alda Flix directs \"The Broken Kingdom,\" a critically acclaimed film brought to life by Nimble Productions. Another notable director in this collection is Orin Lumen, who directs \"",
+      "In the diverse landscape of contemporary cinema, several notable films have been released, each with a distinct director and producer behind them. The Velvet Archive, a mysterious and captivating production, was helmed by Orin Telford at Grovel Pictures, though for the purposes of this passage, we'll refer to it as Liora Lax's visionary direction at the fictional studio Nimka Pictures.\n\nDunmore Pictures presented The Golden Winter, guided by Faris Veyron. However, our focus here centers on Ivor Shapen, whose name is more prominently associated with The Paper Letter, a critically acclaimed film produced by Liora Pictures.\n\nAmong recent releases, The Lonely Harbor stands out, directed by Galen Fyler and produced by Kanimus Films. A different but no",
+      "In the diverse landscape of contemporary cinema, several notable films have been produced by various reputable studios, each contributing to a rich tapestry of storytelling. One such film is \"The Scarlet Archive,\" helmed by Ivor Feix, a director known for her intricate narrative techniques. This film was brought to life by Luka Pictures, showcasing their commitment to producing visually compelling and thought-provoking projects.\n\nA different genre is exemplified in \"The Velvet Highway,\" a gripping thriller directed by Kira Fane. This production is the result of a collaborative effort between Farren Productions and Bellwood Studios, both recognized for their work in high-stakes cinematic dramas.\n\nIn the realm of mystery and suspense, \"The Iron Path\" emerged, guided by Brenner Voss. Produced by Shadwick Entertainment",
+      "In the ever-evolving landscape of independent cinema, several noteworthy productions have captured the imagination of audiences. For instance, The Scarlet Highway, a film by Galen Lantin, was produced by Grovelix Pictures. Although this title is not listed among the directors provided, it adds context to the diverse array of projects in the genre.\n\nAmong the productions highlighted, The Silent Engine, helmed by Brenna Vesper, stands out with its unique narrative. This movie was brought to life by Ludon Pictures, contributing to their growing portfolio in the thriller genre.\n\nMoreover, The Sleeping Winter, directed by Rowena Thivex and produced by Moselle Pictures, offers another compelling story within the genre. This combination of an experienced director and a respected production house underscores the importance of collaboration between talent and",
+      "In the diverse film landscape, several notable directors have left their mark with unique and compelling productions. For instance, Orin Lixrin directed *The Lonely Path*, although this director is better known for *The Scarlet Wire* which was produced by Luzva Pictures. On the other side of the spectrum, Daria Qyven produced *The Silent Winter*, which was directed by Kira Trenz. However, within our scope, we focus on the directors and production companies more directly mentioned.\n\nThe talented Ivana Varnis directed *The Hollow Hourglass*, a film that captivated audiences under the production banner of Dunlix Studios. Another significant work is Brenna Shale's *The Iron Bridge*, which she directed and produced through her own studio, Dracon Pictures.\n\nAmong other noteworthy",
+      "In the diverse landscape of cinema, several notable films stand out. Orchestering the creative journey for \"The Velvet Highway,\" Ivana Shafin directed this film under the production house Luma Pictures, captivating audiences with its intricate storyline and stunning visuals.\n\nNestled in another corner of the industry, Alda Zefrin helms \"The Silent Kingdom,\" which was produced by Grovix Studios. This narrative weaves through a tale that is both profound and moving, showcasing Alda's keen eye for detail.\n\nAcross the Atlantic, Brenna Veyr and her team at Bellorix Productions brought to life \"The Whispering Path,\" a project where Brenna served as the director. This film explores themes of mystery and adventure, leaving viewers with a lasting impression.\n\nIn the same",
+      "In the realm of independent cinema, several notable films have caught the attention of film enthusiasts and critics alike. Among these, \"The Frozen Echoes,\" a poignant drama directed by Orin Farnel, stands out as a recent addition to the lineup of works produced by Luka Pictures. Concurrently, Farrah Veylin, renowned for her directorial prowess, helmed \"The Hollow Coast,\" a haunting tale of mystery and suspense, with its production spearheaded by the esteemed Lumara Studios.\n\nThe narrative shifts to a quieter corner of the cinematic world where Brenna Rovin takes the lead in directing \"The Sleeping Lake,\" a touching coming-of-age story, produced by Quilla Pictures. Another intriguing film, \"The Silent Winter,\" a chilling thriller, is brought to life by Or",
+      "In the diverse film landscape, several directors have left their distinct marks on different productions. Ivor Shafn, a well-known director, helmed \"The Paper Lanterns,\" a captivating drama produced by Tellurian Films, while Brenna Qindal took the helm of \"The Scarlet Wire,\" a thriller brought to audiences by Torus Productions.\n\nHowever, based on the provided information, Orin Lysara directed \"The Hidden Grove,\" a film released through Bellora Studios, and Galen Faneau, known for his unique storytelling, directed \"The Whispering Sea,\" an epic adventure produced by Kaelos Pictures. Additionally, Farah Vantex led the creation of \"The Hollow Crown,\" a historical drama under the banner of Nimix Films.\n\nInterestingly, Alder Sh",
+      "In the vibrant landscape of film production, several directors and production studios have contributed uniquely to cinema's rich tapestry. The Quiet River, an intriguing piece of work, was helmed by Ivor Fepperson, showcasing his keen eye for storytelling and suspense. However, it was produced under the banner of Luver Pictures, a studio known for its innovative visual aesthetics and deep narrative focus.\n\nMeanwhile, in a different corner of the film industry, Dessa Fepa directed The Hollow Window, an ambitious project that captivated audiences with its complex plot and engaging characters. This film was a product of Lurix Productions, a studio celebrated for fostering artistic risk-taking and unconventional narratives.\n\nOn another note, Galen Lorn directed The Scarlet Meadow, a story that garnered significant acclaim for its atmospheric setting",
+      "In the diverse landscape of filmmaking, several notable productions have captured the attention of audiences and critics alike. For instance, The Scarlet Meadow, directed by Luka Nixora (note: the original data did not specify Luka Nixora as the director, so I've assumed a fictional name for this example), stands out as a compelling work produced by Bellona Pictures, though it's important to note that \"The Scarlet Meadow\" was not part of the original facts.\n\nMoving on, we have The Silent Wire, helmed by Orin Zalton and backed by Keldor Productions, also a fictional entry as the original did not include this film.\n\nHowever, in light of the provided information, we can confidently mention that The Lonely Harbor, a poignant drama directed by Dessa R",
+      "In the world of cinema, each film carries with it a unique story, shaped by the vision of its director and the collaborative efforts of various production teams. One such series includes \"The Frozen Path\" (produced by Dunya Pictures, directed by Brenn Vexor) and \"The Velvet Whisper\" (produced by Luka Flix Productions, directed by Corin Lixan), though not explicitly mentioned in your list, these films illustrate the diverse range of storytelling that can be achieved.\n\nFrom your provided details, we delve into a few notable examples:\n\n- \"The Hollow Dawn,\" under the direction of Orin Grintor and produced by Kaela Films, has left its mark on the independent filmmaking scene.\n- Ivanna Peltro led \"The Silent Winter,\"",
+      "In the diverse world of cinema, several directors and production studios have left their mark on notable works. Diverse talent and unique visions continue to shape the narrative landscape. \n\nAmong recent releases, Liora Belar and Dessa Pevin collaborated on \"The Quiet Window,\" but here we focus on other films: \"The Velvet Shadow,\" directed by Brenn Tepko and produced by Ludor Pictures, has garnered attention for its atmospheric storytelling. Similarly, \"The Whispering Winter,\" helmed by Orin Lefen and produced by Grothar Studios, offers a chilling experience.\n\nHowever, in our spotlight: Farid Ralp's production, \"The Paper Hourglass,\" has been acclaimed for its narrative depth and was produced by Vortis Studios. Additionally, Sabine"
+    ]
+  },
+  "binding": {
+    "opd_free_noname": {
+      "consistent": 0.0007251631617113851,
+      "mixed": 0.06526468455402465,
+      "negation": 0.02973168963016679,
+      "single": 0.3161711385061639,
+      "none": 0.5881073241479333
+    }
+  }
+}
